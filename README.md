@@ -11,14 +11,16 @@
 # Sacramento Municipal Utility District
 npx tsx src/smud.ts docs/SMUD
 
-
+# San Juan Unified School District
+npx tsx src/sjusd.ts docs/SJUSD
 ```
 
-- San Juan Unified School District
-- Los Rios Community College District
-- Sacramento Board of Education
 
 - Sacramento Metropolitan Fire District
-
 - Fair Oaks Water District
+
+
+
+- Sacramento Board of Education
+- Los Rios Community College District
 - San Juan Water District
