@@ -8,5 +8,15 @@
   "keywords": [],
   "author": "Chet Corcos <ccorcos@gmail.com> (http://www.chetcorcos.com/)",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@ccorcos/scrape-html": "^0.0.5",
+    "cheerio": "^1.0.0",
+    "mime-types": "^2.1.35"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
 }

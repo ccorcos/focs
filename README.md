@@ -7,13 +7,14 @@
 ```sh
 # Fair Oaks Recreation and Park District
 ./src/forpd docs/FORPD
+
+# Sacramento Municipal Utility District
+npx tsx src/smud.ts docs/SMUD
+
+
 ```
 
-
-- Sacramento Municipal Utility District
 - San Juan Unified School District
-
-
 - Los Rios Community College District
 - Sacramento Board of Education
 
