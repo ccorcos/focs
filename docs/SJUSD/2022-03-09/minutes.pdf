@@ -1,0 +1,311 @@
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TGX9KDKHYE"></script>
+
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-TGX9KDKHYE', { 'request_origin':'external' });
+</script>
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<title>Board of Education Regular Meeting</title>
+															
+						
+			<style>
+				/*	How to use the Grid:
+					The grid is a 12-column fluid grid with a max width of whatever
+					.container max-width is set to, that shrinks with the browser/device
+					at smaller sizes. The max width can be changed by simply changing
+					the max-width value on .container below, and all columns will resize
+					accordingly.
+
+					Note: There are also media queries which can be adjusted to make the grid change at certain
+					screen sizes.
+						On smaller screen sizes you would adjust the width value of the .container
+						And on larger screens you would adjust the max-width value of the .container
+						Both of the adjustments in above are made inside the media queries
+
+					-.container is main centered wrapper
+					-Columns should be the immediate child of a .row
+					-Just use a number and class 'column' or 'columns', e.g :
+						<div class="container">
+							<div class="row">
+								<div class="two columns">Two</div>
+								<div class="ten columns">Ten</div>
+							</div>
+						</div>
+					Note: columns can be nested, but it's not recommended since grid has %-based gutters,
+					meaning a nested grid results in variable with gutters (which can end up
+					being *really* small on certain browser/device sizes)
+				*/
+				.column,
+				.columns,
+				.container {
+					width: 100%;
+					box-sizing: border-box
+				}
+
+				.column,
+				.columns,
+				.container,
+				.u-full-width,
+				.u-max-full-width {
+					box-sizing: border-box
+				}
+				.container {
+					position: relative;
+					max-width: 960px;
+					margin: 0 auto;
+					padding: 0 1em
+				}
+
+				.column,
+				.columns {
+					float: left
+				}
+				@media only screen and (min-width: 400px) {
+					.container {
+						width: 95%;
+						padding: 0
+					}
+				}
+				@media only screen and (min-width: 550px) {
+					.container {
+						width: 90%
+					}
+					.column,
+					.columns {
+						margin-left: 4%
+					}
+					.column:first-child,
+					.columns:first-child {
+						margin-left: 0
+					}
+					.one.column,
+					.one.columns {
+						width: 4.66666666667%
+					}
+					.two.columns {
+						width: 13.3333333333%
+					}
+					.three.columns {
+						width: 22%
+					}
+					.four.columns {
+						width: 30.6666666667%
+					}
+					.five.columns {
+						width: 39.3333333333%
+					}
+					.six.columns {
+						width: 48%
+					}
+					.seven.columns {
+						width: 56.6666666667%
+					}
+					.eight.columns {
+						width: 65.3333333333%
+					}
+					.nine.columns {
+						width: 74%
+					}
+					.ten.columns {
+						width: 82.6666666667%
+					}
+					.eleven.columns {
+						width: 91.3333333333%
+					}
+					.twelve.columns {
+						width: 100%;
+						margin-left: 0
+					}
+					.one-third.column {
+						width: 30.6666666667%
+					}
+					.two-thirds.column {
+						width: 65.3333333333%
+					}
+					.one-half.column {
+						width: 48%
+					}
+					.offset-by-one.column,
+					.offset-by-one.columns {
+						margin-left: 8.66666666667%
+					}
+					.offset-by-two.column,
+					.offset-by-two.columns {
+						margin-left: 17.3333333333%
+					}
+					.offset-by-three.column,
+					.offset-by-three.columns {
+						margin-left: 26%
+					}
+					.offset-by-four.column,
+					.offset-by-four.columns {
+						margin-left: 34.6666666667%
+					}
+					.offset-by-five.column,
+					.offset-by-five.columns {
+						margin-left: 43.3333333333%
+					}
+					.offset-by-six.column,
+					.offset-by-six.columns {
+						margin-left: 52%
+					}
+					.offset-by-seven.column,
+					.offset-by-seven.columns {
+						margin-left: 60.6666666667%
+					}
+					.offset-by-eight.column,
+					.offset-by-eight.columns {
+						margin-left: 69.3333333333%
+					}
+					.offset-by-nine.column,
+					.offset-by-nine.columns {
+						margin-left: 78%
+					}
+					.offset-by-ten.column,
+					.offset-by-ten.columns {
+						margin-left: 86.6666666667%
+					}
+					.offset-by-eleven.column,
+					.offset-by-eleven.columns {
+						margin-left: 95.3333333333%
+					}
+					.offset-by-one-third.column,
+					.offset-by-one-third.columns {
+						margin-left: 34.6666666667%
+					}
+					.offset-by-two-thirds.column,
+					.offset-by-two-thirds.columns {
+						margin-left: 69.3333333333%
+					}
+					.offset-by-one-half.column,
+					.offset-by-one-half.columns {
+						margin-left: 52%
+					}
+				}
+				@media only screen and (min-width: 1200px) {
+					.container {
+						max-width: 1152px
+					}
+				}
+
+				.u-full-width {
+					width: 100%
+				}
+				.u-max-full-width {
+					max-width: 100%
+				}
+				.u-pull-right {
+					float: right
+				}
+				.u-pull-left {
+					float: left
+				}
+				.container:after,
+				.row:after,
+				.u-cf {
+					content: "";
+					display: table;
+					clear: both
+				}
+
+			body{
+				margin-top: .5em;
+				margin-bottom: .5em;
+				margin-right: .5em ;
+				margin-left: .5em;
+				text-align: justify;
+				font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+				font-size: 10pt;
+			}
+			@media print {
+				body {
+					margin-top: .5in;
+					margin-bottom: .5in;
+					margin-right: .5in ;
+					margin-left: .5in;
+				}
+			}
+
+			table{
+				text-align: justify;
+				border-spacing: 0;
+				padding: 0;
+				font-size: inherit;
+			}
+
+			tr {
+				/* Fix for IE issue where if near bottom of printed page, number prints on current page and
+					item prints on the next page*/
+				orphans: 0;
+			}
+
+			td {
+				text-align: justify;
+				vertical-align:top;
+				padding: 0;
+			}
+			.numberspace {
+				width: 0px;
+				vertical-align: top;
+				text-align: left;
+			}
+
+			/* Prevents logo resizing on print */
+			img {
+				max-width: 100%;
+				height: auto;
+			}
+
+			.underlined {
+				text-decoration: underline;
+			}
+			@page {
+				/* Fix for IE issue where if near bottom of printed page, number prints on current page and
+					item prints on the next page*/
+				orphans: 0;
+			}
+			</style>
+
+			
+		</head>
+		<body>
+			<div class="container">
+
+				
+                <div style = "text-align:left;">
+                    <img src="//webcontent.granicusops.com/content/sanjuanusd/images/logo.jpg" alt="Logo" style="max-width: 90px;" />
+                    <br><br>
+                    <strong>San Juan Unified School District</strong><br>
+                    Board of Education <br>
+                    3738 Walnut Avenue, Carmichael, California 95608
+                </div>
+
+                <p style="text-align: center;"><strong>Board of Education Minutes<br>March 8, 2022</strong></p>
+
+                <p><strong>Board of Education Regular Meeting</strong><br>Board of Education<br>                                           6:30
+                                        p.m.</p>
+
+																<div class="row">
+					<div class="twelve columns">
+<style>blockquote { margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 0px; }@media print { a { color: black }}</style><!-- execute branch template took 0 seconds. -->
+					</div>
+				</div> <!-- Close Agenda content row -->
+												<div class="row">
+					<div class="six columns">
+                        <br><br><br>_____________________________<br>Michael McKibbin, Ed.D., President  
+                        <br><br>Approved: _________<br> 
+                        :sc 
+					</div>
+                    <div class="six columns">
+                        <br><br><br>___________________________________<br>Kent Kern, Executive Secretary 
+					</div>
+				</div> <!-- End Footer .row -->
+				
+			</div> <!-- Close .container -->
+
+		</body>
+	</html>

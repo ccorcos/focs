@@ -1,0 +1,127 @@
+<html lang='en'>
+  <head>
+    <style>
+      ol, ul {
+        margin-top: 0; margin-bottom: 0;
+      }
+      a {
+        text-decoration: none;
+      }
+      .p-from-rte:first-of-type:not(li) {
+        display: inline;
+      }
+      .container {
+        display: grid;
+        grid-row-gap: 2px;
+        grid-template-columns: 5% 5% 5% 5% 5% 5% 65% 5%;
+      }
+    </style>
+    <title>Agenda</title>
+  </head>
+  <body>
+    <div class="container">
+      <div style="overflow: hidden; grid-column-start: 1; grid-column-end: 9;"><header style="font-family: Arial, Helvetica, sans-serif; font-size: 10pt; min-width: 500px; max-width: 800px; margin: 0 auto;">
+<div style="float: left; width: 20%;"><img style="margin: 0; width: 100px;" src="https://webcontent.granicusops.com/content/sanjuanusd/images/logo3.png" alt="San Juan Unified School District Logo" /></div>
+<div style="float: left; width: 50%; text-align: left;">
+<h1 style="font-size: 11pt; font-weight: normal;"><strong>San Juan Unified School District</strong><br /><em>Special Meeting of the Board of Education</em><br />3738 Walnut Avenue, Carmichael, CA 95608</h1>
+</div>
+<div style="float: left; width: 30%; text-align: right;">Pam Costa, President<br />Saul  Hernandez, Vice President<br />Ben Avey, Clerk<br />Paula Villescaz, Member<br />Tanya Kravchuk, Member<br />Manuel Perez, Member<br />Zima Creason, Member<br /></div>
+<div style="clear: both; height: 0;">&nbsp;</div>
+<p style="text-align: center; color: #333399;"><strong>Board of Education Agenda<br />July 30, 2024</strong></p>
+</header></div>
+      <div style="overflow: hidden; grid-column-start: 1; grid-column-end: 9;"><div style="font-family: Arial, Helvetica, sans-serif; font-size: 10pt; margin: 1em auto 0; min-width: 500px; max-width: 800px;"><h2 style="font-size: 10pt; margin: 0; font-weight: bold;"><p class="p-from-rte" style="font-family: 'Times New Roman'; font-size: 1pt; margin: 0px; padding: 0px; text-align: center;">&nbsp;</p>
+<p class="p-from-rte" style="font-family: 'Times New Roman'; font-size: 11pt; margin: 0px; padding: 0px; text-align: center;"><span style="text-decoration: underline;"><strong>CALL &amp; NOTICE OF SPECIAL MEETING</strong></span></p></h2>
+<p style="text-align: justify;"><strong>NOTICE is hereby given that a meeting of the Board of Education of the San Juan Unified School District is hereby called by the board president, and will be held at 5:00 p.m. on Tuesday, July 30, 2024.</strong></p> </div></div>
+      <div style="overflow: hidden; grid-column-start: 1; grid-column-end: 9;"><div style="font-family: Arial, Helvetica, sans-serif; font-size: 10pt; margin: 1em auto 0; min-width: 500px; max-width: 800px;"><h2 style="font-size: 10pt; margin: 0; font-weight: bold;"><p class="p-from-rte" style="font-family: 'Times New Roman'; font-size: 1pt; margin: 0px; padding: 0px; text-align: center;">&nbsp;</p>
+<p class="p-from-rte" style="font-family: 'Times New Roman'; font-size: 11pt; margin: 0px; padding: 0px; text-align: center;"><span style="text-decoration: underline; color: #000000;"><strong>PUBLIC PARTICIPATION GUIDELINES</strong></span></p></h2>
+<p class="p-from-rte" style="font-family: 'Times New Roman'; font-size: 1pt; margin: 0px; padding: 0px; text-align: justify;">&nbsp;</p>
+<p class="p-from-rte" style="font-family: 'Times New Roman'; font-size: 11pt; margin: 0px; padding: 0px; text-align: justify;">This special meeting of the Board of Education will be held in person in the board room located at 3738 Walnut Avenue, Carmichael, California. Alternatively, you can view the board meeting virtually via livestream from a computer, mobile device or tablet at https://www.sanjuan.edu/boardmeeting. The district has taken the following steps to assist the public in offering public comment:</p>
+<p class="p-from-rte" style="font-family: 'Times New Roman'; font-size: 11pt; margin: 0px; padding: 0px; text-align: justify;">&nbsp;</p>
+<ol>
+<li class="p-from-rte" style="font-family: 'Times New Roman'; font-size: 11pt; text-align: justify;">In Person Public Comment - Public comment may be offered in person during the board meeting at the district office located at 3738 Walnut Avenue, Carmichael, California. Board Bylaw 9323 limits visitor comments to two (2) minutes per speaker, with no more than 30 minutes per single topic. Time will be extended for any speaker who uses an interpreter. Please be aware that public comments, including your name, become part of the public record.</li>
+<li class="p-from-rte" style="font-family: 'Times New Roman'; font-size: 11pt; text-align: justify;">Online Submission of Public Comment - Members of the public may submit written comments by using the comment form located on the district website at http://www.sanjuan.edu/boardmeeting. If you wish to submit a written comment on more than one agenda item, please submit a separate form for each item on which you are commenting. Written comments are limited to 1,500 characters. Comments will be provided to the members of the board.</li>
+</ol>
+<p class="p-from-rte" style="font-family: 'Times New Roman'; font-size: 11pt; margin: 0px; padding: 0px; text-align: justify;">&nbsp;<br /><strong>During this special meeting, public comment will only be permitted on the items described in this notice prior to consideration of the item. Comments regarding other items should be submitted during the next regular board meeting scheduled for August 13, 2024.&nbsp;</strong></p>
+<p class="p-from-rte" style="font-family: 'Times New Roman'; font-size: 1pt; margin: 0px; padding: 0px; text-align: justify;">&nbsp;</p>
+<hr />
+<p class="p-from-rte" style="font-family: 'Times New Roman'; font-size: 1pt; margin: 0px; padding: 0px; text-align: justify;">&nbsp;</p> </div></div>
+      <div style="overflow: hidden; grid-column-start: 1; grid-column-end: 9;"><div style="font-family: Arial, Helvetica, sans-serif; font-size: 10pt; margin: 1em auto 0; min-width: 500px; max-width: 800px;"><h2 style="font-size: 10pt; margin: 0; font-weight: bold;"><p class="p-from-rte" style="font-family: 'Times New Roman'; font-size: 1pt; margin: 0px; padding: 0px; text-align: center;">&nbsp;</p>
+<p class="p-from-rte" style="font-family: 'Times New Roman'; font-size: 11pt; margin: 0px; padding: 0px; text-align: center;"><span style="text-decoration: underline;"><strong>NOTICE OF TELECONFERENCING</strong></span></p></h2>
+<p class="p-from-rte" style="font-family: 'Times New Roman'; font-size: 1pt; margin: 0px; padding: 0px; text-align: justify;">&nbsp;</p>
+<p class="p-from-rte" style="font-family: 'Times New Roman'; font-size: 11pt; margin: 0px; padding: 0px; text-align: justify;"><span style="font-size: 11pt;">Government Code section 54953 permits the Board of Education to conduct its meeting from a different location via teleconference provided that at least a quorum of the board members participate from a location within district boundaries. This meeting shall be conducted using teleconferencing at the following locations, which shall be accessible to the public: (1.) Camino Real Polanco Mexico, Calzada General Mariano Escobedo No. 700 Col. Anzures, 11590 Ciudad de Mexico, CDMX, Mexico and (2.) 23000 Newport Coast Drive, Newport Coast, California 92657. Members of the public shall be afforded the opportunity to address the Board of Education as permitted under Government Code section 54954.3 at the teleconference location. Voting at this meeting shall be by roll call.</span></p> </div></div>
+      <div style="overflow: hidden; grid-column-start: 1; grid-column-end: 9;"><div style="font-family: Arial, Helvetica, sans-serif; font-size: 10pt; margin: 1em auto 0; min-width: 500px; max-width: 800px;"><h2 style="font-size: 10pt; margin: 0; font-weight: bold;"><span style="float: left; width: 5%;">A.</span> <span style="float: left; width: 95%;"><p class="p-from-rte" style="font-family: Times New Roman; font-size: 10pt; margin: 0; padding: 0;"><span style="font-size: 11pt;"><strong>OPEN SESSION/CALL TO ORDER/PLEDGE OF ALLEGIANCE &ndash; 5:00 p.m.</strong></span></p></span></h2>
+<div style="clear: both; height: 0;">&nbsp;</div>
+</div></div>
+      <div style="overflow: hidden; grid-column-start: 1; grid-column-end: 9;"><div style="font-family: Arial, Helvetica, sans-serif; font-size: 10pt; margin: 1em auto 0; min-width: 500px; max-width: 800px;"><h2 style="font-size: 10pt; margin: 0; font-weight: bold;"><span style="float: left; width: 5%;">B.</span> <span style="float: left; width: 95%;"><p class="p-from-rte" style="font-family: Times New Roman; font-size: 11pt; margin: 0; padding: 0;"><span style="font-size: 11pt;"><strong>CONSENT CALENDAR &ndash; B-1 &ndash; 5:05 p.m.</strong></span></p></span></h2>
+<div style="clear: both; height: 0;">&nbsp;</div>
+<div style="margin-left: 5%;"><p class="p-from-rte" style="font-family: 'Times New Roman'; font-size: 11pt; margin: 0px; padding: 0px; text-align: justify;"><span style="text-decoration: underline;">Action</span>: The administration recommends that the consent calendar, item B-1, regarding regular business items, be approved. Any item may be removed for further discussion and separate action following consideration of remaining agenda items.</p></div>
+</div></div>
+      <div style="overflow: hidden; grid-column-start: 1; grid-column-end: 9;"><div style="font-family: Arial, Helvetica, sans-serif; font-size: 10pt; margin: 1em auto 0; min-width: 500px; max-width: 800px;"><h3 style="font-size: 10pt; font-weight: normal; margin: 0;"><span style="float: left; width: 5%; margin-left: 5%;">1. </span> <span style="float: left; width: 90%;"><p class="p-from-rte" style="font-family: Times New Roman; font-size: 11pt; margin: 0; padding: 0;">School Plan for Student Achievement (SPSA)</p></span></h3>
+<div style="clear: both; height: 0;">&nbsp;</div>
+<div style="margin-left: 10%;"><br /><p class="p-from-rte" style="font-family: Times New Roman; font-size: 11pt; margin: 0; padding: 0;"><span style="text-decoration: underline;">Action</span>: The superintendent is recommending that the board approve the School Plan for Student Achievement (SPSA) and corresponding budget.</p></div>
+</div></div>
+      <div style="overflow: hidden; grid-column-start: 1; grid-column-end: 9;"><div style="font-family: Arial, Helvetica, sans-serif; font-size: 10pt; margin: 1em auto 0; min-width: 500px; max-width: 800px;"><h2 style="font-size: 10pt; margin: 0; font-weight: bold;"><span style="float: left; width: 5%;">C.</span> <span style="float: left; width: 95%;"><p class="p-from-rte" style="font-family: Times New Roman; font-size: 11pt; margin: 0; padding: 0;"><span style="font-size: 11pt;">CONSENT CALENDAR (continued, if necessary)</span></p></span></h2>
+<div style="clear: both; height: 0;">&nbsp;</div>
+<div style="margin-left: 5%;"><p class="p-from-rte" style="font-family: Times New Roman; font-size: 11pt; margin: 0; padding: 0;">Discussion and action on the items removed from the consent calendar.</p></div>
+</div></div>
+      <div style="overflow: hidden; grid-column-start: 1; grid-column-end: 9;"><div style="font-family: Arial, Helvetica, sans-serif; font-size: 10pt; margin: 1em auto 0; min-width: 500px; max-width: 800px;"><h2 style="font-size: 10pt; margin: 0; font-weight: bold;"><span style="float: left; width: 5%;">D.</span> <span style="float: left; width: 95%;"><p class="p-from-rte" style="font-family: Times New Roman; font-size: 11pt; margin: 0; padding: 0;"><strong><span style="font-size: 11pt;">BUSINESS ITEMS</span></strong></p></span></h2>
+<div style="clear: both; height: 0;">&nbsp;</div>
+</div></div>
+      <div style="overflow: hidden; grid-column-start: 1; grid-column-end: 9;"><div style="font-family: Arial, Helvetica, sans-serif; font-size: 10pt; margin: 1em auto 0; min-width: 500px; max-width: 800px;"><h3 style="font-size: 10pt; font-weight: normal; margin: 0;"><span style="float: left; width: 5%; margin-left: 5%;">1. </span> <span style="float: left; width: 90%;"><p class="p-from-rte" style="font-family: Times New Roman; font-size: 11pt; margin: 0; padding: 0;"><strong>San Juan Unified School District Bond Opinion Research Results (Camarda) &ndash; 5:10 p.m.</strong></p></span></h3>
+<div style="clear: both; height: 0;">&nbsp;</div>
+<div style="margin-left: 10%;"><br /><p class="p-from-rte" style="font-family: Times New Roman; font-size: 11pt; margin: 0; padding: 0;"><span style="text-decoration: underline;">Discussion</span>: The superintendent is recommending that the board hear a presentation on bond opinion research results toward a potential finance measure from Fairbank, Maullin, Metz and Associates (FM3 Research).</p></div>
+</div></div>
+      <div style="overflow: hidden; grid-column-start: 1; grid-column-end: 9;"></div>
+      <div style="overflow: hidden; grid-column-start: 1; grid-column-end: 9;"><div style="font-family: Arial, Helvetica, sans-serif; font-size: 10pt; margin: 1em auto 0; min-width: 500px; max-width: 800px;"><h3 style="font-size: 10pt; font-weight: normal; margin: 0;"><span style="float: left; width: 5%; margin-left: 5%;">2. </span> <span style="float: left; width: 90%;"><p class="p-from-rte" style="font-family: Times New Roman; font-size: 11pt; margin: 0; padding: 0;"><strong>Resolution for Proposition 39 General Obligation Bond Ballot Measure (Camarda) &ndash; 5:30 p.m.</strong></p></span></h3>
+<div style="clear: both; height: 0;">&nbsp;</div>
+<div style="margin-left: 10%;"><br /><p class="p-from-rte" style="font-family: 'Times New Roman'; font-size: 11pt; margin: 0px; padding: 0px; text-align: justify;"><span style="text-decoration: underline;">Action</span>: The superintendent is recommending that the board adopt Resolution No. 4144 ordering an election to authorize the issuance of general obligation bonds, establishing specifications of the election order, and requesting consolidation with other elections occurring on November 5, 2024.&nbsp;</p></div>
+</div></div>
+      <div style="overflow: hidden; grid-column-start: 1; grid-column-end: 9;"></div>
+      <div style="overflow: hidden; grid-column-start: 1; grid-column-end: 9;"><div style="font-family: Arial, Helvetica, sans-serif; font-size: 10pt; margin: 1em auto 0; min-width: 500px; max-width: 800px;"><h3 style="font-size: 10pt; font-weight: normal; margin: 0;"><span style="float: left; width: 5%; margin-left: 5%;">3. </span> <span style="float: left; width: 90%;"><p class="p-from-rte" style="font-family: Times New Roman; font-size: 11pt; margin: 0; padding: 0;"><strong>Tentative Agreement Between the California School Employees Association, San Juan Chapter No. 127, and San Juan Unified School District (Thigpen) &ndash; 5:40 p.m.</strong></p></span></h3>
+<div style="clear: both; height: 0;">&nbsp;</div>
+<div style="margin-left: 10%;"><br /><p class="p-from-rte" style="font-family: 'Times New Roman'; font-size: 11pt; margin: 0px; padding: 0px; text-align: justify;"><span style="text-decoration: underline;">Action:</span> The superintendent is recommending that the board approve the California School Employees Association, San Juan Chapter No. 127, tentative agreement with the San Juan Unified School District.</p></div>
+</div></div>
+      <div style="overflow: hidden; grid-column-start: 1; grid-column-end: 9;"></div>
+      <div style="overflow: hidden; grid-column-start: 1; grid-column-end: 9;"></div>
+      <div style="overflow: hidden; grid-column-start: 1; grid-column-end: 9;"><div style="font-family: Arial, Helvetica, sans-serif; font-size: 10pt; margin: 1em auto 0; min-width: 500px; max-width: 800px;"><h3 style="font-size: 10pt; font-weight: normal; margin: 0;"><span style="float: left; width: 5%; margin-left: 5%;">4. </span> <span style="float: left; width: 90%;"><p class="p-from-rte" style="font-family: Times New Roman; font-size: 11pt; margin: 0; padding: 0;"><strong>Tentative Agreement Between San Juan Unified School District and the Teamsters Local No. 150 (Thigpen) &ndash; 5:45 p.m.</strong></p></span></h3>
+<div style="clear: both; height: 0;">&nbsp;</div>
+<div style="margin-left: 10%;"><br /><p class="p-from-rte" style="font-family: 'Times New Roman'; font-size: 11pt; margin: 0px; padding: 0px; text-align: justify;"><span style="text-decoration: underline;">Action:</span> The superintendent is recommending that the board approve the Teamsters Local No. 150 tentative agreement with the San Juan Unified School District.</p></div>
+</div></div>
+      <div style="overflow: hidden; grid-column-start: 1; grid-column-end: 9;"></div>
+      <div style="overflow: hidden; grid-column-start: 1; grid-column-end: 9;"></div>
+      <div style="overflow: hidden; grid-column-start: 1; grid-column-end: 9;"><div style="font-family: Arial, Helvetica, sans-serif; font-size: 10pt; margin: 1em auto 0; min-width: 500px; max-width: 800px;"><h3 style="font-size: 10pt; font-weight: normal; margin: 0;"><span style="float: left; width: 5%; margin-left: 5%;">5. </span> <span style="float: left; width: 90%;"><p class="p-from-rte" style="font-family: Times New Roman; font-size: 11pt; margin: 0; padding: 0;"><strong>Tentative Agreement Between San Juan Unified School District and the San Juan Supervisors Association (Thigpen) &ndash; 5:50 p.m.</strong></p></span></h3>
+<div style="clear: both; height: 0;">&nbsp;</div>
+<div style="margin-left: 10%;"><br /><p class="p-from-rte" style="font-family: Times New Roman; font-size: 11pt; margin: 0; padding: 0;"><span style="text-decoration: underline;">Action:</span> The superintendent is recommending that the board approve the San Juan Supervisors Association tentative agreement with the San Juan Unified School District.</p></div>
+</div></div>
+      <div style="overflow: hidden; grid-column-start: 1; grid-column-end: 9;"></div>
+      <div style="overflow: hidden; grid-column-start: 1; grid-column-end: 9;"></div>
+      <div style="overflow: hidden; grid-column-start: 1; grid-column-end: 9;"><div style="font-family: Arial, Helvetica, sans-serif; font-size: 10pt; margin: 1em auto 0; min-width: 500px; max-width: 800px;"><h3 style="font-size: 10pt; font-weight: normal; margin: 0;"><span style="float: left; width: 5%; margin-left: 5%;">6. </span> <span style="float: left; width: 90%;"><p class="p-from-rte" style="font-family: Times New Roman; font-size: 11pt; margin: 0; padding: 0;"><strong>Salary Schedule Adjustments for the San Juan Administrators Association, Confidential Unit and Unrepresented Groups (Thigpen) &ndash; 5:55 p.m.</strong></p></span></h3>
+<div style="clear: both; height: 0;">&nbsp;</div>
+<div style="margin-left: 10%;"><br /><p class="p-from-rte" style="font-family: 'Times New Roman'; font-size: 11pt; margin: 0px; padding: 0px; text-align: justify;"><span style="text-decoration: underline;">Action:</span> The superintendent is recommending that the board approve the salary schedule adjustments for the San Juan Administrators Association, Confidential Unit and Unrepresented Groups.</p></div>
+</div></div>
+      <div style="overflow: hidden; grid-column-start: 1; grid-column-end: 9;"></div>
+      <div style="overflow: hidden; grid-column-start: 1; grid-column-end: 9;"></div>
+      <div style="overflow: hidden; grid-column-start: 1; grid-column-end: 9;"><div style="font-family: Arial, Helvetica, sans-serif; font-size: 10pt; margin: 1em auto 0; min-width: 500px; max-width: 800px;"><h3 style="font-size: 10pt; font-weight: normal; margin: 0;"><span style="float: left; width: 5%; margin-left: 5%;">7. </span> <span style="float: left; width: 90%;"><p class="p-from-rte" style="font-family: Times New Roman; font-size: 11pt; margin: 0; padding: 0;"><strong>Employment Contract for Assistant Superintendent, Educational Services (Gaddis) &ndash; 6:00 p.m.</strong></p></span></h3>
+<div style="clear: both; height: 0;">&nbsp;</div>
+<div style="margin-left: 10%;"><br /><p class="p-from-rte" style="font-family: 'Times New Roman'; font-size: 11pt; margin: 0px; padding: 0px; text-align: justify;"><span style="text-decoration: underline;">Action:</span> The superintendent is recommending that the board approve the employment contract for the Assistant Superintendent, Educational Services.</p></div>
+</div></div>
+      <div style="overflow: hidden; grid-column-start: 1; grid-column-end: 9;"></div>
+      <div style="overflow: hidden; grid-column-start: 1; grid-column-end: 9;"><div style="font-family: Arial, Helvetica, sans-serif; font-size: 10pt; margin: 1em auto 0; min-width: 500px; max-width: 800px;"><h2 style="font-size: 10pt; margin: 0; font-weight: bold;"><span style="float: left; width: 5%;">E.</span> <span style="float: left; width: 95%;"><p class="p-from-rte" style="font-family: Times New Roman; font-size: 10pt; margin: 0; padding: 0;"><strong><span style="font-size: 10pt;">ADJOURNMENT &ndash; 6:05 p.m.</span></strong></p></span></h2>
+<div style="clear: both; height: 0;">&nbsp;</div>
+</div></div>
+      <div style="overflow: hidden; grid-column-start: 1; grid-column-end: 9;"><div style="font-family: Arial, Helvetica, sans-serif; font-size: 10pt; margin: 1em auto 0; min-width: 500px; max-width: 800px;"><h2 style="font-size: 10pt; margin: 0; font-weight: bold;"><p class="p-from-rte" style="font-family: 'Times New Roman'; font-size: 11pt; margin: 0px; padding: 0px; text-align: center;">&nbsp;</p>
+<p class="p-from-rte" style="font-family: 'Times New Roman'; font-size: 11pt; margin: 0px; padding: 0px; text-align: center;"><em><strong>NOTE: Times indicated are approximate.&nbsp;</strong></em></p></h2>
+<p class="p-from-rte" style="font-family: 'Times New Roman'; font-size: 11pt; margin: 0px; padding: 0px;">&nbsp;</p>
+<p class="p-from-rte" style="font-family: 'Times New Roman'; font-size: 11pt; margin: 0px; padding: 0px; text-align: justify;">A person with a disability may contact the Board of Education office at (916) 971-7111, or email stephanie.cunningham@sanjuan.edu at least 48 hours before the scheduled board meeting to request receipt of an agenda and other distributed writings in an appropriate alternative format, or to request disability-related modifications or accommodations, including auxiliary aids or services, in order to participate in the public board meeting.</p>
+<p class="p-from-rte" style="font-family: 'Times New Roman'; font-size: 11pt; margin: 0px; padding: 0px; text-align: justify;">&nbsp;</p>
+<p class="p-from-rte" style="font-family: 'Times New Roman'; font-size: 11pt; margin: 0px; padding: 0px; text-align: justify;">Translation and interpretation services will be made available upon request with advance notice. If you wish to utilize these services, please notify the Board of Education office at (916) 971-7111, or email <strong>stephanie.cunningham@sanjuan.edu </strong>at least 24 hours before the scheduled board meeting to allow for the scheduling of appropriate translation staff and other resources.</p>
+<p class="p-from-rte" style="font-family: 'Times New Roman'; font-size: 11pt; margin: 0px; padding: 0px; text-align: justify;">&nbsp;</p>
+<p class="p-from-rte" style="font-family: 'Times New Roman'; font-size: 11pt; margin: 0px; padding: 0px; text-align: center;"><span style="text-decoration: underline;"><strong>Mission Statement</strong></span></p>
+<p class="p-from-rte" style="font-family: 'Times New Roman'; font-size: 11pt; margin: 0px; padding: 0px; text-align: justify;"><em>We partner with our San Juan Unified community in setting high expectations for academic achievement rooted in equity and unity to create supportive learning experiences in which all students, families and staff can excel and thrive.</em></p> </div></div>
+      <div style="overflow: hidden; grid-column-start: 1; grid-column-end: 9;"></div>
+      <div style="overflow: hidden; grid-column-start: 1; grid-column-end: 9;"><footer style="font-family: Arial, Helvetica, sans-serif; font-size: 10pt; min-width: 500px; max-width: 800px; margin: 0 auto;">
+<div style="margin-top: 2em; text-align: justify;">&nbsp;</div>
+</footer></div>
+    </div>
+  </body>
+</html>
