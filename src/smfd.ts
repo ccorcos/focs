@@ -2,7 +2,6 @@
 
 import * as cheerio from "cheerio";
 import * as fs from "fs/promises";
-import mime from "mime-types";
 import path from "path";
 
 interface BoardMeeting {
@@ -13,18 +12,21 @@ interface BoardMeeting {
 function parseFireBoard(html: string): BoardMeeting[] {
   const $ = cheerio.load(html);
 
+  const baseUrl = "https://metrofire.ca.gov";
+
   const meetings: BoardMeeting[] = [];
 
   $(".poc-instance").each((_index, element) => {
-    const date =
-      $(element).find(".date time").attr("dateTime")?.trim() || "Unknown Date";
+    const date = $(element).find(".date time").attr("datetime")?.trim();
+    if (!date) return;
+
     const links: string[] = [];
 
     $(element)
       .find(".attachments .attachment a")
       .each((_i, linkElement) => {
         const url = $(linkElement).attr("href") || "#";
-        links.push(url);
+        links.push(baseUrl + url);
       });
 
     meetings.push({ date, links });
@@ -51,18 +53,11 @@ async function downloadMeetingFiles(meetings: BoardMeeting[], dir: string) {
     // Download each linked file
     for (let i = 0; i < meeting.links.length; i++) {
       const link = meeting.links[i];
+      const filename = link.split("/").pop() || `file-${i + 1}`;
 
-      // Get filename from URL and replace .ashx with proper extension
-      let filename = link.split("/").pop() || `file-${i + 1}`;
-
-      // Strip extensions from both URL filename and local files for comparison
-      const filenameBase = filename.replace(/\.[^/.]+$/, "");
+      // Check if file already exists
       const existingFiles = await fs.readdir(meetingDir);
-      const fileExists = existingFiles.some(
-        (file) => file.replace(/\.[^/.]+$/, "") === filenameBase
-      );
-
-      if (fileExists) {
+      if (existingFiles.includes(filename)) {
         downloadedCount++;
         console.log(`(${downloadedCount}/${totalLinks}) Skipping ${link}`);
         continue;
@@ -77,18 +72,6 @@ async function downloadMeetingFiles(meetings: BoardMeeting[], dir: string) {
         continue;
       }
       const buffer = await response.arrayBuffer();
-
-      // Get content-type header and map to file extension using mime-types
-      const contentType = response.headers.get("content-type");
-      if (filename.endsWith(".ashx")) {
-        const mimeType = contentType?.split(";")[0]; // Get clean mime type
-        if (mimeType) {
-          const extension = mime.extension(mimeType);
-          if (extension) {
-            filename = filename.replace(".ashx", `.${extension}`);
-          }
-        }
-      }
 
       try {
         const filepath = path.join(meetingDir, filename);
@@ -112,14 +95,24 @@ async function downloadMeetingFiles(meetings: BoardMeeting[], dir: string) {
 }
 
 async function main() {
-  const html = await fetch(
-    "https://metrofire.ca.gov/board-meetings?lighthouse_scan=true&year=2024"
-  ).then((r) => r.text());
+  const startYear = 2020;
+  const currentYear = new Date().getFullYear();
+  const years = Array.from(
+    { length: currentYear - startYear + 1 },
+    (_, i) => currentYear - i
+  );
+  const htmls = await Promise.all(
+    years.map((year) =>
+      fetch(
+        `https://metrofire.ca.gov/board-meetings?lighthouse_scan=true&year=${year}`
+      ).then((r) => r.text())
+    )
+  );
 
-  const meetings = parseFireBoard(html);
-
-  console.log(meetings);
-  throw new Error("Stop here");
+  const allMeetings = htmls.map((html) => parseFireBoard(html));
+  const meetings = allMeetings
+    .flat()
+    .sort((a, b) => b.date.localeCompare(a.date));
 
   // Log meeting stats
   const totalMeetings = meetings.length;
