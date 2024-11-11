@@ -8,7 +8,7 @@ interface BoardMeeting {
   links: string[];
 }
 
-function parseSMUDBoard(html: string): BoardMeeting[] {
+function parseBoardMeetings(html: string): BoardMeeting[] {
   const baseURL = "https://www.smud.org";
   const $ = cheerio.load(html);
 
@@ -162,7 +162,7 @@ async function main() {
     ).then((r) => r.text()),
   ];
 
-  const allMeetings = htmls.map((html) => parseSMUDBoard(html));
+  const allMeetings = htmls.map((html) => parseBoardMeetings(html));
   const meetings = deduplicateMeetings(allMeetings.flat());
 
   // Log meeting stats

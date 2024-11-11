@@ -1,4 +1,4 @@
-// https://metrofire.ca.gov/board-meetings?lighthouse_scan=true&year=2024
+// https://www.sjwd.org/board-meetings-a0ac8c8?year=2024
 
 import * as cheerio from "cheerio";
 import * as fs from "fs/promises";
@@ -12,12 +12,13 @@ interface BoardMeeting {
 function parseBoardMeetings(html: string): BoardMeeting[] {
   const $ = cheerio.load(html);
 
-  const baseUrl = "https://metrofire.ca.gov";
+  const baseUrl = "https://www.sjwd.org";
 
   const meetings: BoardMeeting[] = [];
 
   $(".poc-instance").each((_index, element) => {
     const date = $(element).find(".date time").attr("datetime")?.trim();
+
     if (!date) return;
 
     const links: string[] = [];
@@ -46,6 +47,10 @@ async function downloadMeetingFiles(meetings: BoardMeeting[], dir: string) {
 
   // Process each meeting
   for (const meeting of meetings) {
+    if (meeting.links.length === 0) {
+      console.warn(`Meeting ${meeting.date} as no links.`);
+      continue;
+    }
     // Create directory for this meeting
     const meetingDir = path.join(dir, meeting.date);
     await fs.mkdir(meetingDir, { recursive: true });
@@ -95,7 +100,7 @@ async function downloadMeetingFiles(meetings: BoardMeeting[], dir: string) {
 }
 
 async function main() {
-  const startYear = 2020;
+  const startYear = 2018;
   const currentYear = new Date().getFullYear();
   const years = Array.from(
     { length: currentYear - startYear + 1 },
@@ -103,9 +108,9 @@ async function main() {
   );
   const htmls = await Promise.all(
     years.map((year) =>
-      fetch(
-        `https://metrofire.ca.gov/board-meetings?lighthouse_scan=true&year=${year}`
-      ).then((r) => r.text())
+      fetch(`https://www.sjwd.org/board-meetings-a0ac8c8?year=${year}`).then(
+        (r) => r.text()
+      )
     )
   );
 
