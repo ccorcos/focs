@@ -3,7 +3,6 @@
 
 ## Download Board Meeting Files
 
-
 ```sh
 # Fair Oaks Recreation and Park District
 ./src/forpd docs/FORPD
@@ -30,13 +29,19 @@ npx tsx src/lrccd.ts docs/LRCCD
 npx tsx src/sjwd.ts docs/SJWD
 ```
 
-TODO: committee meetings
+### Todo
+
+Sometime, it might make sense to download committee meetings
 - Bond oversight: https://www.forpd.org/agendacenter
 - https://www.sanjuan.edu/connect/committees
 - https://metrofire.ca.gov/finance-and-audit-committee
-- https://metrofire.ca.gov/policy-committee
+- https://metrofire.ca.gov/policyx-committee
 - https://metrofire.ca.gov/executive-committee
 - https://www.sjwd.org/committees
+
+
+## Processing files
+
 
 
 ## Debugging
