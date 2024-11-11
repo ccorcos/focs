@@ -10,7 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@ccorcos/scrape-html": "^0.0.6",
+    "@ccorcos/ask-pdf": "^0.0.6",
     "cheerio": "^1.0.0",
     "mime-types": "^2.1.35"
   },
