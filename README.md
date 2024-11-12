@@ -4,6 +4,9 @@
 ## Download Board Meeting Files
 
 ```sh
+
+src/all-download
+
 # Fair Oaks Recreation and Park District
 ./src/forpd docs/FORPD
 
@@ -43,6 +46,18 @@ Sometime, it might make sense to download committee meetings
 ## Processing files
 
 
+```sh
+src/all-process
+
+src/process docs/FORPD work/FORPD
+src/process docs/SMUD work/SMUD
+src/process docs/SJUSD work/SJUSD
+src/process docs/SMFD work/SMFD
+src/process docs/FOWD work/FOWD
+src/process docs/LRCCD work/LRCCD
+src/process docs/SJWD work/SJWD
+src/process docs/SCOE work/SCOE
+```
 
 ## Debugging
 
@@ -90,5 +105,53 @@ a129037 SMFD part 4
 > git push origin a129037:refs/heads/master
 > git push origin 3a6e695:refs/heads/master
 > git push origin 694f941:refs/heads/master
+```
+
+### `gs` not working
+
+Cleanup bad files
+
+```sh
+find docs/SCOE  -type f -name "*.md"  -delete
+```
+
+Issue with draft transparency maybe.
+```sh
+/opt/homebrew/bin/gs \
+  -dNOPAUSE \
+  -dBATCH \
+  -r400 \
+  -sDEVICE=png16m \
+  -dBackgroundColor=16\#FFFFFF \
+  -sOutputFile="png/%04d.png" \
+  "06.11.22%20CC%20Minutes%20UNAPPROVED%20for%20Agenda.pdf"
+```
+Simpliofy
+```sh
+/opt/homebrew/bin/gs -o simplified.pdf -sDEVICE=pdfwrite -dPDFSETTINGS=/printer "06.11.22%20CC%20Minutes%20UNAPPROVED%20for%20Agenda.pdf"
+```
+
+Need to simplify the pdf first:
+
+```sh
+ /opt/homebrew/bin/gs \
+	-o simplified.pdf \
+	-sDEVICE=pdfwrite \
+	-dPDFSETTINGS=/printer \
+	docs/SCOE/2023-02-25/PCOE%20and%20SCOE%20Sufficiency%20Letters.pdf
+
+/opt/homebrew/bin/gs \
+  -dNOPAUSE \
+  -dBATCH \
+  -r400 \
+  -sDEVICE=png16m \
+  -dBackgroundColor=16\#FFFFFF \
+  -sOutputFile="png/%04d.png" \
+  "simplified.pdf"
+```
+
+Here's a script to simplify all of them:
+```sh
+./src/simplify docs/SCOE docs/SCOE-simplified
 ```
 
