@@ -87,6 +87,12 @@ function getMeetingLinks(agendaHtml: string) {
   return links;
 }
 
+function normalizeFilename(filename: string): string {
+  return decodeURIComponent(filename)
+    .replace(/["']/g, "")
+    .replace(/[^a-zA-Z0-9.-\s]/g, "_");
+}
+
 async function downloadMeetingFiles(meetings: BoardMeeting[], dir: string) {
   // Calculate total number of links
   const totalLinks = meetings.reduce(
@@ -105,11 +111,16 @@ async function downloadMeetingFiles(meetings: BoardMeeting[], dir: string) {
     // Download each linked file
     for (let i = 0; i < meeting.links.length; i++) {
       const link = meeting.links[i];
-      const filename = link.split("/").pop() || `file-${i + 1}`;
+      let filename = link.split("/").pop()!;
+
+      // Normalize the current filename
+      filename = normalizeFilename(filename);
 
       // Check if file already exists
       const existingFiles = await fs.readdir(meetingDir);
-      if (existingFiles.includes(filename)) {
+      const normalizedExistingFiles = existingFiles.map(normalizeFilename);
+
+      if (normalizedExistingFiles.includes(filename)) {
         downloadedCount++;
         console.log(`(${downloadedCount}/${totalLinks}) Skipping ${link}`);
         continue;
@@ -128,6 +139,7 @@ async function downloadMeetingFiles(meetings: BoardMeeting[], dir: string) {
       try {
         const filepath = path.join(meetingDir, filename);
         await fs.writeFile(filepath, Buffer.from(buffer));
+
         downloadedCount++;
         console.log(`(${downloadedCount}/${totalLinks}) Downloaded ${link}`);
       } catch (error) {
@@ -158,10 +170,8 @@ async function loadAgendas(list: BoardMeetingItem[], directory) {
   for (const meeting of list) {
     progress++;
     // Create directory for this meeting
-    const date = meeting.numberdate.replace(
-      /(\d{4})(\d{2})(\d{2})/,
-      "$1-$2-$3"
-    );
+    let date = meeting.numberdate.replace(/(\d{4})(\d{2})(\d{2})/, "$1-$2-$3");
+    date += "-" + meeting.unique;
 
     const meetingDir = path.join(directory, date);
     await fs.mkdir(meetingDir, { recursive: true });
@@ -180,10 +190,7 @@ async function loadAgendas(list: BoardMeetingItem[], directory) {
 
     const links = getMeetingLinks(agenda);
 
-    meetings.push({
-      date,
-      links,
-    });
+    meetings.push({ date, links });
   }
   return meetings;
 }
@@ -200,7 +207,7 @@ async function main() {
 
   const list = await getMeetingsList();
 
-  console.log(list);
+  // console.log(list);
   console.log(`Found ${list.length} meetings`);
   const meetings = await loadAgendas(list, directory);
 
