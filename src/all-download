@@ -2,7 +2,7 @@
 set -e
 
 # Fair Oaks Recreation and Park District
-./src/forpd docs/FORPD
+npx tsx src/forpd.ts docs/FORPD
 
 # Sacramento Municipal Utility District
 npx tsx src/smud.ts docs/SMUD
