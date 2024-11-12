@@ -16,13 +16,15 @@ part=1
 while true; do
 
   # Get list of files to add in this chunk
-  files_to_add=$(git status --untracked-files=all --porcelain | \
-  awk '/^\?\?/ {print $2}' | \
-  xargs -I{} stat -f "%z %N" {} | \
+  files_to_add=$(git status --porcelain | grep '??' | cut -c4- | \
+  xargs -I{} stat -f "%z '%N'" {} | \
   awk -v chunk_size=$((500*1024*1024)) '
   {
     size=$1;
-    file=$2;
+    # Join all fields from $2 onwards to handle filenames with spaces
+    $1=""; # Remove first field
+    file=substr($0,2); # Get rest of line without leading space
+    gsub(/^'\''|'\''$/,"",file); # Remove surrounding quotes
     if (current_size + size > chunk_size) {
       exit; # Stop once the first group is complete
     }
@@ -40,7 +42,7 @@ while true; do
   echo "$files_to_add" | sed 's/^/  /'
 
   # Add the files
-  echo "$files_to_add" | xargs git add
+  echo "$files_to_add" | while read -r file; do git add "$file"; done
 
   # Commit with part number
   git commit -m "$1 (part $part)"

@@ -74,8 +74,7 @@ git status --untracked-files=all --porcelain | awk '/^\?\?/ {print $2}' | tr '\n
 Get the first 500MB and git add.
 
 ```sh
-git status --untracked-files=all --porcelain | \
-awk '/^\?\?/ {print $2}' | \
+git status --untracked-files=all --porcelain | grep '??' | cut -c4- | \
 xargs -I{} stat -f "%z %N" {} | \
 awk -v chunk_size=$((500*1024*1024)) '
 {
@@ -88,6 +87,7 @@ awk -v chunk_size=$((500*1024*1024)) '
   print file;
 }' | xargs git add
 ```
+
 
 Push commits one at a time.
 ```sh
@@ -107,14 +107,7 @@ a129037 SMFD part 4
 > git push origin 694f941:refs/heads/master
 ```
 
-### `gs` not working
+### Fixes..
 
-Need to normalize all the filenames...
-
-- FORPD
-- SMUD
-- SJUSD
-- SMFD
-- FOWD
-- LRCCD
-- SJWD
+Folders shouldn't just be the dates probably.
+- scoe better folder name for same dates.
