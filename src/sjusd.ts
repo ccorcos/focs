@@ -1,5 +1,5 @@
 import * as cheerio from "cheerio";
-import * as fs from "fs/promises";
+import { BoardMeeting, downloadFiles } from "./utils/downloadFiles";
 
 async function fetchHtml() {
   const response = await fetch(
@@ -7,14 +7,6 @@ async function fetchHtml() {
   );
   return response.text();
 }
-
-type BoardMeeting = {
-  date: string;
-  agenda?: string;
-  minutes?: string;
-  video?: string;
-  packet?: string;
-};
 
 function parseMeetings(html: string): Array<BoardMeeting> {
   const $ = cheerio.load(html);
@@ -46,94 +38,21 @@ function parseMeetings(html: string): Array<BoardMeeting> {
     const video = $(row).find('a:contains("Video")').attr("onClick");
     const packet = $(row).find('a:contains("Agenda Packet")').attr("href");
 
+    const links: { url: string; filename: string }[] = [];
+    if (agenda) links.push({ url: `https:${agenda}`, filename: "agenda.pdf" });
+    if (minutes)
+      links.push({ url: `https:${minutes}`, filename: "minutes.pdf" });
+    if (packet) links.push({ url: packet, filename: "agenda-packet.pdf" });
+
+    const YYYYMMDD = new Date(date).toISOString().split("T")[0]; // YYYY-MM-DD format
+
     meetings.push({
-      date: date,
-      agenda: agenda ? `https:${agenda}` : undefined,
-      minutes: minutes ? `https:${minutes}` : undefined,
-      video: video ? video.match(/'(.*?)'/)?.[1] : undefined,
-      packet: packet,
+      folderName: YYYYMMDD,
+      links,
     });
   });
 
   return meetings;
-}
-
-async function downloadFile(url: string, path: string) {
-  const response = await fetch(url);
-  const buffer = await response.arrayBuffer();
-  await fs.writeFile(path, Buffer.from(buffer));
-}
-async function downloadMeetings(meetings: BoardMeeting[], directory: string) {
-  const firstDate = new Date(meetings[meetings.length - 1].date);
-  const lastDate = new Date(meetings[0].date);
-
-  console.log(
-    `Found ${
-      meetings.length
-    } meetings from ${firstDate.toLocaleDateString()} to ${lastDate.toLocaleDateString()}`
-  );
-
-  // Count total files to download
-  const totalFiles = meetings.reduce((count, meeting) => {
-    return (
-      count +
-      (meeting.agenda ? 1 : 0) +
-      (meeting.minutes ? 1 : 0) +
-      (meeting.packet ? 1 : 0)
-    );
-  }, 0);
-
-  console.log(`Total files to download: ${totalFiles}`);
-
-  let progress = 0;
-
-  await fs.mkdir(directory, { recursive: true });
-
-  for (const meeting of meetings) {
-    const date = new Date(meeting.date);
-    const folderName = `${directory}/${date.toISOString().split("T")[0]}`; // YYYY-MM-DD format
-
-    try {
-      await fs.mkdir(folderName, { recursive: true });
-
-      const files = [
-        { type: "agenda", url: meeting.agenda, filename: "agenda.pdf" },
-        { type: "minutes", url: meeting.minutes, filename: "minutes.pdf" },
-        {
-          type: "agenda-packet",
-          url: meeting.packet,
-          filename: "agenda-packet.pdf",
-        },
-      ];
-
-      for (const file of files) {
-        const filePath = `${folderName}/${file.filename}`;
-
-        if (file.url) {
-          progress++;
-          const prefix = `(${progress}/${totalFiles})`;
-          const postfix = [
-            date.toLocaleDateString(),
-            file.filename,
-            file.url,
-          ].join(" ");
-          try {
-            await fs.access(filePath);
-            console.log(`${prefix} skipping ${postfix}`);
-          } catch {
-            await downloadFile(file.url, filePath);
-            console.log(`${prefix} downloading ${postfix}`);
-          }
-        } else {
-          console.log(`Missing url for ${filePath}`);
-        }
-      }
-    } catch (error) {
-      console.error(`Error saving files for meeting ${folderName}:`, error);
-    }
-  }
-
-  console.log("Download complete");
 }
 
 async function main() {
@@ -148,7 +67,7 @@ async function main() {
 
   const html = await fetchHtml();
   const meetings = parseMeetings(html);
-  await downloadMeetings(meetings, directory);
+  await downloadFiles(meetings, directory);
 }
 
 main().catch((err) => {
