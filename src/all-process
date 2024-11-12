@@ -1,0 +1,20 @@
+#!/bin/bash
+set -e
+
+src/process docs/FORPD work/FORPD
+src/process docs/SMUD work/SMUD
+src/process docs/SJUSD work/SJUSD
+src/process docs/SMFD work/SMFD
+src/process docs/FOWD work/FOWD
+src/process docs/LRCCD work/LRCCD
+src/process docs/SJWD work/SJWD
+
+# TODO:
+# Try on processed pdfs.
+# src/process docs/SCOE work/SCOE
+
+
+# Check to see if there were any issues.
+# find docs  -type f -name "*.md" -exec sh -c 'if [ ! -s "$1" ] || [ "$(tr -d "[:space:]" < "$1")" = "" ]; then echo "$1"; fi' sh {} \;
+# Delete empty markdown files
+# find docs  -type f -name "*.md" -exec sh -c 'if [ ! -s "$1" ] || [ "$(tr -d "[:space:]" < "$1")" = "" ]; then echo "$1"; fi' sh {} \; | xargs rm -f

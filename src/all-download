@@ -1,0 +1,26 @@
+#!/bin/bash
+set -e
+
+# Fair Oaks Recreation and Park District
+./src/forpd docs/FORPD
+
+# Sacramento Municipal Utility District
+npx tsx src/smud.ts docs/SMUD
+
+# San Juan Unified School District
+npx tsx src/sjusd.ts docs/SJUSD
+
+# Sacramento Metropolitan Fire District
+npx tsx src/smfd.ts docs/SMFD
+
+# Fair Oaks Water District
+npx tsx src/fowd.ts docs/FOWD
+
+# Sacramento Board of Education
+npx tsx src/scoe.ts docs/SCOE
+
+# Los Rios Community College District
+npx tsx src/lrccd.ts docs/LRCCD
+
+# San Juan Water District
+npx tsx src/sjwd.ts docs/SJWD

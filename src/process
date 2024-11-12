@@ -23,9 +23,15 @@ mkdir -p "$WORK_DIR"
 # Count total number of PDF files
 TOTAL_FILES=$(find "$DIR" -type f -name "*.pdf" | wc -l)
 echo "Found $TOTAL_FILES PDF files to process"
-CURRENT=0
 
-# Process each PDF file
+# Log all PDF files
+echo "PDF files to process:"
+find "$DIR" -type f -name "*.pdf" | while read -r file; do
+    echo "  $file"
+done
+
+CURRENT=0
+# Process each PDF file in descending order
 while IFS= read -r pdf_file; do
     ((CURRENT++))
     md_file="${pdf_file%.pdf}.md"
@@ -44,6 +50,12 @@ while IFS= read -r pdf_file; do
     else
         echo "($CURRENT/$TOTAL_FILES) Skipping existing file: $md_file"
     fi
-done < <(find "$DIR" -type f -name "*.pdf")
+done < <(find "$DIR" -type f -name "*.pdf" | sort -r)
 
+# In case you mess up and need to delete them.
 # find "$DIR" -type f -name "*.md" -delete
+
+# In there are empty once.
+# find "$DIR" -type f -name "*.md" -exec sh -c 'if [ ! -s "$1" ] || [ "$(tr -d "[:space:]" < "$1")" = "" ]; then echo "$1"; fi' sh {} \;
+# find "$DIR" -type f -name "*.md" -exec sh -c 'if [ ! -s "$1" ] || [ "$(tr -d "[:space:]" < "$1")" = "" ]; then echo "$1"; fi' sh {} \; | xargs rm -f
+
