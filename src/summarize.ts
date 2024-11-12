@@ -13,6 +13,9 @@ const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 type Message = { role: string; content: string };
 type OpenAIMessage = OpenAI.Chat.Completions.ChatCompletionMessageParam;
 
+const OpenAiModel = "gpt-4o-mini";
+const ClaudeModel = "claude-3-5-sonnet-latest";
+
 async function loadPrompts(promptsPath: string): Promise<string[]> {
   const promptsFile = await fs.readFile(promptsPath, "utf-8");
   return promptsFile.split("\n---\n").map((p) => p.trim());
@@ -51,39 +54,30 @@ async function recurPromptClaude(
   for (let i = 0; i < prompts.length; i++) {
     const prompt = prompts[i];
 
-    if (i === 0) {
-      messages.push({
-        role: "user",
-        content: prompt,
-      });
-    } else {
-      // console.error("USER> ", prompt, "\n\n");
-      messages.push({
-        role: "user",
-        content: prompt,
-      });
-    }
+    console.error("USER> ", prompt, "\n\n");
+    messages.push({
+      role: "user",
+      content: prompt,
+    });
 
     const response = await retry(
       async () =>
         await anthropic.messages.create({
-          model: "claude-3-opus-20240229",
+          model: ClaudeModel,
           max_tokens: 5000,
           system: systemPrompt,
           messages: messages,
         })
     );
 
-    console.log(response.content);
+    // @ts-ignore
+    const result = response.content[0].text;
 
-    throw new Error("Stop");
-    // const result = response.choices[0].message.content!;
-    // messages.push({
-    //   role: "assistant",
-    //   content: result,
-    // });
-
-    // console.error("ASSISTANT> ", result, "\n\n");
+    console.error("ASSISTANT> ", result, "\n\n");
+    messages.push({
+      role: "assistant",
+      content: result,
+    });
   }
 
   return messages;
@@ -95,40 +89,34 @@ async function recurPromptOpenAI(
 ): Promise<OpenAIMessage[]> {
   const messages: OpenAIMessage[] = [];
 
+  messages.push({
+    role: "system",
+    content: systemPrompt,
+  });
+
   for (let i = 0; i < prompts.length; i++) {
     const prompt = prompts[i];
 
-    if (i === 0) {
-      messages.push({
-        role: "system",
-        content: systemPrompt,
-      });
-      messages.push({
-        role: "user",
-        content: prompt,
-      });
-    } else {
-      // console.error("USER> ", prompt, "\n\n");
-      messages.push({
-        role: "user",
-        content: prompt,
-      });
-    }
+    console.error("USER> ", prompt, "\n\n");
+    messages.push({
+      role: "user",
+      content: prompt,
+    });
 
     const response = await retry(async () =>
       openai.chat.completions.create({
-        model: "gpt-4o-mini",
+        model: OpenAiModel,
         messages: messages,
       })
     );
 
     const result = response.choices[0].message.content!;
+
+    console.error("ASSISTANT> ", result, "\n\n");
     messages.push({
       role: "assistant",
       content: result,
     });
-
-    // console.error("ASSISTANT> ", result, "\n\n");
   }
 
   return messages;
@@ -157,8 +145,12 @@ async function summarize(dirPath: string) {
   const tokenLength = countTokens(documents);
 
   // Max tokens is 128000
-  if (tokenLength > 90000) {
-    const numChunks = Math.ceil(tokenLength / 90000);
+  const gpt4oMaxTokens = 128000;
+  const claudeSonnetMaxTokens = 200000;
+  const maxTokens = claudeSonnetMaxTokens * 0.8;
+
+  if (tokenLength > maxTokens) {
+    const numChunks = Math.ceil(tokenLength / maxTokens);
     const chunkSize = Math.ceil(documents.length / numChunks);
     const chunks: string[] = [];
 
@@ -188,12 +180,12 @@ async function summarize(dirPath: string) {
 
     const messages = await summarizeDoc(chunkSummaries);
 
-    console.log(formatMessages(messages));
+    // console.log(formatMessages(messages));
     return;
   }
 
   const messages = await summarizeDoc(documents);
-  console.log(formatMessages(messages.slice(1)));
+  // console.log(formatMessages(messages.slice(1)));
 }
 
 async function retry<T>(fn: () => Promise<T>, tries = 0) {
