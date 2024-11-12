@@ -1,5 +1,6 @@
 # Tools for the Fair Oaks Civic Society
 
+todo. normalize all file names for processing to work well
 
 ## Download Board Meeting Files
 
@@ -44,7 +45,6 @@ Sometime, it might make sense to download committee meetings
 
 
 ## Processing files
-
 
 ```sh
 src/all-process
@@ -109,49 +109,12 @@ a129037 SMFD part 4
 
 ### `gs` not working
 
-Cleanup bad files
+Need to normalize all the filenames...
 
-```sh
-find docs/SCOE  -type f -name "*.md"  -delete
-```
-
-Issue with draft transparency maybe.
-```sh
-/opt/homebrew/bin/gs \
-  -dNOPAUSE \
-  -dBATCH \
-  -r400 \
-  -sDEVICE=png16m \
-  -dBackgroundColor=16\#FFFFFF \
-  -sOutputFile="png/%04d.png" \
-  "06.11.22%20CC%20Minutes%20UNAPPROVED%20for%20Agenda.pdf"
-```
-Simpliofy
-```sh
-/opt/homebrew/bin/gs -o simplified.pdf -sDEVICE=pdfwrite -dPDFSETTINGS=/printer "06.11.22%20CC%20Minutes%20UNAPPROVED%20for%20Agenda.pdf"
-```
-
-Need to simplify the pdf first:
-
-```sh
- /opt/homebrew/bin/gs \
-	-o simplified.pdf \
-	-sDEVICE=pdfwrite \
-	-dPDFSETTINGS=/printer \
-	docs/SCOE/2023-02-25/PCOE%20and%20SCOE%20Sufficiency%20Letters.pdf
-
-/opt/homebrew/bin/gs \
-  -dNOPAUSE \
-  -dBATCH \
-  -r400 \
-  -sDEVICE=png16m \
-  -dBackgroundColor=16\#FFFFFF \
-  -sOutputFile="png/%04d.png" \
-  "simplified.pdf"
-```
-
-Here's a script to simplify all of them:
-```sh
-./src/simplify docs/SCOE docs/SCOE-simplified
-```
-
+- FORPD
+- SMUD
+- SJUSD
+- SMFD
+- FOWD
+- LRCCD
+- SJWD
