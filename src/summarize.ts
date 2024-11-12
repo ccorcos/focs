@@ -2,6 +2,7 @@ import { Anthropic } from "@anthropic-ai/sdk";
 import { MessageParam as ClaudeMessage } from "@anthropic-ai/sdk/resources/index.mjs";
 import "dotenv/config";
 import fs from "fs/promises";
+import MarkdownIt from "markdown-it";
 import { OpenAI } from "openai";
 import { encoding_for_model, TiktokenModel } from "tiktoken";
 
@@ -13,8 +14,9 @@ const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 type Message = { role: string; content: string };
 type OpenAIMessage = OpenAI.Chat.Completions.ChatCompletionMessageParam;
 
-const OpenAiModel = "gpt-4o-mini";
-const ClaudeModel = "claude-3-5-sonnet-latest";
+const model: "openai" | "claude" = "openai";
+const OpenAiModel: OpenAI.Chat.ChatModel = "gpt-4o"; //"gpt-4o-mini";
+const ClaudeModel: Anthropic.Model = "claude-3-5-sonnet-20240620";
 
 async function loadPrompts(promptsPath: string): Promise<string[]> {
   const promptsFile = await fs.readFile(promptsPath, "utf-8");
@@ -46,7 +48,7 @@ async function loadDocuments(dirPath: string): Promise<string> {
 }
 
 async function recurPromptClaude(
-  systemPrompt: string,
+  doc: string,
   prompts: string[]
 ): Promise<ClaudeMessage[]> {
   const messages: ClaudeMessage[] = [];
@@ -65,7 +67,7 @@ async function recurPromptClaude(
         await anthropic.messages.create({
           model: ClaudeModel,
           max_tokens: 5000,
-          system: systemPrompt,
+          system: `Here's the document to summarize:\n\n${doc}`,
           messages: messages,
         })
     );
@@ -83,41 +85,79 @@ async function recurPromptClaude(
   return messages;
 }
 
+function fixDoc(doc: string) {
+  // Remove empty markdown table rows that are mostly empty cells and have >20 columns
+  const lines = doc.split("\n");
+  const filteredLines = lines.filter((line) => {
+    if (line.match(/(\|\s*){20,}/)) {
+      const cells = line.split("|");
+      if (cells.length <= 20) return true;
+      const emptyCells = cells.filter((cell) => cell.trim() === "").length;
+      const totalCells = cells.length;
+      const remove = emptyCells / totalCells < 0.9;
+      console.warn(`Removing line:\n${line}`);
+      return !remove;
+    }
+    return true;
+  });
+  doc = filteredLines.join("\n");
+
+  console.log(doc);
+  return doc;
+}
+
+function md2html(markdown: string): string {
+  const md = new MarkdownIt();
+  return md.render(markdown);
+}
+
 async function recurPromptOpenAI(
-  systemPrompt: string,
+  doc: string,
   prompts: string[]
 ): Promise<OpenAIMessage[]> {
   const messages: OpenAIMessage[] = [];
 
+  // for (let i = 0; i < prompts.length; i++) {
+  //   const prompt = prompts[i];
+
+  //   if (i === 0) {
+  //     console.error("SYSTEM> ", prompt, "\n\n");
+  //     messages.push({
+  //       role: "system",
+  //       content: prompt,
+  //     });
+  //     messages.push({
+  //       role: "user",
+  //       content: `Here's the document to summarize:\n\n${doc}`,
+  //     });
+  //   } else {
+  //     console.error("USER> ", prompt, "\n\n");
+  //     messages.push({
+  //       role: "user",
+  //       content: prompt,
+  //     });
+  //   }
+
   messages.push({
-    role: "system",
-    content: systemPrompt,
+    role: "user",
+    content: `Summarize this document:\n\n${md2html(doc)}`,
   });
 
-  for (let i = 0; i < prompts.length; i++) {
-    const prompt = prompts[i];
+  const response = await retry(async () =>
+    openai.chat.completions.create({
+      model: OpenAiModel,
+      messages: messages,
+    })
+  );
 
-    console.error("USER> ", prompt, "\n\n");
-    messages.push({
-      role: "user",
-      content: prompt,
-    });
+  const result = response.choices[0].message.content!;
 
-    const response = await retry(async () =>
-      openai.chat.completions.create({
-        model: OpenAiModel,
-        messages: messages,
-      })
-    );
-
-    const result = response.choices[0].message.content!;
-
-    console.error("ASSISTANT> ", result, "\n\n");
-    messages.push({
-      role: "assistant",
-      content: result,
-    });
-  }
+  console.error("ASSISTANT> ", result, "\n\n");
+  messages.push({
+    role: "assistant",
+    content: result,
+  });
+  // }
 
   return messages;
 }
@@ -125,10 +165,10 @@ async function recurPromptOpenAI(
 async function summarizeDoc(doc: string) {
   const prompts = await loadPrompts(__dirname + "/summarize.md");
 
-  const messages = await recurPromptClaude(
-    `Given the following documents:\n\n${doc}`,
-    prompts
-  );
+  const recurPrompt =
+    model === "openai" ? recurPromptOpenAI : recurPromptClaude;
+
+  const messages = await recurPrompt(doc, prompts);
 
   return messages as Message[];
 }
@@ -144,10 +184,17 @@ async function summarize(dirPath: string) {
 
   const tokenLength = countTokens(documents);
 
-  // Max tokens is 128000
-  const gpt4oMaxTokens = 128000;
-  const claudeSonnetMaxTokens = 200000;
-  const maxTokens = claudeSonnetMaxTokens * 0.8;
+  let maxTokens: number;
+  const gptModel = model === "openai" ? OpenAiModel : ClaudeModel;
+  if (gptModel.includes("gpt-4o")) maxTokens = 128000;
+  // else if (gptModel.includes("claude")) maxTokens = 200000;
+  else if (gptModel.includes("claude"))
+    maxTokens = 30000; // only 30k tokens per minute
+  else if (gptModel.includes("gpt-3.5")) maxTokens = 16385;
+  else throw new Error(`Unknown model: ${gptModel}`);
+
+  console.error("Using model", gptModel);
+  maxTokens = maxTokens * 0.8;
 
   if (tokenLength > maxTokens) {
     const numChunks = Math.ceil(tokenLength / maxTokens);
@@ -161,12 +208,12 @@ async function summarize(dirPath: string) {
     console.log("Summarizing with", chunks.length, "chunks");
 
     // Process each chunk separately
-    const chunkResults = await Promise.all(
-      chunks.map(async (chunk) => {
-        const messages = await summarizeDoc(chunk);
-        return messages;
-      })
-    );
+    const chunkResults: Message[][] = [];
+    for (let i = 0; i < chunks.length; i++) {
+      console.log(`Summarizing chunk ${i + 1}`);
+      const messages = await summarizeDoc(chunks[i]);
+      chunkResults.push(messages);
+    }
 
     // Logging
     // chunkResults.forEach((messages, i) => {
@@ -201,7 +248,7 @@ async function retry<T>(fn: () => Promise<T>, tries = 0) {
       const match = error.message.match(/try again in (\d+\.\d+)s/);
       const waitTimeMs = match
         ? parseFloat(match[1]) * 1000 + 300 // 300ms more than recommended in the error.
-        : 10 + 2 ** tries * 10; // Or 10ms + 2^n * 10ms backoff.
+        : 60_000 + 10 + 2 ** tries * 10; // Or 1min + 10ms + 2^n * 10ms backoff.
 
       console.error(error);
       console.error(`RATE LIMIT, sleeping for ${waitTimeMs}ms`);

@@ -1,6 +1,7 @@
 # Tools for the Fair Oaks Civic Society
 
-todo. normalize all file names for processing to work well
+https://platform.openai.com/usage
+https://console.anthropic.com/settings/usage
 
 ## Download Board Meeting Files
 
@@ -59,6 +60,14 @@ src/process docs/SJWD work/SJWD
 src/process docs/SCOE work/SCOE
 ```
 
+## Summarizing
+
+We should use claude
+
+docs/FORPD/2024-10-16/2024-10-16_395.md
+
+
+
 ## Debugging
 
 ### `git push`
@@ -111,3 +120,5 @@ a129037 SMFD part 4
 
 Folders shouldn't just be the dates probably.
 - scoe better folder name for same dates.
+
+
