@@ -2,6 +2,8 @@
 
 # src/summarize docs/FORPD/2024-10-16/
 
+# TODO: use a work directory for caching work?
+
 set -e
 
 if [ -z "$1" ]; then
@@ -19,12 +21,15 @@ echo "  $SUMMARY" >&2
 echo "  $REFINED" >&2
 
 # Summarize
+echo "Starting summarization in $(pwd)..." >&2
 npx tsx src/gpt.ts prompts/summarize.md "$DIR" > "$SUMMARY"
 
 # Refine
+echo "Starting refinement in $(pwd)..." >&2
 npx tsx src/gpt.ts prompts/refine.md "$SUMMARY" > "$REFINED"
 
 # Format
+echo "Starting formatting in $(pwd)..." >&2
 npx tsx src/gpt.ts prompts/format.md "$REFINED"
 
 # Cleanup temp files
