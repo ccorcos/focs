@@ -17,6 +17,8 @@ const model: "openai" | "claude" = "openai";
 const OpenAiModel: OpenAI.Chat.ChatModel = "gpt-4o"; //"gpt-4o-mini";
 const ClaudeModel: Anthropic.Model = "claude-3-5-sonnet-20240620";
 
+const mergePrompt = `Combine the following documents into a single document. Maintain a consistent format and do not omit any information.`;
+
 async function loadPrompts(promptsPath: string): Promise<string[]> {
   const promptsFile = await fs.readFile(promptsPath, "utf-8");
   return promptsFile.split("\n---\n").map((p) => p.trim());
@@ -58,7 +60,7 @@ async function loadDocuments(dirPath: string): Promise<string> {
 async function recurPromptClaude(
   doc: string,
   prompts: string[]
-): Promise<ClaudeMessage[]> {
+): Promise<Message[]> {
   const messages: ClaudeMessage[] = [];
 
   for (let i = 0; i < prompts.length; i++) {
@@ -90,13 +92,13 @@ async function recurPromptClaude(
     });
   }
 
-  return messages;
+  return messages as Message[];
 }
 
 async function recurPromptOpenAI(
   doc: string,
   prompts: string[]
-): Promise<OpenAIMessage[]> {
+): Promise<Message[]> {
   const messages: OpenAIMessage[] = [];
 
   messages.push({
@@ -130,16 +132,7 @@ async function recurPromptOpenAI(
   }
 
   // Ignore the system prompt.
-  return messages.slice(1);
-}
-
-async function recurPrompt(doc: string, prompts: string[]) {
-  const _recurPrompt =
-    model === "openai" ? recurPromptOpenAI : recurPromptClaude;
-
-  const messages = await _recurPrompt(doc, prompts);
-
-  return messages as Message[];
+  return messages.slice(1) as Message[];
 }
 
 function formatMessages(messages: Message[]) {
@@ -194,8 +187,9 @@ function fixDoc(doc: string): string {
   return fixBogusUrls(fixEmptyTableRows(doc));
 }
 
-async function summarize(dirPath: string) {
-  const prompts = await loadPrompts(__dirname + "/summarize.md");
+async function recurPromptOnDocs(dirPath: string, prompts: string[]) {
+  const recurPrompt =
+    model === "openai" ? recurPromptOpenAI : recurPromptClaude;
 
   const documents = await loadDocuments(dirPath);
 
@@ -225,7 +219,7 @@ async function summarize(dirPath: string) {
     // Process each chunk separately
     const chunkResults: Message[][] = [];
     for (let i = 0; i < chunks.length; i++) {
-      log(`Summarizing chunk ${i + 1} / ${chunks.length}`);
+      log(`Processing chunk ${i + 1} / ${chunks.length}`);
       const messages = await recurPrompt(chunks[i], prompts);
       chunkResults.push(messages);
     }
@@ -236,14 +230,12 @@ async function summarize(dirPath: string) {
     // });
 
     // Combine results
-    const chunkSummaries = chunkResults.map(
+    const chunkAnswers = chunkResults.map(
       (messages) => messages[messages.length - 1].content!
     );
 
-    const summaries = chunkSummaries.join("\n\n---\n\n");
-    const messages = await recurPrompt(summaries, [
-      "Combine the following documents into a single document. Maintain a consistent format and do not omit any information.",
-    ]);
+    const answers = chunkAnswers.join("\n\n---\n\n");
+    const messages = await recurPrompt(answers, [mergePrompt]);
 
     return messages[messages.length - 1].content!;
   }
@@ -295,14 +287,15 @@ function countTokens(text: string, model: TiktokenModel = "gpt-4o-mini") {
 }
 
 async function main() {
-  // Get directory from command line args
-  const dir = process.argv[2];
-  if (!dir) {
-    console.error("Please provide an input directory");
+  const [promptsPath, dir] = process.argv.slice(2);
+  if (!dir || !promptsPath) {
+    console.error("Please provide an input directory and prompts file path");
+    console.error("Example: tsx summarize.ts prompts.md doc/");
     process.exit(1);
   }
 
-  const summary = await summarize(dir);
+  const prompts = await loadPrompts(promptsPath);
+  const summary = await recurPromptOnDocs(dir, prompts);
   console.log(summary);
 }
 
