@@ -3,6 +3,7 @@ import { MessageParam as ClaudeMessage } from "@anthropic-ai/sdk/resources/index
 import "dotenv/config";
 import fs from "fs/promises";
 import { OpenAI } from "openai";
+import path from "path";
 import { encoding_for_model, TiktokenModel } from "tiktoken";
 
 // Initialize the client
@@ -33,7 +34,29 @@ const log = (...args: any[]) => {
   console.warn(...args);
 };
 
-async function loadDocuments(dirPath: string): Promise<string> {
+async function loadFile(filePath: string): Promise<string> {
+  // Get file extension
+  const ext = filePath.toLowerCase();
+  const allowedExtensions = [".md", ".html", ".txt"];
+
+  // Verify file extension
+  if (!allowedExtensions.some((allowed) => ext.endsWith(allowed))) {
+    throw new Error(
+      `Invalid file extension. Must be one of: ${allowedExtensions.join(", ")}`
+    );
+  }
+
+  // Log the file we're processing
+  log("Loading document:", filePath);
+
+  // Read file contents
+  const content = await fs.readFile(filePath, "utf-8");
+  const fileName = path.basename(filePath);
+
+  return fixDoc(`<!-- ${fileName} -->\n${content}`);
+}
+
+async function loadDir(dirPath: string): Promise<string> {
   // Get all files in directory
   const files = await fs.readdir(dirPath);
 
@@ -46,11 +69,10 @@ async function loadDocuments(dirPath: string): Promise<string> {
   // Log the files we're processing
   log("Loading documents:\n", filteredFiles.join("\n"));
 
-  // Read and join all file contents with filename comments
+  // Load all files using loadFile
   const fileContents = await Promise.all(
     filteredFiles.map(async (file) => {
-      const content = await fs.readFile(`${dirPath}/${file}`, "utf-8");
-      return `<!-- ${file} -->\n${content}`;
+      return loadFile(`${dirPath}/${file}`);
     })
   );
 
@@ -187,11 +209,9 @@ function fixDoc(doc: string): string {
   return fixBogusUrls(fixEmptyTableRows(doc));
 }
 
-async function recurPromptOnDocs(dirPath: string, prompts: string[]) {
+async function recurPromptOnDocs(documents: string, prompts: string[]) {
   const recurPrompt =
     model === "openai" ? recurPromptOpenAI : recurPromptClaude;
-
-  const documents = await loadDocuments(dirPath);
 
   const tokenLength = countTokens(documents);
 
@@ -287,16 +307,27 @@ function countTokens(text: string, model: TiktokenModel = "gpt-4o-mini") {
 }
 
 async function main() {
-  const [promptsPath, dir] = process.argv.slice(2);
-  if (!dir || !promptsPath) {
-    console.error("Please provide an input directory and prompts file path");
-    console.error("Example: tsx summarize.ts prompts.md doc/");
+  const [promptsPath, dirOrFilePath] = process.argv.slice(2);
+  if (!dirOrFilePath || !promptsPath) {
+    console.error(
+      "Please provide an input directory/file and prompts file path"
+    );
+    console.error("Example: tsx gpt.ts prompts.md doc/");
+    console.error("Example: tsx gpt.ts prompts.md doc/file.md");
     process.exit(1);
   }
 
   const prompts = await loadPrompts(promptsPath);
-  const summary = await recurPromptOnDocs(dir, prompts);
-  console.log(summary);
+
+  // Check if path is directory or file
+  const stat = await fs.stat(dirOrFilePath);
+  const documents = stat.isDirectory()
+    ? await loadDir(dirOrFilePath)
+    : await loadFile(dirOrFilePath);
+
+  const output = await recurPromptOnDocs(documents, prompts);
+
+  console.log(output);
 }
 
 if (require.main === module) {
