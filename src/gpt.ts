@@ -15,7 +15,7 @@ type Message = { role: string; content: string };
 type OpenAIMessage = OpenAI.Chat.Completions.ChatCompletionMessageParam;
 
 const model: "openai" | "claude" = "openai";
-const OpenAiModel: OpenAI.Chat.ChatModel = "gpt-4o"; //"gpt-4o-mini";
+const OpenAiModel: OpenAI.Chat.ChatModel = "gpt-4o-mini"; //"gpt-4o-mini";
 const ClaudeModel: Anthropic.Model = "claude-3-5-sonnet-20240620";
 
 const mergePrompt = `Combine the following documents into a single document. Maintain a consistent format and do not omit any information.`;
