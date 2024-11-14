@@ -6,9 +6,8 @@ Improve the following summary with the following guidelines:
 - Include proper nouns.
 - Spell out acronyms the first time, e.g. "California Department of General Services (DGS)"
 - Include links to proper nouns and link the whole proper noun as well as the acronym, e.g. [California Department of General Services (DGS)](https://www.dgs.ca.gov/)
-- Focus on the operation of the utility that is relevant to community oversight.
-	- Don't mention routine unexceptional operational items, e.g. "The board approved last meetings minute notes" is routine and unexceptional.
-	- Don't mention acknowledgements for unrelated things, e.g.  "they recognized Breast Cancer Awareness Month" is not important.
+- Don't mention routine unexceptional operational items, e.g. "The board approved last meetings minute notes" is routine and unexceptional.
+- Don't mention acknowledgements for unrelated things, e.g.  "they recognized Breast Cancer Awareness Month" is not important.
 - Whenever a report/agreement is accepted or acknowledged, include some details about the report and be quantitative.
 
 
@@ -72,10 +71,3 @@ For example:
 - if the board approved the previous meeting notes, omit that from the summary because this is an uneventful detail.
 - don't include operational details like the time of the board meeting, how to join on a zoom call, or when the next meeting will be. Focus on the contents of the meeting and accompanying documents.
 
----
-
-Get rid of all subheadings (`##`, `###`, etc.). Instead each section should begin with a bold title followed by details, e.g. "**title sentence**: details".
-
----
-
-Make each section more concise without removing detail or proper nouns.

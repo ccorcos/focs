@@ -1,0 +1,25 @@
+#!/bin/bash
+
+set -e
+
+if [ -z "$1" ]; then
+  echo "Usage: $0 <directory>"
+  exit 1
+fi
+
+DIR="$1"
+SUMMARY=$(mktemp -t summarize.XXXXXX.md)
+REFINED=$(mktemp -t refine.XXXXXX.md)
+
+# Summarize
+npx tsx src/gpt.ts prompts/summarize.md "$DIR" > "$SUMMARY"
+
+# Refine
+npx tsx src/gpt.ts prompts/refine.md "$SUMMARY" > "$REFINED"
+
+# Format
+npx tsx src/gpt.ts prompts/format.md "$REFINED"
+
+# Cleanup temp files
+rm "$SUMMARY" "$REFINED"
+x
