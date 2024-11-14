@@ -2,7 +2,6 @@ import { Anthropic } from "@anthropic-ai/sdk";
 import { MessageParam as ClaudeMessage } from "@anthropic-ai/sdk/resources/index.mjs";
 import "dotenv/config";
 import fs from "fs/promises";
-import MarkdownIt from "markdown-it";
 import { OpenAI } from "openai";
 import { encoding_for_model, TiktokenModel } from "tiktoken";
 
@@ -44,7 +43,7 @@ async function loadDocuments(dirPath: string): Promise<string> {
     })
   );
 
-  return fileContents.join("\n\n");
+  return fixDoc(fileContents.join("\n\n"));
 }
 
 async function recurPromptClaude(
@@ -67,7 +66,7 @@ async function recurPromptClaude(
         await anthropic.messages.create({
           model: ClaudeModel,
           max_tokens: 5000,
-          system: `Here's the document to summarize:\n\n${doc}`,
+          system: `Respond to questions in regards to the following document:\n\n${doc}`,
           messages: messages,
         })
     );
@@ -85,81 +84,44 @@ async function recurPromptClaude(
   return messages;
 }
 
-function fixDoc(doc: string) {
-  // Remove empty markdown table rows that are mostly empty cells and have >20 columns
-  const lines = doc.split("\n");
-  const filteredLines = lines.filter((line) => {
-    if (line.match(/(\|\s*){20,}/)) {
-      const cells = line.split("|");
-      if (cells.length <= 20) return true;
-      const emptyCells = cells.filter((cell) => cell.trim() === "").length;
-      const totalCells = cells.length;
-      const remove = emptyCells / totalCells < 0.9;
-      console.warn(`Removing line:\n${line}`);
-      return !remove;
-    }
-    return true;
-  });
-  doc = filteredLines.join("\n");
-
-  console.log(doc);
-  return doc;
-}
-
-function md2html(markdown: string): string {
-  const md = new MarkdownIt();
-  return md.render(markdown);
-}
-
 async function recurPromptOpenAI(
   doc: string,
   prompts: string[]
 ): Promise<OpenAIMessage[]> {
   const messages: OpenAIMessage[] = [];
 
-  // for (let i = 0; i < prompts.length; i++) {
-  //   const prompt = prompts[i];
-
-  //   if (i === 0) {
-  //     console.error("SYSTEM> ", prompt, "\n\n");
-  //     messages.push({
-  //       role: "system",
-  //       content: prompt,
-  //     });
-  //     messages.push({
-  //       role: "user",
-  //       content: `Here's the document to summarize:\n\n${doc}`,
-  //     });
-  //   } else {
-  //     console.error("USER> ", prompt, "\n\n");
-  //     messages.push({
-  //       role: "user",
-  //       content: prompt,
-  //     });
-  //   }
-
   messages.push({
-    role: "user",
-    content: `Summarize this document:\n\n${md2html(doc)}`,
+    role: "system",
+    content: `Respond to questions in regards to the following document:\n\n${doc}`,
   });
 
-  const response = await retry(async () =>
-    openai.chat.completions.create({
-      model: OpenAiModel,
-      messages: messages,
-    })
-  );
+  for (let i = 0; i < prompts.length; i++) {
+    const prompt = prompts[i];
 
-  const result = response.choices[0].message.content!;
+    console.error("USER> ", prompt, "\n\n");
+    messages.push({
+      role: "user",
+      content: prompt,
+    });
 
-  console.error("ASSISTANT> ", result, "\n\n");
-  messages.push({
-    role: "assistant",
-    content: result,
-  });
-  // }
+    const response = await retry(async () =>
+      openai.chat.completions.create({
+        model: OpenAiModel,
+        messages: messages,
+      })
+    );
 
-  return messages;
+    const result = response.choices[0].message.content!;
+
+    console.error("ASSISTANT> ", result, "\n\n");
+    messages.push({
+      role: "assistant",
+      content: result,
+    });
+  }
+
+  // Ignore the system prompt.
+  return messages.slice(1);
 }
 
 async function summarizeDoc(doc: string) {
@@ -176,7 +138,53 @@ async function summarizeDoc(doc: string) {
 function formatMessages(messages: Message[]) {
   return messages
     .map(({ role, content }) => `${role}> ${content}`)
-    .join("\n\n");
+    .join("\n\n\n");
+}
+
+function fixEmptyTableRows(doc: string) {
+  // Remove empty markdown table rows that are mostly empty cells and have >20 columns
+  const lines = doc.split("\n");
+  const filteredLines = lines.filter((line) => {
+    if (line.match(/(\|\s*){20,}/)) {
+      const cells = line.split("|");
+      if (cells.length <= 20) return true;
+      const emptyCells = cells.filter((cell) => cell.trim() === "").length;
+      const totalCells = cells.length;
+      console.warn(
+        `Removing line:\n${line}, ${emptyCells} / ${totalCells} = ${
+          emptyCells / totalCells
+        }`
+      );
+      const percentEmpty = emptyCells / totalCells;
+      return percentEmpty < 0.9;
+    }
+    return true;
+  });
+  doc = filteredLines.join("\n");
+
+  return doc;
+}
+
+function fixBogusUrls(doc: string): string {
+  // Since we're using OCR, links are just bogus.
+
+  // Replace markdown links [text](url) with just [text]()
+  doc = doc.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (match, text, url) => {
+    console.warn(`Removing url: [${text}](${url})`);
+    return `[${text}]()`;
+  });
+
+  // Replace markdown images ![alt](url) with just ![alt]()
+  doc = doc.replace(/!\[([^\]]+)\]\(([^)]+)\)/g, (match, alt, url) => {
+    console.warn(`Removing url: ![${alt}](${url})`);
+    return `![${alt}]()`;
+  });
+
+  return doc;
+}
+
+function fixDoc(doc: string): string {
+  return fixBogusUrls(fixEmptyTableRows(doc));
 }
 
 async function summarize(dirPath: string) {
@@ -205,7 +213,7 @@ async function summarize(dirPath: string) {
       chunks.push(documents.slice(i, i + chunkSize));
     }
 
-    console.log("Summarizing with", chunks.length, "chunks");
+    console.warn("Summarizing with", chunks.length, "chunks");
 
     // Process each chunk separately
     const chunkResults: Message[][] = [];
@@ -227,12 +235,13 @@ async function summarize(dirPath: string) {
 
     const messages = await summarizeDoc(chunkSummaries);
 
-    // console.log(formatMessages(messages));
-    return;
+    console.log(formatMessages(messages));
+    return messages;
   }
 
   const messages = await summarizeDoc(documents);
-  // console.log(formatMessages(messages.slice(1)));
+  console.log(formatMessages(messages));
+  return messages;
 }
 
 async function retry<T>(fn: () => Promise<T>, tries = 0) {
@@ -285,7 +294,7 @@ async function main() {
     process.exit(1);
   }
 
-  await summarize(dir);
+  const messages = await summarize(dir);
 }
 
 if (require.main === module) {
