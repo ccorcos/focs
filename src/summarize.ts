@@ -22,6 +22,15 @@ async function loadPrompts(promptsPath: string): Promise<string[]> {
   return promptsFile.split("\n---\n").map((p) => p.trim());
 }
 
+const DEBUG = true;
+const debug = (...args: any[]) => {
+  if (DEBUG) console.error(...args);
+};
+
+const log = (...args: any[]) => {
+  console.warn(...args);
+};
+
 async function loadDocuments(dirPath: string): Promise<string> {
   // Get all files in directory
   const files = await fs.readdir(dirPath);
@@ -33,7 +42,7 @@ async function loadDocuments(dirPath: string): Promise<string> {
   );
 
   // Log the files we're processing
-  console.log("Loading documents:\n", filteredFiles.join("\n"));
+  log("Loading documents:\n", filteredFiles.join("\n"));
 
   // Read and join all file contents with filename comments
   const fileContents = await Promise.all(
@@ -55,7 +64,7 @@ async function recurPromptClaude(
   for (let i = 0; i < prompts.length; i++) {
     const prompt = prompts[i];
 
-    console.error("USER> ", prompt, "\n\n");
+    debug("USER> ", prompt, "\n\n");
     messages.push({
       role: "user",
       content: prompt,
@@ -74,7 +83,7 @@ async function recurPromptClaude(
     // @ts-ignore
     const result = response.content[0].text;
 
-    console.error("ASSISTANT> ", result, "\n\n");
+    debug("ASSISTANT> ", result, "\n\n");
     messages.push({
       role: "assistant",
       content: result,
@@ -98,7 +107,7 @@ async function recurPromptOpenAI(
   for (let i = 0; i < prompts.length; i++) {
     const prompt = prompts[i];
 
-    console.error("USER> ", prompt, "\n\n");
+    debug("USER> ", prompt, "\n\n");
     messages.push({
       role: "user",
       content: prompt,
@@ -113,7 +122,7 @@ async function recurPromptOpenAI(
 
     const result = response.choices[0].message.content!;
 
-    console.error("ASSISTANT> ", result, "\n\n");
+    debug("ASSISTANT> ", result, "\n\n");
     messages.push({
       role: "assistant",
       content: result,
@@ -124,13 +133,11 @@ async function recurPromptOpenAI(
   return messages.slice(1);
 }
 
-async function summarizeDoc(doc: string) {
-  const prompts = await loadPrompts(__dirname + "/summarize.md");
-
-  const recurPrompt =
+async function recurPrompt(doc: string, prompts: string[]) {
+  const _recurPrompt =
     model === "openai" ? recurPromptOpenAI : recurPromptClaude;
 
-  const messages = await recurPrompt(doc, prompts);
+  const messages = await _recurPrompt(doc, prompts);
 
   return messages as Message[];
 }
@@ -150,11 +157,11 @@ function fixEmptyTableRows(doc: string) {
       if (cells.length <= 20) return true;
       const emptyCells = cells.filter((cell) => cell.trim() === "").length;
       const totalCells = cells.length;
-      console.warn(
-        `Removing line:\n${line}, ${emptyCells} / ${totalCells} = ${
-          emptyCells / totalCells
-        }`
-      );
+      // console.warn(
+      //   `Removing line:\n${line}, ${emptyCells} / ${totalCells} = ${
+      //     emptyCells / totalCells
+      //   }`
+      // );
       const percentEmpty = emptyCells / totalCells;
       return percentEmpty < 0.9;
     }
@@ -170,13 +177,13 @@ function fixBogusUrls(doc: string): string {
 
   // Replace markdown links [text](url) with just [text]()
   doc = doc.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (match, text, url) => {
-    console.warn(`Removing url: [${text}](${url})`);
+    // console.warn(`Removing url: [${text}](${url})`);
     return `[${text}]()`;
   });
 
   // Replace markdown images ![alt](url) with just ![alt]()
   doc = doc.replace(/!\[([^\]]+)\]\(([^)]+)\)/g, (match, alt, url) => {
-    console.warn(`Removing url: ![${alt}](${url})`);
+    // console.warn(`Removing url: ![${alt}](${url})`);
     return `![${alt}]()`;
   });
 
@@ -188,6 +195,8 @@ function fixDoc(doc: string): string {
 }
 
 async function summarize(dirPath: string) {
+  const prompts = await loadPrompts(__dirname + "/summarize.md");
+
   const documents = await loadDocuments(dirPath);
 
   const tokenLength = countTokens(documents);
@@ -201,7 +210,7 @@ async function summarize(dirPath: string) {
   else if (gptModel.includes("gpt-3.5")) maxTokens = 16385;
   else throw new Error(`Unknown model: ${gptModel}`);
 
-  console.error("Using model", gptModel);
+  log("Using model", gptModel);
   maxTokens = maxTokens * 0.8;
 
   if (tokenLength > maxTokens) {
@@ -213,13 +222,11 @@ async function summarize(dirPath: string) {
       chunks.push(documents.slice(i, i + chunkSize));
     }
 
-    console.warn("Summarizing with", chunks.length, "chunks");
-
     // Process each chunk separately
     const chunkResults: Message[][] = [];
     for (let i = 0; i < chunks.length; i++) {
-      console.log(`Summarizing chunk ${i + 1}`);
-      const messages = await summarizeDoc(chunks[i]);
+      log(`Summarizing chunk ${i + 1} / ${chunks.length}`);
+      const messages = await recurPrompt(chunks[i], prompts);
       chunkResults.push(messages);
     }
 
@@ -229,19 +236,20 @@ async function summarize(dirPath: string) {
     // });
 
     // Combine results
-    const chunkSummaries = chunkResults
-      .map((messages) => messages[messages.length - 1].content!)
-      .join("\n\n");
+    const chunkSummaries = chunkResults.map(
+      (messages) => messages[messages.length - 1].content!
+    );
 
-    const messages = await summarizeDoc(chunkSummaries);
+    const summaries = chunkSummaries.join("\n\n---\n\n");
+    const messages = await recurPrompt(summaries, [
+      "Combine the following documents into a single document. Maintain a consistent format and do not omit any information.",
+    ]);
 
-    console.log(formatMessages(messages));
-    return messages;
+    return messages[messages.length - 1].content!;
   }
 
-  const messages = await summarizeDoc(documents);
-  console.log(formatMessages(messages));
-  return messages;
+  const messages = await recurPrompt(documents, prompts);
+  return messages[messages.length - 1].content!;
 }
 
 async function retry<T>(fn: () => Promise<T>, tries = 0) {
@@ -294,7 +302,8 @@ async function main() {
     process.exit(1);
   }
 
-  const messages = await summarize(dir);
+  const summary = await summarize(dir);
+  console.log(summary);
 }
 
 if (require.main === module) {
