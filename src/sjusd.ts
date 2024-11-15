@@ -67,7 +67,7 @@ async function main() {
 
   const html = await fetchHtml();
   const meetings = parseMeetings(html);
-  await downloadFiles(meetings, directory);
+  await downloadFiles(meetings, directory, true);
 }
 
 main().catch((err) => {

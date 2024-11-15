@@ -101,7 +101,7 @@ async function main() {
   // console.log(JSON.stringify(meetings, null, 2));
   // throw new Error("Stop here");
 
-  await downloadFiles(meetings, dir);
+  await downloadFiles(meetings, dir, true);
 }
 
 main().catch(console.error);
