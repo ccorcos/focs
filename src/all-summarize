@@ -1,0 +1,11 @@
+#!/bin/bash
+set -e
+
+src/summarize-meetings docs/FORPD
+src/summarize-meetings docs/SMUD
+src/summarize-meetings docs/SJUSD
+src/summarize-meetings docs/SMFD
+src/summarize-meetings docs/FOWD
+src/summarize-meetings docs/LRCCD
+src/summarize-meetings docs/SJWD
+src/summarize-meetings docs/SCOE

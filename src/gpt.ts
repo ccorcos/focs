@@ -66,6 +66,9 @@ async function loadDir(dirPath: string): Promise<string> {
     allowedExtensions.some((ext) => file.toLowerCase().endsWith(ext))
   );
 
+  if (filteredFiles.length === 0)
+    throw new Error("No files to process from " + dirPath);
+
   // Log the files we're processing
   log("Loading documents:\n", filteredFiles.join("\n"));
 
@@ -141,6 +144,7 @@ async function recurPromptOpenAI(
       openai.chat.completions.create({
         model: OpenAiModel,
         messages: messages,
+        top_p: 0.1,
       })
     );
 
@@ -190,7 +194,7 @@ function fixEmptyTableRows(doc: string) {
 function fixBogusUrls(doc: string): string {
   // Since we're using OCR, links are just bogus.
 
-  // Replace markdown links [text](url) with just [text]()
+  // Rseplace markdown links [text](url) with just [text]()
   doc = doc.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (match, text, url) => {
     // console.warn(`Removing url: [${text}](${url})`);
     return `[${text}]()`;
