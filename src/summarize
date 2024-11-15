@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# src/summarize docs/FORPD/2024-10-16/
+# output=$(src/summarize docs/LRCCD/2024-11-13) && echo "$output" > docs/LRCCD/2024-11-13/summary.md
+
 
 # TODO: use a work directory for caching work?
 
@@ -14,23 +15,24 @@ fi
 DIR="$1"
 RANDOM_ID="$(head -c 6 /dev/urandom | xxd -p)"
 SUMMARY="/tmp/summarize-$RANDOM_ID.md"
-REFINED="/tmp/refine-$RANDOM_ID.md"
-touch "$SUMMARY" "$REFINED"
+touch "$SUMMARY"
 echo "Created temp files:" >&2
 echo "  $SUMMARY" >&2
-echo "  $REFINED" >&2
 
 # Summarize
-echo "Starting summarization in $(pwd)..." >&2
+echo "Starting summarization of $DIR..." >&2
 npx tsx src/gpt.ts prompts/summarize.md "$DIR" > "$SUMMARY"
 
 # Refine
-echo "Starting refinement in $(pwd)..." >&2
-npx tsx src/gpt.ts prompts/refine.md "$SUMMARY" > "$REFINED"
-
-# Format
-echo "Starting formatting in $(pwd)..." >&2
-npx tsx src/gpt.ts prompts/format.md "$REFINED"
+echo "Starting refinement of $DIR..." >&2
+npx tsx src/gpt.ts prompts/refine.md "$SUMMARY"
 
 # Cleanup temp files
-rm "$SUMMARY" "$REFINED"
+rm "$SUMMARY"
+
+# Testing
+# npx tsx src/gpt.ts prompts/summarize.md docs/FORPD/2024-10-16/ > out.md
+# npx tsx src/gpt.ts prompts/refine.md out.md > out2.md
+# npx tsx src/gpt.ts prompts/format.md out2.md > out3.md
+# sed 's/^#\+\s*//' out3.md
+

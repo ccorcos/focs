@@ -10,9 +10,14 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@ccorcos/ask-pdf": "^0.0.6",
+    "@anthropic-ai/sdk": "^0.32.1",
+    "@ccorcos/ask-pdf": "^0.0.12",
     "cheerio": "^1.0.0",
-    "mime-types": "^2.1.35"
+    "dotenv": "^16.4.5",
+    "markdown-it": "^14.1.0",
+    "mime-types": "^2.1.35",
+    "openai": "^4.52.0",
+    "tiktoken": "^1.0.17"
   },
   "devDependencies": {
     "@types/node": "^22.9.0",

@@ -1,0 +1,53 @@
+#!/bin/bash
+
+set -e
+
+# Handle Ctrl+C gracefully
+trap "echo 'Script interrupted'; exit 1" INT
+
+# Check if directory is provided
+if [ -z "$1" ]; then
+  echo "Usage: $0 <directory>"
+  exit 1
+fi
+
+DIR="${1%/}"
+
+# Check if directory exists
+if [ ! -d "$DIR" ]; then
+  echo "Error: Directory $DIR does not exist"
+  exit 1
+fi
+
+YEAR="2024"
+
+# Get list of subdirectories and sort in reverse order
+folders=($(find "$DIR" -maxdepth 1 -mindepth 1 -type d | grep "$YEAR" | sort -r))
+total=${#folders[@]}
+
+# Log all folders that will be processed
+echo "Found $total folders to process:"
+for folder in "${folders[@]}"; do
+	echo "$folder"
+done
+
+# Process each subdirectory
+for i in "${!folders[@]}"; do
+  folder="${folders[$i]}"
+  # Clean up any double slashes in path
+  # Skip if summary.md already exists
+  if [ -f "$folder/summary.md" ]; then
+    echo "Skipping $folder - summary.md already exists ($(($i + 1))/$total)"
+    continue
+  fi
+
+  # Check if directory has any .md, .html, or .txt files
+  if ! find "$folder" -maxdepth 1 -type f \( -name "*.md" -o -name "*.html" -o -name "*.txt" \) | grep -q .; then
+    echo "Skipping $folder - no .md, .html, or .txt files found ($(($i + 1))/$total)" >&2
+    continue
+  fi
+
+  echo "Processing $folder... ($(($i + 1))/$total)"
+  output=$("$(dirname "$0")/summarize" "$folder")
+  echo "$output" > "$folder/summary.md"
+done
