@@ -1,0 +1,4 @@
+- The document outlines a special meeting of the Sacramento Municipal Utility District (SMUD) Board of Directors on August 20, 2024, at 6:00 p.m. 
+- Key agenda item: Appointment of Nancy N. Bui-Thompson to the SMUD Board of Directors for Ward 2 for a four-year term (January 1, 2025 - December 31, 2028), pursuant to Section 11852.5 of the Public Utilities Code. Laura Lewis will present this item.
+- Community members expressed concerns regarding utility rates and service reliability, emphasizing the need for improved communication and transparency from SMUD.
+- The document highlights the importance of community representation on the Board and encourages ongoing public engagement in utility governance.

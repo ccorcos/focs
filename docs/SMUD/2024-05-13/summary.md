@@ -1,0 +1,8 @@
+- The document is a formal notice for the Solano 4 Wind Project Phase 4 Ribbon Cutting event.
+- The event occurs on Monday, May 13, 2024, at 9:00 a.m. at the Solano East Laydown Yard, 7359 Montezuma Hills Road, Rio Vista, California, 94571.
+- The Sacramento Municipal Utility District (SMUD) organizes this event to support its goal of expanding renewable energy sources and reducing greenhouse gas emissions in alignment with California's clean energy objectives.
+- The Solano 4 Wind Project will generate approximately 200 megawatts of clean energy, significantly contributing to the local grid and meeting the Sacramento region's energy needs.
+- This project is part of SMUD's commitment to achieving a 100% renewable energy supply by 2030.
+- Community members can contact Patrick Guigg at the Sacramento Municipal Utility District Customer Service Center at 1-916-732-5507 for inquiries about the project’s impact on energy rates, environmental considerations, or future renewable energy initiatives.
+- The notice is dated May 10, 2024, and signed by Rosanna Herber, President of the Board of Directors of SMUD.
+- SMUD's headquarters is located at 6201 S Street, P.O. Box 15830, Sacramento, California, 95852-0830. The contact number is 1-888-742-7683, and the website is [smud.org](https://www.smud.org/).
