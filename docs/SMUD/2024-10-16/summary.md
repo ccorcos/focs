@@ -1,0 +1,8 @@
+- The document is a notice for a special meeting of the Board of Directors Workshop of the Sacramento Municipal Utility District (SMUD) scheduled for **Wednesday, October 16, 2024, at 5:30 p.m.** at the **SMUD Headquarters Building**, Alhambra Room, **6201 S Street, Sacramento, California**.
+- **Key Agenda Item**:
+  - **Discussion on Diversity, Equity, Inclusion, and Belonging (DEIB) Training**: The workshop will focus on DEIB training to promote an inclusive workplace culture at SMUD. The Board will discuss:
+    - Implementation of DEIB initiatives
+    - Metrics for measuring progress
+    - Training schedules
+    - Potential partnerships with local organizations for community outreach
+- The notice emphasizes that no formal Board actions will occur during this workshop, allowing for open dialogue and community input on SMUD's commitment to diversity and inclusion in service delivery.
