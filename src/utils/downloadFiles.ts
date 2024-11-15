@@ -41,7 +41,11 @@ function summarizeMeetings(meetings: BoardMeeting[]) {
   return { totalMeetings, totalLinks };
 }
 
-export async function downloadFiles(meetings: BoardMeeting[], dir: string) {
+export async function downloadFiles(
+  meetings: BoardMeeting[],
+  dir: string,
+  useMimeType = false
+) {
   sortMeetings(meetings);
   const { totalLinks } = summarizeMeetings(meetings);
   checkForDuplicates(meetings);
@@ -79,13 +83,13 @@ export async function downloadFiles(meetings: BoardMeeting[], dir: string) {
       const existingFiles = await fs.readdir(meetingDir);
       const normalizedExistingFiles = existingFiles.map(normalizeFilename);
 
-      // For ashx files, compare without extension
-      const filenameToCompare = filename.endsWith(".ashx")
-        ? filename.slice(0, -5) // Remove .ashx
+      // Strip file extension for comparison when useMimeType is
+      const filenameToCompare = useMimeType
+        ? filename.slice(0, filename.lastIndexOf("."))
         : filename;
 
       const fileExists = normalizedExistingFiles.some((existingFile) => {
-        if (filename.endsWith(".ashx")) {
+        if (useMimeType) {
           // Remove extension from existing file for comparison
           const existingWithoutExt = existingFile.slice(
             0,
@@ -118,12 +122,15 @@ export async function downloadFiles(meetings: BoardMeeting[], dir: string) {
 
       // Get content-type header and map to file extension using mime-types
       const contentType = response.headers.get("content-type");
-      if (filename.endsWith(".ashx")) {
+      if (useMimeType) {
         const mimeType = contentType?.split(";")[0]; // Get clean mime type
         if (mimeType) {
           const extension = mime.extension(mimeType);
           if (extension) {
-            filename = filename.replace(".ashx", `.${extension}`);
+            filename = `${filename.substring(
+              0,
+              filename.lastIndexOf(".")
+            )}.${extension}`;
           }
         }
       }
