@@ -25,11 +25,12 @@ function parseMeetings(html: string): Array<BoardMeeting> {
           hour = parseInt(hour);
           if (ampm === "PM" && hour !== 12) hour += 12;
           if (ampm === "AM" && hour === 12) hour = 0;
-          return `${year}-${monthNum
-            .toString()
-            .padStart(2, "0")}-${day.padStart(2, "0")}T${hour
-            .toString()
-            .padStart(2, "0")}:${min}:00`;
+          return (
+            `${year}-${monthNum.toString().padStart(2, "0")}-${day.padStart(
+              2,
+              "0"
+            )}T${hour.toString().padStart(2, "0")}:${min}:00` + "Z"
+          );
         }
       );
 
