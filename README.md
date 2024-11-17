@@ -15,6 +15,16 @@ find docs/SCOE  -type f -name "summary.md" | sort | xargs cat
 
 Inside `src/process` and `src/summarize-meetings` we filter for 2024 which we'll want to update periodically.
 
+### RAG Answer
+
+```sh
+pipx install chromadb
+chromadb-server
+
+npx tsx src/embedding.ts docs/FOWD
+npx tsx src/ask.ts docs/FOWD "How much did the district spend in 2024?
+```
+
 ### Todo
 
 - SMUD has some image 175 that 500s for OpenAI.
