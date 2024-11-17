@@ -150,7 +150,7 @@ function fixLinks(meetings: BoardMeeting[]) {
 
   for (const meeting of meetings) {
     const minutesLinks = meeting.links.filter((link) => {
-      return /^\d{2}\.\d{2}\.\d{2} Board Minutes/.test(link);
+      return /\d{2}\.\d{2}\.\d{2}.*Minutes.*/.test(decodeURIComponent(link));
     });
 
     for (const minutesLink of minutesLinks) {
@@ -173,9 +173,16 @@ function fixLinks(meetings: BoardMeeting[]) {
       meeting.links = meeting.links.filter((l) => l !== minutesLink);
 
       if (!targetMeeting) {
-        console.log(`No target meeting found for ${minutesLink}`);
+        console.warn(`No target meeting found for ${minutesLink}`);
         continue;
       }
+
+      console.error(
+        "Fixing link for",
+        minutesLink,
+        "->",
+        targetMeeting!.folderName
+      );
 
       // Add to target meeting if not already there
       targetMeeting.links.push(minutesLink);

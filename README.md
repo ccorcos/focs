@@ -75,3 +75,32 @@ a129037 SMFD part 4
 > git push origin 3a6e695:refs/heads/master
 > git push origin 694f941:refs/heads/master
 ```
+
+
+SCOE fix minutes
+
+```sh
+# Find all board minutes files and move them to matching date folders
+find docs/SCOE -type f -name "[0-9][0-9].[0-9][0-9].[0-9][0-9]*Minutes*" | while read file; do
+  # Extract MM.DD.YY from filename
+  filename=$(basename "$file")
+  if [[ $filename =~ ([0-9]{2})\.([0-9]{2})\.([0-9]{2}) ]]; then
+    month=${filename:0:2}
+    day=${filename:3:2}
+    year=${filename:6:2}
+
+    # Convert to 20YY-MM-DD format for directory matching
+    target_date="20${year}-${month}-${day}"
+
+    # Find matching directory
+    target_dir=$(find docs/SCOE -type d -name "${target_date}-*" | head -n 1)
+
+    if [ -n "$target_dir" ]; then
+      mv -f "$file" "$target_dir/"
+      echo "Moved $filename to $target_dir"
+    else
+      echo "No matching directory found for $filename"
+    fi
+  fi
+done
+```
