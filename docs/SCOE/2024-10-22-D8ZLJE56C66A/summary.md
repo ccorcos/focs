@@ -1,118 +1,136 @@
-### Summary of Sacramento County Office of Education Board Meeting Minutes and Financial Reports
+# Sacramento County Office of Education (SCOE) Financial Overview
 
-**Date:** September 10, 2024  
-**Location:** Sacramento County Office of Education
+## 2023-2024 Budget Revision No. 4 Summary
 
-- **Superintendent’s Report:**  
-  - Superintendent David W. Gordon highlighted key achievements and upcoming events:
-    - Celebrated the 2025 Sacramento County Teachers of the Year: Joshua Weeks (Bell Avenue Elementary School) and Marc Vankeuren (Grant Union High School).
-    - Announced the Community Schools Launch on September 12, 2024, at the Marriott in Rancho Cordova.
-    - SCOE Arts Programs selected for a California School Boards Association Golden Bell Award, pending validation visit.
-    - New Single Subject Supplement Credential offered by the School of Education starting January 2025.
+### General Fund Revenues:
+- **Approved Budget:** $227,904,379.00
+- **Increase:** $16,963,481.00 due to adjustments in Local Control Funding Formula (LCFF) sources and federal revenues.
+- **Revised Budget:** $391,269,260.00, reflecting a significant increase in federal and local revenues.
 
-- **New Business:**  
-  - **Resolution No. 24-19:**  
-    - Approved determination of Textbooks and/or Instructional Materials Sufficiency for SCOE Community and Special Education Schools after a public hearing with no comments.
-  - **Resolution No. 24-18:**  
-    - Adopted the Sacramento County READS Literacy Resolution to enhance literacy initiatives across the county.  
-  - **California School Boards Association Memberships:**  
-    - Approved payment of the California School Boards Association (CSBA) membership fees for the 2024-2025 term after a failed initial motion. 
+### General Fund Expenditures:
+- **Approved Budget:** $217,508,300.00
+- **Increase:** $156,794.53 attributed to increased costs in certificated and classified salaries.
+- **Revised Budget:** $374,262,593.53, indicating a comprehensive investment in educational services and support.
 
-### 2023-2024 Budget Revision No. 4
+### Excess (Deficiency) of Revenues Over Expenditures:
+- **Initial:** $10,396,079.00
+- **Revised:** $17,006,666.47, showcasing a positive financial outlook for reinvestment in educational programs.
 
-**Period:** April 1, 2024 - June 30, 2024
+### Other Financing Sources/Uses:
+- **Total Other Financing Sources:** $419,910.00
+- **Increase:** $1,067,080.00 from interfund transfers and additional funding sources.
+- **Revised Total:** $647,170.00, indicating effective management of financial resources.
 
-- **General Fund Summary:**
-  - Total Revenues: $391,269,260.00 (Increase of $16,963,481.00).
-  - Total Expenditures: $374,262,593.53 (Increase of $156,794.53).
-  - Net Increase in Fund Balance: $17,653,036.47.
+### Net Increase (Decrease) in Fund Balance:
+- **Initial:** $9,976,169.00
+- **Revised:** $17,653,036.47, allowing for future investments in educational initiatives and infrastructure.
 
-- **Specific Fund Highlights:**
-  - **Special Education Pass-Through Fund:**
-    - Total Revenues: $20,729,737.00 (Increase of $6,724,464.00).
-    - Total Expenditures: $23,860,312.10 (Increase of $9,346,796.10).
-  - **Adult Education Fund:**
-    - Total Revenues: $20,387,422.00 (Increase of $346,617.00).
-    - Total Expenditures: $20,168,890.00 (Increase of $119,265.00).
-  - **Child Development Fund:**
-    - Total Revenues: $10,414,621.00 (Decrease of $661,494.00).
-    - Total Expenditures: $11,387,979.00 (Increase of $718,734.00).
+### Fund Balance, Reserves:
+- **Beginning Balance:** $121,271,119.02
+- **Ending Balance:** $138,924,955.49, providing a robust reserve for future fiscal stability.
 
-- **Ending Balances:**
-  - General Fund Ending Balance: $138,924,955.49.
-  - Special Education Pass-Through Fund Ending Balance: $91,333.71.
-  - Adult Education Fund Ending Balance: $900,718.99.
+---
 
-### Superintendent's Report on Personnel Transactions (October 22, 2024)
+## Sacramento County Board of Education Resolution No. 24-20 Summary
 
-- **Regular Appointments:**  
-  - Total Regular Appointments: 5 (2 Management, 1 Certificated, 2 Classified).
-  - Notable Appointments: Alexis M. Aragón and Natalie E. Graves promoted to SBMHW Clinician II.
+- **Purpose:** Establish the 2024-2025 Appropriations Limit in accordance with Proposition 4 (Gann Amendment).
+- **Gann Limit for 2023-2024:** $34,471,914.68, ensuring compliance with state regulations.
+- **Projected Gann Limit for 2024-2025:** $36,554,162.02, reflecting anticipated growth in funding and expenditures.
 
-- **Limited-Term/Temporary Appointments:**  
-  - Total Limited-Term Appointments: 3 (1 Management, 1 Certificated, 1 Classified).
+---
 
-- **Leave of Absence:**  
-  - Total Leave of Absence: 2 (1 Management, 1 Certificated).
+## Unaudited Actuals Financial Report Summary
 
-- **Separations:**  
-  - Total Separations: 2 (Both Classified).
+### Total Revenues for 2023-24:
+- **Total:** $20,728,700.82, indicating strong revenue from state and federal funding.
 
-### Unaudited Actuals Financial Report 2023-2024
+### Total Expenditures for 2023-24:
+- **Total:** $23,860,312.63, highlighting significant investments in educational programs and services.
 
-- **Summary of Critical Data:**
-  - Total Revenues: $20,728,700.82.
-  - Total Expenditures: $23,860,312.63.
-  - Net Deficiency: $(3,131,611.81).
+### Excess (Deficiency) of Revenues Over Expenditures:
+- **Total:** $(3,131,611.81), indicating a need for careful financial planning to address the shortfall.
 
-- **Key Financial Metrics:**
-  - Average Daily Attendance: 854.15.
-  - Total Assets: $6,756,527.30.
-  - Total Liabilities: $6,685,194.30.
+### Ending Fund Balance:
+- **Total:** $91,333.00, providing a cushion for future expenditures.
 
-- **Ending Fund Balance:**
-  - Total Ending Fund Balance: $91,333.00.
+---
 
-### Financial Overview
+## Personnel Transactions Summary
 
-- **Total Assets:** $6,427,733.07.
-  - Cash in County Treasury: $931,909.33.
-  - Accounts Receivable: $28,847.40.
-  - Due from Grantor Government: $4,492,378.08.
+### Regular Appointments:
+- **Total:** 5 (2 Management, 1 Certificated, 2 Classified)
+- Promotions include Alexis M. Aragón and Natalie E. Graves to SBMHW Clinician II positions, effective October 7, 2024.
 
-- **Total Liabilities:** $6,802,968.42.
-  - Accounts Payable: $963,877.42.
-  - Due to Other Funds: $4,293,337.60.
-  - Unearned Revenue: $846,051.40.
+### Limited-Term/Temporary Appointments:
+- **Total:** 3 (1 Management, 1 Certificated, 1 Classified)
+- John R. Woodward appointed as Program Manager for Special Projects.
 
-- **Total Revenues:** $10,414,480.89.
-  - Federal Revenue: $5,007,855.44.
-  - Other State Revenue: $4,324,028.31.
+### Leave of Absence:
+- **Total:** 2 (1 Management, 1 Certificated)
+- Isobel Marcus, SBMHW Clinician, on leave from November 12 to December 6, 2024.
 
-- **Total Expenditures:** $11,387,433.63.
-  - Certificated Salaries: $886,145.38.
-  - Classified Salaries: $2,862,235.26.
-  - Employee Benefits: $1,370,498.55.
-  - Services and Other Operating Expenditures: $5,619,269.07.
+### Separations:
+- **Total:** 2 (2 Classified)
+- Teresa English retired from her position as Staff Secretary at Sacramento County Board of Education.
 
-- **Net Increase in Fund Balance:** $53,782.00.
-- **Ending Fund Balance:** $819,184.31.
+### Total Personnel Transactions:
+- **Total:** 12 (4 Management, 3 Certificated, 5 Classified), reflecting ongoing staffing adjustments.
 
-### Important Decisions and Reports
+---
 
-- **Budget Revision No. 4:**  
-  - Approved revisions to the 2023-2024 County School Service Fund and Special Funds, including increases in revenue and expenditure appropriations for new and amended contracts, programs, and grants.
+## Public Comment
 
-- **Unaudited Actuals Financial Report:**  
-  - Acknowledged the 2023-2024 Unaudited Actuals Financial Report, detailing all receipts and expenditures for the preceding fiscal year, essential for transparency and accountability.
+- Community members expressed support for budget revisions, emphasizing the importance of funding for educational programs.
+- Concerns were raised regarding the projected deficit in the Unaudited Actuals Financial Report, with suggestions for increased transparency in financial planning.
+- Participants urged the board to prioritize funding for mental health services and support for English learners.
 
-### Public Comments
+---
 
-- Community members raised concerns regarding:
-  - Funding allocation transparency for federal and state funds.
-  - Increased funding for special education programs.
-  - The need for more community engagement forums to discuss budgetary decisions.
+## Important Decisions Made
 
-### Conclusion
+- The board unanimously approved the 2023-2024 Budget Revision No. 4, allowing for increased funding in key areas such as mental health services and educational support.
+- The board approved the establishment of the 2024-2025 Appropriations Limit, ensuring compliance with state regulations.
 
-The documents provide a detailed overview of the Sacramento County Office of Education's operational and financial status, emphasizing the importance of transparency, community engagement, and commitment to improving educational services.
+---
+
+## Unaudited Actuals Financial Report
+
+### Revenues:
+1. **Federal Revenue:** 
+   - Total: **$5,007,855.44** (1.9% increase compared to the previous year).
+2. **Other State Revenue:** 
+   - Total: **$4,324,028.31** (221.6% increase).
+3. **Other Local Revenue:** 
+   - Total: **$10,414,480.89** (93.6% increase).
+4. **Total Revenues:** 
+   - Total: **$20,728,700.82** (compared to **$20,369,356.00** previous year).
+
+### Expenditures:
+1. **Certificated Salaries:** 
+   - Total: **$886,145.38** (36.1% decrease).
+2. **Classified Salaries:** 
+   - Total: **$2,862,235.26** (14.4% increase).
+3. **Employee Benefits:** 
+   - Total: **$1,370,498.55** (31.2% increase).
+4. **Books and Supplies:** 
+   - Total: **$519,269.07** (140.4% increase).
+5. **Services and Other Operating Expenditures:** 
+   - Total: **$5,619,269.07** (140.4% increase).
+6. **Total Expenditures:** 
+   - Total: **$11,387,433.63** (82.7% increase).
+
+### Interfund Transfers:
+- **Interfund Transfers In:** 
+   - Total: **$392,173.40** (6.1% increase).
+
+### Fund Balance:
+- **Beginning Fund Balance:** 
+   - As of July 1: **$765,422.31**
+   - **Ending Balance:** **$849,064.31** (3.6% increase).
+
+### Important Decisions and Reports:
+- The Board acknowledged the **2023-2024 Budget Revision No. 4**, which included increases in revenue and expenditure appropriations for new and amended contracts, programs, and grants.
+- The **2023-2024 Unaudited Actuals Financial Report** was accepted, detailing all receipts and expenditures for the preceding fiscal year, ensuring transparency and accountability.
+
+### Conclusion:
+The Sacramento County Office of Education's financial report reflects robust operational capacity with significant revenue growth and strategic expenditure increases aimed at enhancing educational services. Community engagement through public comments indicates strong interest in financial decisions impacting local education, emphasizing the need for ongoing transparency and responsiveness from the Board.
