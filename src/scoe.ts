@@ -164,6 +164,9 @@ function fixLinks(meetings: BoardMeeting[]) {
       const fullYear = `20${year}`; // Assuming 20xx years
       const datePrefix = `${fullYear}-${month}-${day}`;
 
+      // Skip if already in the correct folder
+      if (meeting.folderName.startsWith(datePrefix)) continue;
+
       // Find matching meeting
       const targetMeeting = meetings.find((m) =>
         m.folderName.startsWith(datePrefix)
