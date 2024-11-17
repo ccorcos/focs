@@ -15,6 +15,10 @@ Inside `src/process` and `src/summarize-meetings` we filter for 2024 which we'll
 
 ### Todo
 
+- SMUD has some image 175 that 500s for OpenAI.
+- SCOE has the minutes for previous meetings in future meetings which garbles up the summaries.
+
+
 Sometime, it might make sense to download committee meetings
 - Bond oversight: https://www.forpd.org/agendacenter
 - https://www.sanjuan.edu/connect/committees
