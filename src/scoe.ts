@@ -1,7 +1,12 @@
 import * as cheerio from "cheerio";
 import * as fs from "fs/promises";
 import * as path from "path";
-import { BoardMeeting, downloadFiles } from "./utils/downloadFiles";
+import { downloadFiles } from "./utils/downloadFiles";
+
+export type BoardMeeting = {
+  folderName: string;
+  links: string[];
+};
 
 type BoardMeetingItem = {
   numberdate: string;
@@ -135,8 +140,47 @@ async function main() {
   // console.log(list);
   console.log(`Found ${list.length} meetings`);
   const meetings = await loadAgendas(list, directory);
+  fixLinks(meetings);
 
   downloadFiles(meetings, directory);
+}
+
+function fixLinks(meetings: BoardMeeting[]) {
+  // Fix meetings so that minutes are in the correct folder.
+
+  for (const meeting of meetings) {
+    const minutesLinks = meeting.links.filter((link) => {
+      return /^\d{2}\.\d{2}\.\d{2} Board Minutes/.test(link);
+    });
+
+    for (const minutesLink of minutesLinks) {
+      // Extract date from minutes filename (MM.DD.YY format)
+      const match = minutesLink.match(/(\d{2})\.(\d{2})\.(\d{2})/);
+
+      if (!match) continue;
+
+      const [_, month, day, year] = match;
+      // Convert to YYYY-MM-DD format
+      const fullYear = `20${year}`; // Assuming 20xx years
+      const datePrefix = `${fullYear}-${month}-${day}`;
+
+      // Find matching meeting
+      const targetMeeting = meetings.find((m) =>
+        m.folderName.startsWith(datePrefix)
+      );
+
+      // Remove from current meeting
+      meeting.links = meeting.links.filter((l) => l !== minutesLink);
+
+      if (!targetMeeting) {
+        console.log(`No target meeting found for ${minutesLink}`);
+        continue;
+      }
+
+      // Add to target meeting if not already there
+      targetMeeting.links.push(minutesLink);
+    }
+  }
 }
 
 main().catch((err) => {
