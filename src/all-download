@@ -46,7 +46,7 @@ find docs/SCOE -type f -name "[0-9][0-9].[0-9][0-9].[0-9][0-9] Board Minutes*" |
     target_dir=$(find docs/SCOE -type d -name "${target_date}-*" | head -n 1)
 
     if [ -n "$target_dir" ]; then
-      # mv "$file" "$target_dir/"
+      mv "$file" "$target_dir/"
       echo "Moved $filename to $target_dir"
     else
       echo "No matching directory found for $filename"
