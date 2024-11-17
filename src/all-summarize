@@ -9,3 +9,6 @@ src/summarize-meetings docs/FOWD
 src/summarize-meetings docs/LRCCD
 src/summarize-meetings docs/SJWD
 src/summarize-meetings docs/SCOE
+
+# Reset
+# find docs/SCOE -type f -name "summary.md" -delete

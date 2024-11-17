@@ -9,6 +9,8 @@ https://console.anthropic.com/settings/usage
 src/all-download
 src/all-process
 src/all-summarize
+
+find docs/SCOE  -type f -name "summary.md" | sort | xargs cat
 ```
 
 Inside `src/process` and `src/summarize-meetings` we filter for 2024 which we'll want to update periodically.
@@ -77,7 +79,7 @@ a129037 SMFD part 4
 ```
 
 
-SCOE fix minutes
+# SCOE fix minutes
 
 ```sh
 # Find all board minutes files and move them to matching date folders
