@@ -9,7 +9,6 @@ if [[ $# -ne 2 ]]; then
     exit 1
 fi
 
-YEAR="2024"
 CMD="./node_modules/@ccorcos/ask-pdf/pdf2md"
 DIR="$1"
 WORK_DIR="$2"
@@ -21,19 +20,20 @@ fi
 
 mkdir -p "$WORK_DIR"
 
+AFTER="2024"
 
 ALL_FILES=$(find "$DIR" -type f -name "*.pdf" | sort -r)
 ALL_COUNT=$(echo "$ALL_FILES" | wc -l)
 
-YEAR_FILES=$(echo "$ALL_FILES" | grep "$YEAR")
-YEAR_COUNT=$(echo "$YEAR_FILES" | wc -l)
+PROCESS_FILES=$(echo "$ALL_FILES" | awk -v after="$DIR/$AFTER" '$0 >= after')
+PROCESS_COUNT=$(echo "$PROCESS_FILES" | wc -l)
 
 echo "Found $ALL_COUNT PDF files."
-echo "Found $YEAR_COUNT PDF files from $YEAR."
+echo "Found $PROCESS_COUNT PDF files after $AFTER."
 
 # Log all PDF files
 echo "PDF files to process:"
-echo "$YEAR_FILES" | while read -r file; do
+echo "$PROCESS_FILES" | while read -r file; do
     echo "  $file"
 done
 
@@ -43,7 +43,7 @@ while IFS= read -r pdf_file; do
     ((CURRENT++))
     md_file="${pdf_file%.pdf}.md"
     if [[ ! -f "$md_file" ]]; then
-        echo "($CURRENT/$YEAR_COUNT) Processing: $pdf_file"
+        echo "($CURRENT/$PROCESS_COUNT) Processing: $pdf_file"
 
         # Get the subdirectory path relative to DIR, to be used as work subdir
         # e.g. if DIR is docs/X and pdf_file is docs/X/Y/Z.pdf
@@ -55,9 +55,9 @@ while IFS= read -r pdf_file; do
         echo "Running: $CMD \"$pdf_file\" \"$md_file\" \"$work_subdir\""
         $CMD "$pdf_file" "$md_file" "$work_subdir"
     else
-        echo "($CURRENT/$YEAR_COUNT) Skipping existing file: $md_file"
+        echo "($CURRENT/$PROCESS_COUNT) Skipping existing file: $md_file"
     fi
-done < <(echo "$YEAR_FILES")
+done < <(echo "$PROCESS_FILES")
 
 # In case you mess up and need to delete them.
 # find "$DIR" -type f -name "*.md" -delete

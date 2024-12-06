@@ -4,10 +4,10 @@ set -e
 
 # Handle Ctrl+C gracefully
 trap "echo 'Script interrupted'; exit 1" INT
-
 # Check if directory is provided
 if [ -z "$1" ]; then
-  echo "Usage: $0 <directory>"
+  echo "Usage: $0 <directory> [after_date]"
+  echo "Example: $0 docs/SJUSD 2024-06"
   exit 1
 fi
 
@@ -19,10 +19,11 @@ if [ ! -d "$DIR" ]; then
   exit 1
 fi
 
-YEAR="2024"
+# Set AFTER to second argument if provided, otherwise default to 2024
+AFTER="${2:-2024}"
 
 # Get list of subdirectories and sort in reverse order
-folders=($(find "$DIR" -maxdepth 1 -mindepth 1 -type d | grep "$YEAR" | sort -r))
+folders=($(find "$DIR" -maxdepth 1 -mindepth 1 -type d | awk -v after="$DIR/$AFTER" '$0 >= after' | sort -r))
 total=${#folders[@]}
 
 # Log all folders that will be processed

@@ -3,7 +3,7 @@ set -e
 
 src/summarize-meetings docs/FORPD
 src/summarize-meetings docs/SMUD
-src/summarize-meetings docs/SJUSD
+src/summarize-meetings docs/SJUSD 2024-06-25
 src/summarize-meetings docs/SMFD
 src/summarize-meetings docs/FOWD
 src/summarize-meetings docs/LRCCD
