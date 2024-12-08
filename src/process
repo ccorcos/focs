@@ -4,8 +4,9 @@
 
 # Handle Ctrl+C gracefully
 trap 'echo -e "\nInterrupted by user. Exiting..."; exit 1' INT
-if [[ $# -ne 2 ]]; then
-    echo "Usage: $0 <directory> <work_directory>"
+if [[ $# -lt 2 || $# -gt 3 ]]; then
+    echo "Usage: $0 <directory> <work_directory> [after_date]"
+    echo "Example: $0 docs/SJUSD work/SJUSD 2024-06"
     exit 1
 fi
 
@@ -20,7 +21,8 @@ fi
 
 mkdir -p "$WORK_DIR"
 
-AFTER="2024"
+# Set AFTER to second argument if provided, otherwise default to 2024
+AFTER="${3:-2024}"
 
 ALL_FILES=$(find "$DIR" -type f -name "*.pdf" | sort -r)
 ALL_COUNT=$(echo "$ALL_FILES" | wc -l)
