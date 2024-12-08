@@ -5,7 +5,7 @@ set -e
 AFTER="2024-06"
 
 # Find all PDF files and check for corresponding MD files
-find docs -mindepth 3 -maxdepth 3 -type f -name "*.pdf" | while read pdf_file; do
+find docs -mindepth 3 -maxdepth 3 -type f -name "*.pdf"  | sort -r | while read pdf_file; do
     # Extract the date part from the path (docs/org/date/file.pdf)
     date_part=$(echo "$pdf_file" | cut -d'/' -f3)
 
@@ -19,5 +19,23 @@ find docs -mindepth 3 -maxdepth 3 -type f -name "*.pdf" | while read pdf_file; d
         echo "Missing markdown file for: $pdf_file"
     elif [ ! -s "$md_file" ]; then
         echo "Empty markdown file for: $pdf_file"
+    fi
+done
+
+# Check for missing summary.md files in each meeting directory
+find docs -mindepth 2 -maxdepth 3 -type d | sort -r| while read dir; do
+    # Extract the date part from the path (if it exists)
+    date_part=$(echo "$dir" | cut -d'/' -f3)
+
+    # Skip if not a date directory or if date is before AFTER
+    if [[ "$date_part" < "$AFTER" ]]; then
+        continue
+    fi
+
+    # Check for summary.md
+    if [ ! -f "$dir/summary.md" ]; then
+        echo "Missing summary.md in: $dir"
+    elif [ ! -s "$dir/summary.md" ]; then
+        echo "Empty summary.md in: $dir"
     fi
 done
