@@ -1,14 +1,16 @@
 #!/bin/bash
 set -e
 
-src/process docs/FORPD work/FORPD
-src/process docs/SMUD work/SMUD
-src/process docs/SJUSD work/SJUSD
-src/process docs/SMFD work/SMFD
-src/process docs/FOWD work/FOWD
-src/process docs/LRCCD work/LRCCD
-src/process docs/SJWD work/SJWD
-src/process docs/SCOE work/SCOE
+AFTER="2024-06"
+
+src/process docs/FORPD work/FORPD $AFTER
+src/process docs/SMUD work/SMUD $AFTER
+src/process docs/SJUSD work/SJUSD $AFTER
+src/process docs/SMFD work/SMFD $AFTER
+src/process docs/FOWD work/FOWD $AFTER
+src/process docs/LRCCD work/LRCCD $AFTER
+src/process docs/SJWD work/SJWD $AFTER
+src/process docs/SCOE work/SCOE $AFTER
 
 # Check to see if there were any issues.
 # find docs  -type f -name "*.md" -exec sh -c 'if [ ! -s "$1" ] || [ "$(tr -d "[:space:]" < "$1")" = "" ]; then echo "$1"; fi' sh {} \;

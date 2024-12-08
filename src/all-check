@@ -1,0 +1,23 @@
+#!/bin/bash
+set -e
+
+# Check if AFTER date is provided, default to 2024
+AFTER="2024-06"
+
+# Find all PDF files and check for corresponding MD files
+find docs -mindepth 3 -maxdepth 3 -type f -name "*.pdf" | while read pdf_file; do
+    # Extract the date part from the path (docs/org/date/file.pdf)
+    date_part=$(echo "$pdf_file" | cut -d'/' -f3)
+
+    # Skip if date is before AFTER
+    if [[ "$date_part" < "$AFTER" ]]; then
+        continue
+    fi
+
+    md_file="${pdf_file%.pdf}.md"
+    if [ ! -f "$md_file" ]; then
+        echo "Missing markdown file for: $pdf_file"
+    elif [ ! -s "$md_file" ]; then
+        echo "Empty markdown file for: $pdf_file"
+    fi
+done

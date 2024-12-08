@@ -1,14 +1,16 @@
 #!/bin/bash
 set -e
 
-src/summarize-meetings docs/FORPD
-src/summarize-meetings docs/SMUD
-src/summarize-meetings docs/SJUSD 2024-06-25
-src/summarize-meetings docs/SMFD
-src/summarize-meetings docs/FOWD
-src/summarize-meetings docs/LRCCD
-src/summarize-meetings docs/SJWD
-src/summarize-meetings docs/SCOE
+AFTER="2024-06-25"
+
+src/summarize-meetings docs/FORPD $AFTER
+src/summarize-meetings docs/SMUD $AFTER
+src/summarize-meetings docs/SJUSD $AFTER
+src/summarize-meetings docs/SMFD $AFTER
+src/summarize-meetings docs/FOWD $AFTER
+src/summarize-meetings docs/LRCCD $AFTER
+src/summarize-meetings docs/SJWD $AFTER
+src/summarize-meetings docs/SCOE $AFTER
 
 # Reset
 # find docs/SCOE -type f -name "summary.md" -delete
