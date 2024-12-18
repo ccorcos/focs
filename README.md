@@ -11,6 +11,7 @@ src/all-process
 src/all-summarize
 
 find docs/SCOE  -type f -name "summary.md" | sort | xargs cat
+src/fix-png work/SJUSD/2024-12-17/agenda-packet/png/0130.png
 ```
 
 Inside `src/process` and `src/summarize-meetings` we filter for 2024 which we'll want to update periodically.
@@ -88,7 +89,6 @@ a129037 SMFD part 4
 > git push origin 694f941:refs/heads/master
 ```
 
-
 # SCOE fix minutes
 
 ```sh
@@ -116,3 +116,6 @@ find docs/SCOE -type f -name "[0-9][0-9].[0-9][0-9].[0-9][0-9]*Minutes*" | while
   fi
 done
 ```
+
+## Find incomplete summaries
+
