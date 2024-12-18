@@ -16,3 +16,7 @@ src/process docs/SCOE work/SCOE $AFTER
 # find docs  -type f -name "*.md" -exec sh -c 'if [ ! -s "$1" ] || [ "$(tr -d "[:space:]" < "$1")" = "" ]; then echo "$1"; fi' sh {} \;
 # Delete empty markdown files
 # find docs  -type f -name "*.md" -exec sh -c 'if [ ! -s "$1" ] || [ "$(tr -d "[:space:]" < "$1")" = "" ]; then echo "$1"; fi' sh {} \; | xargs rm -f
+
+
+# Somtimes one of these png files causes issues with OpenAI and the request will timeout.
+# Run fix-png on any that get stuck.

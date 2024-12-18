@@ -1,0 +1,29 @@
+#!/bin/bash
+
+if [ "$#" -ne 1 ]; then
+    echo "Usage: $0 <png_file>"
+    exit 1
+fi
+
+PNG_FILE="$1"
+FILENAME=$(basename "$PNG_FILE")
+DIRNAME=$(dirname "$PNG_FILE")
+TMP_DIR="/tmp/png_fix"
+
+# Ensure PNG file exists
+if [ ! -f "$PNG_FILE" ]; then
+    echo "Error: File $PNG_FILE does not exist"
+    exit 1
+fi
+
+# Create temp directory if it doesn't exist
+mkdir -p "$TMP_DIR"
+
+# Convert PNG to JPG then back to PNG
+TMP_JPG="$TMP_DIR/${FILENAME%.png}.jpg"
+magick "$PNG_FILE" "$TMP_JPG"
+magick "$TMP_JPG" "$PNG_FILE"
+
+# Clean up
+rm -f "$TMP_JPG"
+rmdir "$TMP_DIR" 2>/dev/null || true
