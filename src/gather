@@ -12,9 +12,12 @@ ALL_FILES=$(find "$DIR" -mindepth 2 -maxdepth 2 -type f -name "summary.md")
 PROCESS_FILES=$(echo "$ALL_FILES" | awk -v after="$DIR/$AFTER" '$0 >= after')
 
 # Find all summary.md files in date subdirectories
-echo "$PROCESS_FILES" | while read summary_file; do
-    # Output contents of summary file
-    cat "$summary_file"
-    echo
-    echo
+echo "$PROCESS_FILES" | while read -r summary_file; do
+    # Skip empty lines
+    if [ -n "$summary_file" ]; then
+        # Output contents of summary file
+        cat "$summary_file"
+        echo
+        echo
+    fi
 done
