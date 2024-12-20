@@ -35,6 +35,7 @@ done
 # Process each subdirectory
 for i in "${!folders[@]}"; do
   folder="${folders[$i]}"
+
   # Clean up any double slashes in path
   # Skip if summary.md already exists
   if [ -f "$folder/summary.md" ]; then
@@ -47,6 +48,9 @@ for i in "${!folders[@]}"; do
     echo "Skipping $folder - no .md, .html, or .txt files found ($(($i + 1))/$total)" >&2
     continue
   fi
+
+  # Create list of files in directory (excluding summary files)
+  # find "$folder" -maxdepth 1 -type f -not -name "summary*" | sort > "$folder/summary-files.txt"
 
   echo "Processing $folder... ($(($i + 1))/$total)"
   output=$("$(dirname "$0")/summarize" "$folder")

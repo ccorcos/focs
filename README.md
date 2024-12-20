@@ -119,3 +119,5 @@ done
 
 ## Find incomplete summaries
 
+Summaries should keep track of summarized files list so we can tell if they change.
+Find all the most recent documents we've summarized and delete those summaries.
