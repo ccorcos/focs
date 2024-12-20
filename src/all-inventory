@@ -1,0 +1,23 @@
+#!/bin/bash
+set -e
+
+# Create temp file
+TMPFILE=$(mktemp)
+echo "Created temp file: $TMPFILE" >&2
+
+# Find all summary.md files in docs subdirectories and write output to temp file
+find docs -type f -name "summary.md" | while read -r summary_file; do
+    # Get the directory containing the summary file
+    dir=$(dirname "$summary_file")
+
+    echo "Listing files in: $dir" >> "$TMPFILE"
+    echo "====================" >> "$TMPFILE"
+
+    # List all files in that directory
+    find "$dir" -maxdepth 1 -type f | sort >> "$TMPFILE"
+
+    echo >> "$TMPFILE" # Empty line between directories
+done
+
+# Write temp file contents to inventory.txt
+mv "$TMPFILE" "$(dirname "$0")/../inventory.txt"
