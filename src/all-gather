@@ -1,0 +1,15 @@
+#!/bin/bash
+set -e
+
+
+src/gather docs/SMUD 2024-08
+src/gather docs/SMFD 2024-08
+src/gather docs/SJWD 2024-10
+src/gather docs/FOWD 2024-09
+src/gather docs/FORPD 2024-10
+src/gather docs/SJUSD 2024-10
+
+# src/gather docs/LRCCD 2024-09
+# src/gather docs/SCOE 2024-09
+
+
