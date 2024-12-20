@@ -7,8 +7,15 @@ https://console.anthropic.com/settings/usage
 
 ```sh
 src/all-download
+src/all-inventory
+
 src/all-process
+src/all-inventory
+
 src/all-summarize
+src/all-inventory
+
+src/all-gather
 
 find docs/SCOE  -type f -name "summary.md" | sort | xargs cat
 src/fix-png work/SJUSD/2024-12-17/agenda-packet/png/0130.png
