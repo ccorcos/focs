@@ -38,18 +38,13 @@ for i in "${!folders[@]}"; do
 
   # TODO: SMUD, SMFD, FORPD, SJUSD, LRCCD, SCOE
 
-  # For FOWD, check if minutes file exists
-  # For SJWD, check if minutes file exists
-  if [ "$DIR" = "docs/SJWD" ] || [ "$DIR" = "docs/FOWD" ]; then
-    if ! find "$folder" -maxdepth 1 -type f -name "*Board*Minutes*.md" | grep -q .; then
+  # Check for minutes files based on directory
+  if [[ "$DIR" =~ ^docs/(SJWD|FOWD|SJUSD|LRCCD|SCOE|SMFD)$ ]]; then
+    if ! find "$folder" -maxdepth 1 -type f -iname "*minutes*.md" | grep -q .; then
       echo "Skipping $folder - no minutes file found ($(($i + 1))/$total)" >&2
       continue
     fi
   fi
-
-
-
-
 
   # Clean up any double slashes in path
   # Skip if summary.md already exists
