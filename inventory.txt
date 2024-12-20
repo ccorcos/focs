@@ -68,6 +68,12 @@ docs/FORPD/2024-07-17/2024-07-17_384.md
 docs/FORPD/2024-07-17/2024-07-17_384.pdf
 docs/FORPD/2024-07-17/summary.md
 
+Listing files in: docs/FORPD/2024-12-18
+====================
+docs/FORPD/2024-12-18/2024-12-18_399.md
+docs/FORPD/2024-12-18/2024-12-18_399.pdf
+docs/FORPD/2024-12-18/summary.md
+
 Listing files in: docs/FORPD/2024-06-26
 ====================
 docs/FORPD/2024-06-26/2024-06-26_383.md
@@ -373,6 +379,24 @@ docs/SMUD/2024-02-15/Board-Member-Compensation-February-115-2024-final.pdf
 docs/SMUD/2024-02-15/Board-Member-Compensation-January-1631-2024-final.md
 docs/SMUD/2024-02-15/Board-Member-Compensation-January-1631-2024-final.pdf
 docs/SMUD/2024-02-15/summary.md
+
+Listing files in: docs/SMUD/2024-12-12
+====================
+docs/SMUD/2024-12-12/2024-12-12_Agenda_BOD-Mtg.md
+docs/SMUD/2024-12-12/2024-12-12_Agenda_BOD-Mtg.pdf
+docs/SMUD/2024-12-12/2024-12-12_Board_Exhibit-to-Agenda-Items-9a-and-9b.md
+docs/SMUD/2024-12-12/2024-12-12_Board_Exhibit-to-Agenda-Items-9a-and-9b.pdf
+docs/SMUD/2024-12-12/2024-12-12_Notice-and-Agenda_Joint-Special-JPA-Meetings.md
+docs/SMUD/2024-12-12/2024-12-12_Notice-and-Agenda_Joint-Special-JPA-Meetings.pdf
+docs/SMUD/2024-12-12/Board-Info-Packet-Dec-12-2024.md
+docs/SMUD/2024-12-12/Board-Info-Packet-Dec-12-2024.pdf
+docs/SMUD/2024-12-12/Board-Member-Compensation-December-112-2024--Final.md
+docs/SMUD/2024-12-12/Board-Member-Compensation-December-112-2024--Final.pdf
+docs/SMUD/2024-12-12/Board-Member-Compensation-November-1630-2024--Final.md
+docs/SMUD/2024-12-12/Board-Member-Compensation-November-1630-2024--Final.pdf
+docs/SMUD/2024-12-12/Joint-JPA-Info-Packet--Dec-12-2024.md
+docs/SMUD/2024-12-12/Joint-JPA-Info-Packet--Dec-12-2024.pdf
+docs/SMUD/2024-12-12/summary.md
 
 Listing files in: docs/SMUD/2024-02-13
 ====================
@@ -698,6 +722,20 @@ docs/SMUD/2024-10-09/Policy-Info-Packet---Oct-9-2024.md
 docs/SMUD/2024-10-09/Policy-Info-Packet---Oct-9-2024.pdf
 docs/SMUD/2024-10-09/summary.md
 
+Listing files in: docs/SMUD/2024-12-11
+====================
+docs/SMUD/2024-12-11/2024-12-11_Notice_Policy-Committee.md
+docs/SMUD/2024-12-11/2024-12-11_Notice_Policy-Committee.pdf
+docs/SMUD/2024-12-11/Exhibit-to-Agenda-Item-1---SD-11-Presentation-2024.md
+docs/SMUD/2024-12-11/Exhibit-to-Agenda-Item-1---SD-11-Presentation-2024.pdf
+docs/SMUD/2024-12-11/Exhibit-to-Agenda-Item-2---SMUD-Federal-Update---Meguire-Whitney-ver2.md
+docs/SMUD/2024-12-11/Exhibit-to-Agenda-Item-2---SMUD-Federal-Update---Meguire-Whitney-ver2.pdf
+docs/SMUD/2024-12-11/Exhibit-to-Agenda-Item-4---Board-Work-Plan---Policy-of-December-11-2024.md
+docs/SMUD/2024-12-11/Exhibit-to-Agenda-Item-4---Board-Work-Plan---Policy-of-December-11-2024.pdf
+docs/SMUD/2024-12-11/Policy-Info-Packet--Dec-11-2024.md
+docs/SMUD/2024-12-11/Policy-Info-Packet--Dec-11-2024.pdf
+docs/SMUD/2024-12-11/summary.md
+
 Listing files in: docs/SMUD/2024-11-07
 ====================
 docs/SMUD/2024-11-07/2024-11-06-07_Info-Packet_Finance-and-Audit-Committee.md
@@ -753,6 +791,20 @@ docs/SMUD/2024-11-06/SFA-2025-Budget-Book.pdf
 docs/SMUD/2024-11-06/SMUD-2025-Budget-Book.md
 docs/SMUD/2024-11-06/SMUD-2025-Budget-Book.pdf
 docs/SMUD/2024-11-06/summary.md
+
+Listing files in: docs/SMUD/2024-12-10
+====================
+docs/SMUD/2024-12-10/2024-12-10_Exhibit-to-Agenda-Item-1.md
+docs/SMUD/2024-12-10/2024-12-10_Exhibit-to-Agenda-Item-1.pdf
+docs/SMUD/2024-12-10/2024-12-10_Exhibit-to-Agenda-Item-2.md
+docs/SMUD/2024-12-10/2024-12-10_Exhibit-to-Agenda-Item-2.pdf
+docs/SMUD/2024-12-10/2024-12-10_Exhibit-to-Agenda-Item-4.md
+docs/SMUD/2024-12-10/2024-12-10_Exhibit-to-Agenda-Item-4.pdf
+docs/SMUD/2024-12-10/2024-12-10_Notice_Finance-and-Audit-Committee.md
+docs/SMUD/2024-12-10/2024-12-10_Notice_Finance-and-Audit-Committee.pdf
+docs/SMUD/2024-12-10/Finance--Audit-Info-Packet--Dec-10-2024.md
+docs/SMUD/2024-12-10/Finance--Audit-Info-Packet--Dec-10-2024.pdf
+docs/SMUD/2024-12-10/summary.md
 
 Listing files in: docs/SMUD/2024-06-18
 ====================
@@ -944,22 +996,6 @@ docs/LRCCD/2024-09-11/20240911-pres-4a-adopted-budget.md
 docs/LRCCD/2024-09-11/20240911-pres-4a-adopted-budget.pdf
 docs/LRCCD/2024-09-11/summary.md
 
-Listing files in: docs/LRCCD/2024-11-13
-====================
-docs/LRCCD/2024-11-13/202411-sac-bot-report.md
-docs/LRCCD/2024-11-13/202411-sac-bot-report.pdf
-docs/LRCCD/2024-11-13/20241113-Academic-Senate-Report.md
-docs/LRCCD/2024-11-13/20241113-Academic-Senate-Report.pdf
-docs/LRCCD/2024-11-13/20241113-Classified-Senate-Report.md
-docs/LRCCD/2024-11-13/20241113-Classified-Senate-Report.pdf
-docs/LRCCD/2024-11-13/20241113-LRCFT-Report.md
-docs/LRCCD/2024-11-13/20241113-LRCFT-Report.pdf
-docs/LRCCD/2024-11-13/20241113-bot-agenda.md
-docs/LRCCD/2024-11-13/20241113-bot-agenda.pdf
-docs/LRCCD/2024-11-13/20241113-pres-6a-legislative-update.md
-docs/LRCCD/2024-11-13/20241113-pres-6a-legislative-update.pdf
-docs/LRCCD/2024-11-13/summary.md
-
 Listing files in: docs/LRCCD/2024-03-20
 ====================
 docs/LRCCD/2024-03-20/20240320-5b-scc-met-presentation.md
@@ -1063,6 +1099,15 @@ docs/SJUSD/2024-09-10/minutes.md
 docs/SJUSD/2024-09-10/minutes.pdf
 docs/SJUSD/2024-09-10/summary.md
 
+Listing files in: docs/SJUSD/2024-10-22
+====================
+docs/SJUSD/2024-10-22/agenda-packet.md
+docs/SJUSD/2024-10-22/agenda-packet.pdf
+docs/SJUSD/2024-10-22/agenda.html
+docs/SJUSD/2024-10-22/minutes.md
+docs/SJUSD/2024-10-22/minutes.pdf
+docs/SJUSD/2024-10-22/summary.md
+
 Listing files in: docs/SJUSD/2024-08-27
 ====================
 docs/SJUSD/2024-08-27/.DS_Store
@@ -1073,25 +1118,14 @@ docs/SJUSD/2024-08-27/minutes.md
 docs/SJUSD/2024-08-27/minutes.pdf
 docs/SJUSD/2024-08-27/summary.md
 
-Listing files in: docs/SMFD/2024-01-11
+Listing files in: docs/SJUSD/2024-10-08
 ====================
-docs/SMFD/2024-01-11/1.11.2024_Board_Packet.md
-docs/SMFD/2024-01-11/1.11.2024_Board_Packet.pdf
-docs/SMFD/2024-01-11/1.11.24_BOARD_AGENDA.md
-docs/SMFD/2024-01-11/1.11.24_BOARD_AGENDA.pdf
-docs/SMFD/2024-01-11/summary.md
-
-Listing files in: docs/SMFD/2024-09-12
-====================
-docs/SMFD/2024-09-12/9.12.2024_Attach_1__Consent_Item__12_-_FY24-25_Capital_Improvement_Plan_Final.md
-docs/SMFD/2024-09-12/9.12.2024_Attach_1__Consent_Item__12_-_FY24-25_Capital_Improvement_Plan_Final.pdf
-docs/SMFD/2024-09-12/9.12.2024_Attach_2__Action_Item__1_FY2024-25_Final_Budget_Document_w_pg_nos.md
-docs/SMFD/2024-09-12/9.12.2024_Attach_2__Action_Item__1_FY2024-25_Final_Budget_Document_w_pg_nos.pdf
-docs/SMFD/2024-09-12/9.12.2024_Board_Agenda.md
-docs/SMFD/2024-09-12/9.12.2024_Board_Agenda.pdf
-docs/SMFD/2024-09-12/9.12.2024_Board_Packet.md
-docs/SMFD/2024-09-12/9.12.2024_Board_Packet.pdf
-docs/SMFD/2024-09-12/summary.md
+docs/SJUSD/2024-10-08/agenda-packet.md
+docs/SJUSD/2024-10-08/agenda-packet.pdf
+docs/SJUSD/2024-10-08/agenda.html
+docs/SJUSD/2024-10-08/minutes.md
+docs/SJUSD/2024-10-08/minutes.pdf
+docs/SJUSD/2024-10-08/summary.md
 
 Listing files in: docs/SMFD/2024-02-08
 ====================
@@ -1102,14 +1136,6 @@ docs/SMFD/2024-02-08/2.8.2024_Board_Minutes.pdf
 docs/SMFD/2024-02-08/2.8.24_BOARD_AGENDA.md
 docs/SMFD/2024-02-08/2.8.24_BOARD_AGENDA.pdf
 docs/SMFD/2024-02-08/summary.md
-
-Listing files in: docs/SMFD/2024-10-10
-====================
-docs/SMFD/2024-10-10/10.10.2024_Agenda.md
-docs/SMFD/2024-10-10/10.10.2024_Agenda.pdf
-docs/SMFD/2024-10-10/10.10.2024_Board_Packet.md
-docs/SMFD/2024-10-10/10.10.2024_Board_Packet.pdf
-docs/SMFD/2024-10-10/summary.md
 
 Listing files in: docs/SMFD/2024-04-11
 ====================
@@ -1130,14 +1156,6 @@ docs/SMFD/2024-08-22/8.22.2024_Board_Packet.pdf
 docs/SMFD/2024-08-22/8.22.24_AGENDA.md
 docs/SMFD/2024-08-22/8.22.24_AGENDA.pdf
 docs/SMFD/2024-08-22/summary.md
-
-Listing files in: docs/SMFD/2024-03-14
-====================
-docs/SMFD/2024-03-14/3.14.2024_BOARD_PACKET.md
-docs/SMFD/2024-03-14/3.14.2024_BOARD_PACKET.pdf
-docs/SMFD/2024-03-14/3.14.24_BOARD_AGENDA.md
-docs/SMFD/2024-03-14/3.14.24_BOARD_AGENDA.pdf
-docs/SMFD/2024-03-14/summary.md
 
 Listing files in: docs/SMFD/2024-07-25
 ====================
@@ -1175,22 +1193,6 @@ docs/SMFD/2024-06-13/6.13.24_BOARD_AGENDA.md
 docs/SMFD/2024-06-13/6.13.24_BOARD_AGENDA.pdf
 docs/SMFD/2024-06-13/summary.md
 
-Listing files in: docs/SMFD/2024-02-22
-====================
-docs/SMFD/2024-02-22/2.22.2024_Board_Packet.md
-docs/SMFD/2024-02-22/2.22.2024_Board_Packet.pdf
-docs/SMFD/2024-02-22/2.22.24_AGENDA.md
-docs/SMFD/2024-02-22/2.22.24_AGENDA.pdf
-docs/SMFD/2024-02-22/summary.md
-
-Listing files in: docs/SMFD/2024-09-26
-====================
-docs/SMFD/2024-09-26/9.26.2024_Board_Agenda.md
-docs/SMFD/2024-09-26/9.26.2024_Board_Agenda.pdf
-docs/SMFD/2024-09-26/9.26.2024_Board_Packet.md
-docs/SMFD/2024-09-26/9.26.2024_Board_Packet.pdf
-docs/SMFD/2024-09-26/summary.md
-
 Listing files in: docs/SMFD/2024-05-23
 ====================
 docs/SMFD/2024-05-23/5.23.2024_Board_Action_Summary_Minutes.md
@@ -1211,18 +1213,6 @@ docs/SMFD/2024-01-25/1.25.2024_Board_Packet.md
 docs/SMFD/2024-01-25/1.25.2024_Board_Packet.pdf
 docs/SMFD/2024-01-25/summary.md
 
-Listing files in: docs/SMFD/2024-11-14
-====================
-docs/SMFD/2024-11-14/11.14.2024_AMENDED_AGENDA.md
-docs/SMFD/2024-11-14/11.14.2024_AMENDED_AGENDA.pdf
-docs/SMFD/2024-11-14/11.14.2024_Amended_Board_Packet.md
-docs/SMFD/2024-11-14/11.14.2024_Amended_Board_Packet.pdf
-docs/SMFD/2024-11-14/11.14.2024_Board_Agenda.md
-docs/SMFD/2024-11-14/11.14.2024_Board_Agenda.pdf
-docs/SMFD/2024-11-14/11.14.2024_Board_Packet.md
-docs/SMFD/2024-11-14/11.14.2024_Board_Packet.pdf
-docs/SMFD/2024-11-14/summary.md
-
 Listing files in: docs/SMFD/2024-04-25
 ====================
 docs/SMFD/2024-04-25/4.25.2024_Board_Action_Summary_Minutes.md
@@ -1232,14 +1222,6 @@ docs/SMFD/2024-04-25/4.25.2024_Board_Agenda.pdf
 docs/SMFD/2024-04-25/4.25.2024_Board_Packet.md
 docs/SMFD/2024-04-25/4.25.2024_Board_Packet.pdf
 docs/SMFD/2024-04-25/summary.md
-
-Listing files in: docs/SMFD/2024-10-24
-====================
-docs/SMFD/2024-10-24/10.24.2024_Board_Packet.md
-docs/SMFD/2024-10-24/10.24.2024_Board_Packet.pdf
-docs/SMFD/2024-10-24/10.24.24_AGENDA.md
-docs/SMFD/2024-10-24/10.24.24_AGENDA.pdf
-docs/SMFD/2024-10-24/summary.md
 
 Listing files in: docs/SMFD/2024-03-28
 ====================
@@ -1316,21 +1298,6 @@ docs/SCOE/2024-04-05-D2PQ5T6549B5/Superintendents Report on Personnel Transactio
 docs/SCOE/2024-04-05-D2PQ5T6549B5/Superintendents Report on Personnel Transactions - 4.05.24.pdf
 docs/SCOE/2024-04-05-D2PQ5T6549B5/agenda.html
 docs/SCOE/2024-04-05-D2PQ5T6549B5/summary.md
-
-Listing files in: docs/SCOE/2024-10-22-D8ZLJE56C66A
-====================
-docs/SCOE/2024-10-22-D8ZLJE56C66A/2023-2024 Budget Revision No. 4.md
-docs/SCOE/2024-10-22-D8ZLJE56C66A/2023-2024 Budget Revision No. 4.pdf
-docs/SCOE/2024-10-22-D8ZLJE56C66A/Jan Mayer Ashley Resume.md
-docs/SCOE/2024-10-22-D8ZLJE56C66A/Jan Mayer Ashley Resume.pdf
-docs/SCOE/2024-10-22-D8ZLJE56C66A/Resolution No. 24-20 Establishing the 2024-2025 Appropriations Limit and Report.md
-docs/SCOE/2024-10-22-D8ZLJE56C66A/Resolution No. 24-20 Establishing the 2024-2025 Appropriations Limit and Report.pdf
-docs/SCOE/2024-10-22-D8ZLJE56C66A/Superintendents Report on Personnel Transaction Log 10.22.24.md
-docs/SCOE/2024-10-22-D8ZLJE56C66A/Superintendents Report on Personnel Transaction Log 10.22.24.pdf
-docs/SCOE/2024-10-22-D8ZLJE56C66A/Unaudited Actuals Financial Report 2023-2024.md
-docs/SCOE/2024-10-22-D8ZLJE56C66A/Unaudited Actuals Financial Report 2023-2024.pdf
-docs/SCOE/2024-10-22-D8ZLJE56C66A/agenda.html
-docs/SCOE/2024-10-22-D8ZLJE56C66A/summary.md
 
 Listing files in: docs/SCOE/2024-09-10-D6CRJ46E2AD4
 ====================
@@ -1439,19 +1406,6 @@ docs/SCOE/2024-03-19-CZCMKS5B7532/Title III County Office of Education Regional 
 docs/SCOE/2024-03-19-CZCMKS5B7532/agenda.html
 docs/SCOE/2024-03-19-CZCMKS5B7532/summary.md
 
-Listing files in: docs/SCOE/2024-11-12-D9XR5H6C4F92
-====================
-docs/SCOE/2024-11-12-D9XR5H6C4F92/2023-2024 Annual Report of Sacramento County Williams Reviews.md
-docs/SCOE/2024-11-12-D9XR5H6C4F92/2023-2024 Annual Report of Sacramento County Williams Reviews.pdf
-docs/SCOE/2024-11-12-D9XR5H6C4F92/K12 Strong Workforce Program Round 7_Reimagining ICT Pathways.md
-docs/SCOE/2024-11-12-D9XR5H6C4F92/K12 Strong Workforce Program Round 7_Reimagining ICT Pathways.pdf
-docs/SCOE/2024-11-12-D9XR5H6C4F92/K12 Strong Workforce Program_Career Education _ Exploration Grant Budget Page.md
-docs/SCOE/2024-11-12-D9XR5H6C4F92/K12 Strong Workforce Program_Career Education _ Exploration Grant Budget Page.pdf
-docs/SCOE/2024-11-12-D9XR5H6C4F92/Superintendents Report on Personnel Transactions 11.12.24.md
-docs/SCOE/2024-11-12-D9XR5H6C4F92/Superintendents Report on Personnel Transactions 11.12.24.pdf
-docs/SCOE/2024-11-12-D9XR5H6C4F92/agenda.html
-docs/SCOE/2024-11-12-D9XR5H6C4F92/summary.md
-
 Listing files in: docs/SCOE/2024-07-16-D5KTSJ78C73B
 ====================
 docs/SCOE/2024-07-16-D5KTSJ78C73B/07.16.24 Board Meeting Minutes DRAFT for Agenda.md
@@ -1508,11 +1462,6 @@ docs/SCOE/2024-01-16-CWNLDQ55C307/Superintendents Report on Personnel Transactio
 docs/SCOE/2024-01-16-CWNLDQ55C307/agenda.html
 docs/SCOE/2024-01-16-CWNLDQ55C307/summary.md
 
-Listing files in: docs/SCOE/2024-01-31-CYHUKX72348F
-====================
-docs/SCOE/2024-01-31-CYHUKX72348F/agenda.html
-docs/SCOE/2024-01-31-CYHUKX72348F/summary.md
-
 Listing files in: docs/SCOE/2024-02-06-CXZTYY79B945
 ====================
 docs/SCOE/2024-02-06-CXZTYY79B945/02.06.24 Board Minutes UNAPPROVED for Agenda.md
@@ -1556,16 +1505,6 @@ docs/SCOE/2024-03-05-CZCMFB5B0283/Superintendents Report on Personnel Transactio
 docs/SCOE/2024-03-05-CZCMFB5B0283/Superintendents Report on Personnel Transactions 3.05.24.pdf
 docs/SCOE/2024-03-05-CZCMFB5B0283/agenda.html
 docs/SCOE/2024-03-05-CZCMFB5B0283/summary.md
-
-Listing files in: docs/SCOE/2024-08-24-D7GTR47890E9
-====================
-docs/SCOE/2024-08-24-D7GTR47890E9/agenda.html
-docs/SCOE/2024-08-24-D7GTR47890E9/summary.md
-
-Listing files in: docs/SCOE/2024-10-22-D9FMXR5D6A27
-====================
-docs/SCOE/2024-10-22-D9FMXR5D6A27/agenda.html
-docs/SCOE/2024-10-22-D9FMXR5D6A27/summary.md
 
 Listing files in: docs/SCOE/2024-08-13-D6CRKW6E2F1F
 ====================
@@ -1703,11 +1642,6 @@ docs/SCOE/2024-02-20-CXZU6A7A7F98/Superintendents Report on Personnel Transactio
 docs/SCOE/2024-02-20-CXZU6A7A7F98/Superintendents Report on Personnel Transactions 2.20.24.pdf
 docs/SCOE/2024-02-20-CXZU6A7A7F98/agenda.html
 docs/SCOE/2024-02-20-CXZU6A7A7F98/summary.md
-
-Listing files in: docs/SCOE/2024-02-06-CZ6VEQ7CC89D
-====================
-docs/SCOE/2024-02-06-CZ6VEQ7CC89D/agenda.html
-docs/SCOE/2024-02-06-CZ6VEQ7CC89D/summary.md
 
 Listing files in: docs/FOWD/2024-01-16
 ====================

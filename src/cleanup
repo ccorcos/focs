@@ -1,26 +1,19 @@
 #!/bin/bash
 set -e
 
+# TODO: SMUD, FORPD
 
 # Check for summary files without corresponding minutes files
-for check_dir in "docs/SJWD" "docs/FOWD"; do
-    find "$check_dir" -type f -name "summary.md" | while read -r summary_file; do
+for check_dir in "docs/SJWD" "docs/FOWD" "docs/SJUSD" "docs/LRCCD" "docs/SCOE" "docs/SMFD"; do
+    find "$check_dir" -type f -name "summary.md" | sort | while read -r summary_file; do
         dir=$(dirname "$summary_file")
-        if ! find "$dir" -maxdepth 1 -type f -name "*Board*Minutes*.md" | grep -q .; then
+        if ! find "$dir" -maxdepth 1 -type f -iname "*minutes*.md" | grep -q .; then
             echo "WARNING: $dir has summary.md but no minutes file"
-						rm "$summary_file"
+            rm "$summary_file"
         fi
     done
 done
 
 
-# # TODO: SMUD, SMFD, FORPD, SJUSD, LRCCD, SCOE
-# # For FOWD, check if minutes file exists
-# # For SJWD, check if minutes file exists
-# if [ "$DIR" = "docs/SJWD" ] || [ "$DIR" = "docs/FOWD" ]; then
-# 	if ! find "$folder" -maxdepth 1 -type f -name "*Board*Minutes*.md" | grep -q .; then
-# 		echo "Skipping $folder - no minutes file found ($(($i + 1))/$total)" >&2
-# 		continue
-# 	fi
-# fi
+
 
