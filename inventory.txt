@@ -1709,15 +1709,6 @@ Listing files in: docs/SCOE/2024-02-06-CZ6VEQ7CC89D
 docs/SCOE/2024-02-06-CZ6VEQ7CC89D/agenda.html
 docs/SCOE/2024-02-06-CZ6VEQ7CC89D/summary.md
 
-Listing files in: docs/FOWD/2024-11-18
-====================
-docs/FOWD/2024-11-18/11-18-2024_FOWD_Regular_Board_Meeting_Agenda_TRG.md
-docs/FOWD/2024-11-18/11-18-2024_FOWD_Regular_Board_Meeting_Agenda_TRG.pdf
-docs/FOWD/2024-11-18/11-18-2024_FOWD_Regular_Board_Meeting_Packet.md
-docs/FOWD/2024-11-18/11-18-2024_FOWD_Regular_Board_Meeting_Packet.pdf
-docs/FOWD/2024-11-18/11-18-24_Regular_Board_Meeting_Minutes.pdf
-docs/FOWD/2024-11-18/summary.md
-
 Listing files in: docs/FOWD/2024-01-16
 ====================
 docs/FOWD/2024-01-16/01-16-2024_FOFC_Agenda.md
@@ -1727,12 +1718,6 @@ docs/FOWD/2024-01-16/01-16-2024_FOWD_Board_Meeting_Regular_Agenda_TRG__002_.pdf
 docs/FOWD/2024-01-16/01-16-24_Regular_Board_Meeting_Minutes.md
 docs/FOWD/2024-01-16/01-16-24_Regular_Board_Meeting_Minutes.pdf
 docs/FOWD/2024-01-16/summary.md
-
-Listing files in: docs/FOWD/2024-01-29
-====================
-docs/FOWD/2024-01-29/01-29-2024_Special_Meeting_Agenda_TRG.md
-docs/FOWD/2024-01-29/01-29-2024_Special_Meeting_Agenda_TRG.pdf
-docs/FOWD/2024-01-29/summary.md
 
 Listing files in: docs/FOWD/2024-05-20
 ====================
@@ -1775,12 +1760,6 @@ docs/FOWD/2024-07-15/07-15-2024_FOWD_Regular_Meeting_Board_Packet.pdf
 docs/FOWD/2024-07-15/07-15-24_Regular_Board_Meeting_Minutes.md
 docs/FOWD/2024-07-15/07-15-24_Regular_Board_Meeting_Minutes.pdf
 docs/FOWD/2024-07-15/summary.md
-
-Listing files in: docs/FOWD/2024-01-04
-====================
-docs/FOWD/2024-01-04/01-04-2024_Special_Meeting_Agenda_TRG.md
-docs/FOWD/2024-01-04/01-04-2024_Special_Meeting_Agenda_TRG.pdf
-docs/FOWD/2024-01-04/summary.md
 
 Listing files in: docs/FOWD/2024-02-05
 ====================
@@ -1846,15 +1825,6 @@ docs/FOWD/2024-02-26/02-26-24_Regular_Board_Meeting_Minutes.md
 docs/FOWD/2024-02-26/02-26-24_Regular_Board_Meeting_Minutes.pdf
 docs/FOWD/2024-02-26/summary.md
 
-Listing files in: docs/SJWD/2024-11-20
-====================
-docs/SJWD/2024-11-20/112024BoardAgenda.md
-docs/SJWD/2024-11-20/112024BoardAgenda.pdf
-docs/SJWD/2024-11-20/112024BoardMinutesDraft.pdf
-docs/SJWD/2024-11-20/112024BoardPacket.md
-docs/SJWD/2024-11-20/112024BoardPacket.pdf
-docs/SJWD/2024-11-20/summary.md
-
 Listing files in: docs/SJWD/2024-07-31
 ====================
 docs/SJWD/2024-07-31/073124_BoardAgendaSpecialJointSJWD_SSWD.md
@@ -1874,23 +1844,6 @@ docs/SJWD/2024-03-06/030624BoardWorkshopAgenda.pdf
 docs/SJWD/2024-03-06/030624BoardWorkshopPacket.md
 docs/SJWD/2024-03-06/030624BoardWorkshopPacket.pdf
 docs/SJWD/2024-03-06/summary.md
-
-Listing files in: docs/SJWD/2024-10-16
-====================
-docs/SJWD/2024-10-16/101624BoardAgenda.md
-docs/SJWD/2024-10-16/101624BoardAgenda.pdf
-docs/SJWD/2024-10-16/101624BoardMinutes.pdf
-docs/SJWD/2024-10-16/101624BoardPacket.md
-docs/SJWD/2024-10-16/101624BoardPacket.pdf
-docs/SJWD/2024-10-16/summary.md
-
-Listing files in: docs/SJWD/2024-10-03
-====================
-docs/SJWD/2024-10-03/100324BoardAgendaSpecialJointSJWD_SSWD.md
-docs/SJWD/2024-10-03/100324BoardAgendaSpecialJointSJWD_SSWD.pdf
-docs/SJWD/2024-10-03/100324BoardPacketSpecialJointSJWD_SSWD.md
-docs/SJWD/2024-10-03/100324BoardPacketSpecialJointSJWD_SSWD.pdf
-docs/SJWD/2024-10-03/summary.md
 
 Listing files in: docs/SJWD/2024-06-25
 ====================
@@ -1977,12 +1930,6 @@ docs/SJWD/2024-08-26/082624BoardAgendaSpecial.pdf
 docs/SJWD/2024-08-26/082624BoardMinutesSpecial.md
 docs/SJWD/2024-08-26/082624BoardMinutesSpecial.pdf
 docs/SJWD/2024-08-26/summary.md
-
-Listing files in: docs/SJWD/2024-08-21
-====================
-docs/SJWD/2024-08-21/082124BoardAgendaCancelled.md
-docs/SJWD/2024-08-21/082124BoardAgendaCancelled.pdf
-docs/SJWD/2024-08-21/summary.md
 
 Listing files in: docs/SJWD/2024-07-17
 ====================
