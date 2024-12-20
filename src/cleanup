@@ -14,8 +14,6 @@ for check_dir in "docs/SJWD" "docs/FOWD"; do
 done
 
 
-
-
 # # TODO: SMUD, SMFD, FORPD, SJUSD, LRCCD, SCOE
 # # For FOWD, check if minutes file exists
 # # For SJWD, check if minutes file exists
