@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+# Keep an inventory of all files so that git diffs are easy to follow.
+
 # Create temp file
 TMPFILE=$(mktemp)
 echo "Created temp file: $TMPFILE" >&2

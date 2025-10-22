@@ -3,6 +3,7 @@ set -e
 
 AFTER="2024-06"
 
+# Convert PDF files to markdown.
 src/process docs/FORPD work/FORPD $AFTER
 src/process docs/SMUD work/SMUD $AFTER
 src/process docs/SJUSD work/SJUSD $AFTER

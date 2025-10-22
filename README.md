@@ -27,10 +27,20 @@ Inside `src/process` and `src/summarize-meetings` we filter for 2024 which we'll
 
 ```sh
 pipx install chromadb
-chromadb-server
+chroma run
 
 npx tsx src/embedding.ts docs/FOWD
 npx tsx src/ask.ts docs/FOWD "How much did the district spend in 2024?
+```
+
+### Keyword Search
+
+```sh
+# List which files contain the keyword
+find docs/FOWD -type f -name "*.md" | sort | xargs grep -Ril "corporate yard"
+
+# List the files along with context where the keyword appears.
+find docs/FOWD -type f -name "*.md" | sort | xargs grep -Rin --color=always -C 3 "corporate yard"
 ```
 
 ### Todo

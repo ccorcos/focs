@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-
+# Gather all summaries into a single file.
 src/gather docs/SMUD 2024-08 > "SMUD since August 2024.md"
 src/gather docs/SMFD 2024-08 > "SMFD since August 2024.md"
 src/gather docs/SJWD 2024-10 > "SJWD since October 2024.md"

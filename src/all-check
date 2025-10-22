@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+# Check if there are any missing summaries.
+
 # Check if AFTER date is provided, default to 2024
 AFTER="2024-06"
 
