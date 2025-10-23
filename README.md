@@ -43,6 +43,8 @@ find docs/FOWD -type f -name "*.md" | sort | xargs grep -Ril "corporate yard"
 find docs/FOWD -type f -name "*.md" | sort | xargs grep -Rin --color=always -C 3 "corporate yard"
 ```
 
+Or [search directly on Github](https://github.com/search?q=repo%3Accorcos%2Ffocs+path%3A%2F%5Edocs%5C%2FFOWD%5C%2F%2F+corporate+yard).
+
 ### Todo
 
 - SMUD has some image 175 that 500s for OpenAI.
