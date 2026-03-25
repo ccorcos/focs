@@ -22,6 +22,12 @@ src/all-inventory       # Generate file manifest (inventory.txt)
 src/summarize-meetings <org>   # Summarize all meetings for one org
 src/summarize <meeting-dir>    # Summarize a single meeting folder
 
+# R2 storage (PDFs stored in Cloudflare R2, not git)
+src/r2-upload           # Upload local PDFs to R2 (requires R2 credentials)
+src/r2-upload --dry-run # Preview what would be uploaded
+src/r2-download         # Download all PDFs from R2 (no credentials needed)
+src/r2-download FORPD   # Download PDFs for a specific org
+
 # RAG (requires chroma running: `chroma run`)
 npx tsx src/embedding.ts docs/FOWD
 npx tsx src/ask.ts docs/FOWD "query"
@@ -41,16 +47,17 @@ The `src/process` and `src/summarize-meetings` scripts contain date filters (e.g
 
 **Prompts** (`prompts/`): Three-pass summarization — `summarize.md` → `refine.md` → `format.md`.
 
+**PDF storage**: PDFs are stored in Cloudflare R2 (bucket: `focs`, public at `docs.fairoakscivic.org`), not in git. After running `src/all-download`, use `src/r2-upload` to sync new PDFs to R2. To set up a fresh clone, run `src/r2-download` to fetch all PDFs.
+
 **File layout**:
 - `docs/{ORG}/{YYYY-MM-DD}/` — downloaded documents + generated `summary.md`
-
+- PDFs exist locally but are gitignored; markdown, summaries, and HTML are tracked in git
 - `chroma/` — vector DB storage for RAG
 
 ## Environment
 
-Requires `.env` with `OPENAI_API_KEY` and `CLAUDE_API_KEY`. Node.js 22+, Java 11+.
+Requires `.env` with `OPENAI_API_KEY`, `CLAUDE_API_KEY`, and R2 credentials (`R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_ENDPOINT`, `R2_BUCKET_NAME`) for uploading. R2 credentials are not needed for downloading (public bucket). Node.js 22+, Java 11+.
 
 ## Known Issues
 
 - SCOE minutes from previous meetings appear in future meeting packets, garbling summaries
-- Git push limit: commits over 2GB must be chunked (see README for workaround)
