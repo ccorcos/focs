@@ -4,11 +4,12 @@ Downloads and processes board meeting documents from 8 Sacramento-area public or
 
 ## Setup
 
-Requires Node.js 22+ and `pdftotext` (via poppler).
+Requires Node.js 22+, `pdftotext` (via poppler), and `pandoc`.
 
 ```sh
 npm install
-brew install poppler
+brew install poppler           # pdftotext (PDF→text)
+brew install pandoc            # pandoc (HTML→markdown)
 npm install -g @tobilu/qmd     # Document search (used by Claude Code)
 qmd collection add docs docs/  # Index extracted markdown
 qmd embed                      # Vector embeddings (optional, improves search)
@@ -25,7 +26,7 @@ src/all-download
 # 2. Upload new PDFs to R2
 src/r2-upload
 
-# 3. Convert PDFs to text (uses pdftotext)
+# 3. Convert PDFs to text (pdftotext) and HTML to markdown (pandoc)
 src/all-process
 
 # 4. Check for missing or empty markdown files

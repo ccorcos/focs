@@ -14,7 +14,7 @@ All orchestration scripts are in `src/` and run directly (shebangs, no npm scrip
 # Full pipeline
 src/all-download        # Scrape & download meeting PDFs for all orgs
 src/r2-upload           # Upload local PDFs to R2 and update focs.md manifest
-src/all-process         # Convert PDFs to text via pdftotext (poppler)
+src/all-process         # Convert PDFs to text (poppler) and HTML to markdown (pandoc)
 src/all-check           # Check for missing or empty markdown files
 
 # R2 storage (PDFs stored in Cloudflare R2, not git)
@@ -29,7 +29,7 @@ src/r2-download FORPD   # Download PDFs for a specific org
 
 **Organization scrapers** (`src/{org}.ts`): Each scraper uses cheerio to parse an org's website, extracts meeting metadata, returns `BoardMeeting[]` (with `folderName` and `links`), then calls the shared `downloadFiles()` utility. Each org has unique quirks (date formats, page structures, deduplication).
 
-**PDF extraction** (`src/all-process.ts`): Uses `pdftotext` (from poppler, install with `brew install poppler`) to convert PDFs to text files. Reads the manifest (`focs.md`) to find files, downloads any missing ones from R2, then processes them.
+**PDF extraction** (`src/all-process.ts`): Uses `pdftotext` (from poppler) to convert PDFs to text and `pandoc` to convert HTML to markdown. Reads the manifest (`focs.md`) to find files, downloads any missing ones from R2, then processes them.
 
 **PDF storage**: PDFs are stored in Cloudflare R2 (bucket: `focs`, public at `docs.fairoakscivic.org`), not in git. After running `src/all-download`, use `src/r2-upload` to sync new PDFs to R2 and update the `focs.md` manifest. To set up a fresh clone, run `src/r2-download` to fetch all PDFs.
 
@@ -53,6 +53,9 @@ Use `qmd` to search the extracted markdown in `docs/` and answer questions about
 - `/research summarize the latest parks budget`
 - `/research give me a breakdown of the water district maintenance yard issue`
 
+**`/each <command>`** — Runs a slash command once per organization in parallel (8 agents). Example:
+- `/each /research summarize the last 12 months`
+
 **Workflow**: Search with qmd → Read extracted markdown → Verify against source PDFs when needed
 
 ```sh
@@ -70,7 +73,7 @@ The extracted markdown files (`docs/{ORG}/{YYYY-MM-DD}/*.md`) are pdftotext outp
 
 ## Environment
 
-Requires `.env` with R2 credentials (`R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`) for uploading. R2 endpoint and bucket name are hardcoded in `src/utils/r2.ts`. R2 credentials are not needed for downloading (public bucket). Node.js 22+, pdftotext (poppler), qmd (`npm install -g @tobilu/qmd`).
+Requires `.env` with R2 credentials (`R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`) for uploading. R2 endpoint and bucket name are hardcoded in `src/utils/r2.ts`. R2 credentials are not needed for downloading (public bucket). Node.js 22+, pdftotext (poppler), pandoc, qmd (`npm install -g @tobilu/qmd`).
 
 ## Setup
 
@@ -78,6 +81,7 @@ Requires `.env` with R2 credentials (`R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`)
 npm install                    # Install dependencies
 npm install -g @tobilu/qmd     # Install qmd for document search
 brew install poppler           # Install pdftotext
+brew install pandoc            # Install pandoc (HTML→markdown)
 qmd collection add docs docs/  # Index extracted markdown
 qmd embed                      # Generate vector embeddings (optional, improves search)
 src/r2-download                # Download PDFs from R2 (for verifying extractions)
