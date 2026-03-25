@@ -6,27 +6,9 @@
 
 ---
 
-
----
-
-Lets create a plan to refactor this codebase. The way I think about it is:
-
-(1) we download files from the organizations into focs directory, we clean them up and organize them by date, and try to fix some obvious things.
-
-(2) we upload them to r2 so we can have an archive and keep track of that archive with focs.md
-
-(3) we process those pdfs into markdown files in the docs directory. For now, lets just use `pdftotext -layout` so that its fast and simple. And lets get rid of the old system that uses the expensive api for doing this.
-
-That's that foundational layer of the system. It needs to be simple, reliable, efficient and fast. We should parallelize work, and we should be able to stop and restart work without having to start all the way over.
-
-Lets get rid of `src/all-inventory` and inventory.txt. We don't need that. These three steps are just three different programs:
-
-1. src/all-download
-2. src/r2-upload
-3. src/all-process
-
-I want all of this to work more cohesively together. I don't want to have to download every file locally in order to process a few new files. We should detect: has the file been processed? has it been uploaded? should we download it from r2 or from the web?
-
+- download
+- upload
+- process
 
 ---
 
@@ -34,14 +16,13 @@ lets use github.com/tobi/qmd for searching throught the extracted markdown. Crea
 
 ---
 
-clean up any code that is unused. I think prompts dir are ununsed right?
+clean up any code that is unused and packages that are unused. Lets update the README and CLAUDE md as well with how things work now.
 
 ---
 
 
-- download
-- upload
-- process
+
+
 
 - summarize the past year
 - summarize an issue
