@@ -13,6 +13,8 @@ npm install
 
 Requires `.env` with `OPENAI_API_KEY` and `CLAUDE_API_KEY`.
 
+For uploading PDFs to R2, also add `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_ENDPOINT`, and `R2_BUCKET_NAME`. R2 credentials are not needed for downloading (public bucket).
+
 ## Download, Process, Summarize
 
 ```sh
@@ -31,6 +33,22 @@ find docs/SCOE  -type f -name "summary.md" | sort | xargs cat
 ```
 
 Inside `src/process` and `src/summarize-meetings` we filter for 2024 which we'll want to update periodically.
+
+### PDF Storage (Cloudflare R2)
+
+PDFs are stored in Cloudflare R2 (bucket: `focs`, public at `docs.fairoakscivic.org`), not in git. The `upload.md` manifest tracks what's been uploaded.
+
+```sh
+# Upload new PDFs to R2 (requires R2 credentials in .env)
+src/r2-upload
+src/r2-upload --dry-run  # Preview what would be uploaded
+
+# Download all PDFs from R2 (no credentials needed, public bucket)
+src/r2-download
+src/r2-download FORPD    # Download PDFs for a specific org
+```
+
+After running `src/all-download`, use `src/r2-upload` to sync new PDFs to R2. To set up a fresh clone, run `src/r2-download` to fetch all PDFs.
 
 ### RAG Answer
 
@@ -53,83 +71,6 @@ find docs/FOWD -type f -name "*.md" | sort | xargs grep -Rin --color=always -C 3
 ```
 
 Or [search directly on Github](https://github.com/search?q=repo%3Accorcos%2Ffocs+path%3A%2F%5Edocs%5C%2FFOWD%5C%2F%2F+corporate+yard).
-
-## Debugging
-
-### `git push`
-
-Git wont take a commit more than 2GB.
-
-Size of files to push.
-
-```sh
-git status --untracked-files=all --porcelain | grep '??' | cut -c4- | \
-xargs -I{} stat -f "%z %N" {} | awk '{s+=$1} END {print s}' | numfmt --to=iec
-```
-
-Get the first 500MB and git add.
-
-```sh
-git status --untracked-files=all --porcelain | grep '??' | cut -c4- | \
-xargs -I{} stat -f "%z %N" {} | \
-awk -v chunk_size=$((500*1024*1024)) '
-{
-  size=$1;
-  file=$2;
-  if (current_size + size > chunk_size) {
-    exit; # Stop once the first group is complete
-  }
-  current_size += size;
-  print file;
-}' | xargs git add
-```
-
-
-Push commits one at a time.
-```sh
-> git log origin/master..HEAD --oneline
-451df28 (HEAD -> master) Notes
-694f941 SMFD part 6
-3a6e695 SMFD part 5
-a129037 SMFD part 4
-1c79e29 SMFD part 3
-03693a6 SMFD part 2
-7f4b4a2 SMFD part 1
-> git push origin 7f4b4a2:refs/heads/master
-> git push origin 03693a6:refs/heads/master
-> git push origin 1c79e29:refs/heads/master
-> git push origin a129037:refs/heads/master
-> git push origin 3a6e695:refs/heads/master
-> git push origin 694f941:refs/heads/master
-```
-
-# SCOE fix minutes
-
-```sh
-# Find all board minutes files and move them to matching date folders
-find docs/SCOE -type f -name "[0-9][0-9].[0-9][0-9].[0-9][0-9]*Minutes*" | while read file; do
-  # Extract MM.DD.YY from filename
-  filename=$(basename "$file")
-  if [[ $filename =~ ([0-9]{2})\.([0-9]{2})\.([0-9]{2}) ]]; then
-    month=${filename:0:2}
-    day=${filename:3:2}
-    year=${filename:6:2}
-
-    # Convert to 20YY-MM-DD format for directory matching
-    target_date="20${year}-${month}-${day}"
-
-    # Find matching directory
-    target_dir=$(find docs/SCOE -type d -name "${target_date}-*" | head -n 1)
-
-    if [ -n "$target_dir" ]; then
-      mv -f "$file" "$target_dir/"
-      echo "Moved $filename to $target_dir"
-    else
-      echo "No matching directory found for $filename"
-    fi
-  fi
-done
-```
 
 ## Find incomplete summaries
 

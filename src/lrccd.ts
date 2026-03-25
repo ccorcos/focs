@@ -1,45 +1,73 @@
-// https://losrios.edu/about-los-rios/board-of-trustees/board-agendas-and-minutes
+// https://losrios.edu/about-los-rios/board-of-trustees/board-of-trustees-agendas-and-minutes
 
 import * as cheerio from "cheerio";
 import { BoardMeeting, downloadFiles } from "./utils/downloadFiles";
 
 async function fetchHtml() {
   const response = await fetch(
-    "https://losrios.edu/about-los-rios/board-of-trustees/board-agendas-and-minutes"
+    "https://losrios.edu/about-los-rios/board-of-trustees/board-of-trustees-agendas-and-minutes"
   );
   return response.text();
 }
 
+// Parse date like "March 11, 2026" or "February 27 and 28, 2026" → "2026-03-11"
+// For multi-day, uses the first day.
+function parseDate(dateStr: string): string | null {
+  const match = dateStr.match(
+    /(\w+)\s+(\d{1,2})(?:\s+and\s+\d{1,2})?,?\s+(\d{4})/
+  );
+  if (!match) return null;
+  const [, month, day, year] = match;
+  const monthNum = new Date(`${month} 1, 2000`).getMonth() + 1;
+  return `${year}-${monthNum.toString().padStart(2, "0")}-${day.padStart(2, "0")}`;
+}
+
+// Also handle cross-month: "February 28 and March 1, 2025" → "2025-02-28"
+function parseDateCrossMonth(dateStr: string): string | null {
+  const match = dateStr.match(/(\w+)\s+(\d{1,2})\s+and\s+(\w+)\s+(\d{1,2}),?\s+(\d{4})/);
+  if (!match) return null;
+  const [, month, day, , , year] = match;
+  const monthNum = new Date(`${month} 1, 2000`).getMonth() + 1;
+  return `${year}-${monthNum.toString().padStart(2, "0")}-${day.padStart(2, "0")}`;
+}
+
 function parseMeetings(html: string): Array<BoardMeeting> {
   const $ = cheerio.load(html);
-  const rows = $("table.table-wrap tbody tr");
-
   const result: BoardMeeting[] = [];
-
   const baseUrl = "https://losrios.edu/";
-  rows.each((_, row) => {
-    const date = $(row).find("td[data-th='Meeting Date']").text().trim();
 
-    // Convert date from "June 12, 2013" to YYYY-MM-DD format
-    const [month, day, year] = date.split(/[\s,]+/); // Split on whitespace and comma
-    const monthNum = new Date(`${month} 1, 2000`).getMonth() + 1;
-    const formattedDate = `${year}-${monthNum
-      .toString()
-      .padStart(2, "0")}-${day.padStart(2, "0")}`;
+  $("table.table-wrap").each((_, table) => {
+    $(table)
+      .find("tr")
+      .slice(1) // skip header row
+      .each((_, row) => {
+        // Date is either in a <th> (2025-2026 tables) or <td data-th="Meeting Date"> (older)
+        const thText = $(row).find("th").first().text().trim();
+        const tdText = $(row)
+          .find("td[data-th='Meeting Date']")
+          .text()
+          .trim();
+        const dateStr = thText || tdText;
+        if (!dateStr) return;
 
-    const links: string[] = [];
+        const formattedDate =
+          parseDateCrossMonth(dateStr) || parseDate(dateStr);
+        if (!formattedDate) return;
 
-    // Parse all links within the row
-    $(row)
-      .find("a")
-      .each((_, link) => {
-        const href = $(link).attr("href");
-        if (href) {
-          links.push(baseUrl + href.trim());
+        const links: string[] = [];
+        $(row)
+          .find("a")
+          .each((_, link) => {
+            const href = $(link).attr("href");
+            if (href) {
+              links.push(baseUrl + href.trim());
+            }
+          });
+
+        if (links.length > 0) {
+          result.push({ folderName: formattedDate, links });
         }
       });
-
-    result.push({ folderName: formattedDate, links });
   });
 
   return result;
