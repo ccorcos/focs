@@ -1,28 +1,24 @@
 #!/bin/bash
 
-# src/process docs/FORPD work
+# src/process docs/FORPD
 
 # Handle Ctrl+C gracefully
 trap 'echo -e "\nInterrupted by user. Exiting..."; exit 1' INT
-if [[ $# -lt 2 || $# -gt 3 ]]; then
-    echo "Usage: $0 <directory> <work_directory> [after_date]"
-    echo "Example: $0 docs/SJUSD work/SJUSD 2024-06"
+if [[ $# -lt 1 || $# -gt 2 ]]; then
+    echo "Usage: $0 <directory> [after_date]"
+    echo "Example: $0 docs/SJUSD 2024-06"
     exit 1
 fi
 
-CMD="./node_modules/@ccorcos/ask-pdf/pdf2md"
 DIR="$1"
-WORK_DIR="$2"
 
 if [[ ! -d "$DIR" ]]; then
     echo "Error: $DIR is not a directory"
     exit 1
 fi
 
-mkdir -p "$WORK_DIR"
-
 # Set AFTER to second argument if provided, otherwise default to 2024
-AFTER="${3:-2024}"
+AFTER="${2:-2024}"
 
 ALL_FILES=$(find "$DIR" -type f -name "*.pdf" | sort -r)
 ALL_COUNT=$(echo "$ALL_FILES" | wc -l)
@@ -46,16 +42,8 @@ while IFS= read -r pdf_file; do
     md_file="${pdf_file%.pdf}.md"
     if [[ ! -f "$md_file" ]]; then
         echo "($CURRENT/$PROCESS_COUNT) Processing: $pdf_file"
-
-        # Get the subdirectory path relative to DIR, to be used as work subdir
-        # e.g. if DIR is docs/X and pdf_file is docs/X/Y/Z.pdf
-        # then work_subdir will be Y/ so files go to work/Y/
-        rel_path=$(dirname "${pdf_file#$DIR/}")
-        work_subdir="$WORK_DIR/$rel_path"
-        mkdir -p "$work_subdir"
-
-        echo "Running: $CMD \"$pdf_file\" \"$md_file\" \"$work_subdir\""
-        $CMD "$pdf_file" "$md_file" "$work_subdir"
+        pdf_dir=$(dirname "$pdf_file")
+        npx opendataloader-pdf -f markdown -o "$pdf_dir" --quiet "$pdf_file"
     else
         echo "($CURRENT/$PROCESS_COUNT) Skipping existing file: $md_file"
     fi

@@ -4,19 +4,11 @@ set -e
 AFTER="2024-06"
 
 # Convert PDF files to markdown.
-src/process docs/FORPD work/FORPD $AFTER
-src/process docs/SMUD work/SMUD $AFTER
-src/process docs/SJUSD work/SJUSD $AFTER
-src/process docs/SMFD work/SMFD $AFTER
-src/process docs/FOWD work/FOWD $AFTER
-src/process docs/LRCCD work/LRCCD $AFTER
-src/process docs/SJWD work/SJWD $AFTER
-src/process docs/SCOE work/SCOE $AFTER
-
-# Check to see if there were any issues.
-# find docs  -type f -name "*.md" -exec sh -c 'if [ ! -s "$1" ] || [ "$(tr -d "[:space:]" < "$1")" = "" ]; then echo "$1"; fi' sh {} \;
-# Delete empty markdown files
-# find docs  -type f -name "*.md" -exec sh -c 'if [ ! -s "$1" ] || [ "$(tr -d "[:space:]" < "$1")" = "" ]; then echo "$1"; fi' sh {} \; | xargs rm -f
-
-# Somtimes one of these png files causes issues with OpenAI and the request will timeout.
-# Run fix-png on any that get stuck.
+src/process docs/FORPD $AFTER
+src/process docs/SMUD $AFTER
+src/process docs/SJUSD $AFTER
+src/process docs/SMFD $AFTER
+src/process docs/FOWD $AFTER
+src/process docs/LRCCD $AFTER
+src/process docs/SJWD $AFTER
+src/process docs/SCOE $AFTER

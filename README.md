@@ -3,6 +3,16 @@
 https://platform.openai.com/usage
 https://console.anthropic.com/settings/usage
 
+## Setup
+
+Requires Node.js 22+ and Java 11+.
+
+```sh
+npm install
+```
+
+Requires `.env` with `OPENAI_API_KEY` and `CLAUDE_API_KEY`.
+
 ## Download, Process, Summarize
 
 ```sh
@@ -18,7 +28,6 @@ src/all-inventory
 src/all-gather
 
 find docs/SCOE  -type f -name "summary.md" | sort | xargs cat
-src/fix-png work/SJUSD/2024-12-17/agenda-packet/png/0130.png
 ```
 
 Inside `src/process` and `src/summarize-meetings` we filter for 2024 which we'll want to update periodically.
@@ -44,20 +53,6 @@ find docs/FOWD -type f -name "*.md" | sort | xargs grep -Rin --color=always -C 3
 ```
 
 Or [search directly on Github](https://github.com/search?q=repo%3Accorcos%2Ffocs+path%3A%2F%5Edocs%5C%2FFOWD%5C%2F%2F+corporate+yard).
-
-### Todo
-
-- SMUD has some image 175 that 500s for OpenAI.
-- SCOE has the minutes for previous meetings in future meetings which garbles up the summaries.
-
-
-Sometime, it might make sense to download committee meetings
-- Bond oversight: https://www.forpd.org/agendacenter
-- https://www.sanjuan.edu/connect/committees
-- https://metrofire.ca.gov/finance-and-audit-committee
-- https://metrofire.ca.gov/policyx-committee
-- https://metrofire.ca.gov/executive-committee
-- https://www.sjwd.org/committees
 
 ## Debugging
 
