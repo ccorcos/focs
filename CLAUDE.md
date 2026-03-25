@@ -56,7 +56,7 @@ The `src/process` and `src/summarize-meetings` scripts contain date filters (e.g
 
 ## Environment
 
-Requires `.env` with `OPENAI_API_KEY`, `CLAUDE_API_KEY`, and R2 credentials (`R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_ENDPOINT`, `R2_BUCKET_NAME`) for uploading. R2 credentials are not needed for downloading (public bucket). Node.js 22+, Java 11+.
+Requires `.env` with `OPENAI_API_KEY`, `CLAUDE_API_KEY`, and R2 credentials (`R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`) for uploading. R2 endpoint and bucket name are hardcoded in `src/utils/r2.ts`. R2 credentials are not needed for downloading (public bucket). Node.js 22+, Java 11+.
 
 ## Known Issues
 

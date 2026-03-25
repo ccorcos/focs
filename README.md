@@ -13,13 +13,14 @@ npm install
 
 Requires `.env` with `OPENAI_API_KEY` and `CLAUDE_API_KEY`.
 
-For uploading PDFs to R2, also add `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_ENDPOINT`, and `R2_BUCKET_NAME`. R2 credentials are not needed for downloading (public bucket).
+For uploading PDFs to R2, also add `R2_ACCESS_KEY_ID` and `R2_SECRET_ACCESS_KEY`. R2 credentials are not needed for downloading (public bucket).
 
 ## Download, Process, Summarize
 
 ```sh
 src/all-download
 src/all-inventory
+src/r2-upload
 
 src/all-process
 src/all-inventory
@@ -36,7 +37,8 @@ Inside `src/process` and `src/summarize-meetings` we filter for 2024 which we'll
 
 ### PDF Storage (Cloudflare R2)
 
-PDFs are stored in Cloudflare R2 (bucket: `focs`, public at `docs.fairoakscivic.org`), not in git. The `upload.md` manifest tracks what's been uploaded.
+PDFs are stored in [Cloudflare R2](https://dash.cloudflare.com/8f543a54ad9a48c6984d00e7fbf0bc44/r2/default/buckets/focs) (bucket: `focs`, public at `docs.fairoakscivic.org`), not in git. The `upload.md` manifest tracks what's been uploaded.
+
 
 ```sh
 # Upload new PDFs to R2 (requires R2 credentials in .env)

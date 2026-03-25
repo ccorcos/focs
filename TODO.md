@@ -21,6 +21,8 @@ r2-download
 
 
 
+
+
 - Lets create a plan to refactor this codebase. The way I think about it is (1) we download files from the organizations, we clean them up and organize them by date, and try to fix some obvious things. (2) we upload them to r2 so we can have an archive and keep track of that archive with upload.md (3) we process those pdfs into markdown files. That's the main system here. Eventually, we want better support for searching and summarizing, but that's something for later. The inventory.txt file is just something for me to figure out what files are added and removed since there's so many, but perhaps that isnt needed anymore. However, the upload.md file seems like it could be reused more generally. For example, if we were to delete all of the pdfs that we don't need anymore, then we shouldn't have to re-download them when running the download script. I believe the download script looks for files in the filesystem rather than using the manifest. Meanwhile, we need to figure out what pdfs haven't been translated into markdown files yet. Regardless. I just want to rethink how all of this works so that its well organized and has a cohesive architecture that is efficient, performant, and reliable.
 
 

@@ -3,11 +3,13 @@ import { S3Client, PutObjectCommand, HeadObjectCommand } from "@aws-sdk/client-s
 import * as fs from "fs/promises";
 
 export const R2_PUBLIC_BASE = "https://docs.fairoakscivic.org";
+export const R2_ENDPOINT = "https://8f543a54ad9a48c6984d00e7fbf0bc44.r2.cloudflarestorage.com";
+export const R2_BUCKET = "focs";
 
 export function getR2Client() {
-  const { R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_ENDPOINT } = process.env;
-  if (!R2_ACCESS_KEY_ID || !R2_SECRET_ACCESS_KEY || !R2_ENDPOINT) {
-    throw new Error("Missing R2 credentials in .env (R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_ENDPOINT)");
+  const { R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY } = process.env;
+  if (!R2_ACCESS_KEY_ID || !R2_SECRET_ACCESS_KEY) {
+    throw new Error("Missing R2 credentials in .env (R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY)");
   }
   return new S3Client({
     region: "auto",
@@ -17,12 +19,6 @@ export function getR2Client() {
       secretAccessKey: R2_SECRET_ACCESS_KEY,
     },
   });
-}
-
-export function getBucket() {
-  const bucket = process.env.R2_BUCKET_NAME;
-  if (!bucket) throw new Error("Missing R2_BUCKET_NAME in .env");
-  return bucket;
 }
 
 export async function uploadFile(client: S3Client, bucket: string, localPath: string, key: string) {

@@ -3,7 +3,7 @@ import "dotenv/config";
 import * as fs from "fs/promises";
 import pLimit from "p-limit";
 import * as path from "path";
-import { getBucket, getR2Client } from "./utils/r2";
+import { R2_BUCKET, getR2Client } from "./utils/r2";
 
 const UPLOAD_CONCURRENCY = 200;
 const MANIFEST_PATH = "upload.md";
@@ -98,7 +98,7 @@ async function main() {
   const dir = args.find((a) => !a.startsWith("--")) || "docs";
 
   const client = getR2Client();
-  const bucket = getBucket();
+  const bucket = R2_BUCKET;
 
   console.log(`Scanning ${dir} for PDFs...`);
   const files = await findPdfs(dir);
