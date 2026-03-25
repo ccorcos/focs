@@ -3,12 +3,24 @@ set -e
 
 AFTER="2024-06"
 
-# Convert PDF files to markdown.
-src/process docs/FORPD $AFTER
-src/process docs/SMUD $AFTER
-src/process docs/SJUSD $AFTER
-src/process docs/SMFD $AFTER
-src/process docs/FOWD $AFTER
-src/process docs/LRCCD $AFTER
-src/process docs/SJWD $AFTER
-src/process docs/SCOE $AFTER
+# Convert PDF files to markdown — all orgs in parallel.
+PIDS=()
+for ORG in FORPD SMUD SJUSD SMFD FOWD LRCCD SJWD SCOE; do
+    src/process "docs/$ORG" "$AFTER" &
+    PIDS+=($!)
+done
+
+# Wait for all and track failures
+FAILED=0
+for PID in "${PIDS[@]}"; do
+    if ! wait "$PID"; then
+        ((FAILED++))
+    fi
+done
+
+if [[ $FAILED -gt 0 ]]; then
+    echo "$FAILED org(s) failed."
+    exit 1
+fi
+
+echo "All done."

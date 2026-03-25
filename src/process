@@ -21,33 +21,37 @@ fi
 AFTER="${2:-2024}"
 
 ALL_FILES=$(find "$DIR" -type f -name "*.pdf" | sort -r)
-ALL_COUNT=$(echo "$ALL_FILES" | wc -l)
+ALL_COUNT=$(echo "$ALL_FILES" | wc -l | tr -d ' ')
 
 PROCESS_FILES=$(echo "$ALL_FILES" | awk -v after="$DIR/$AFTER" '$0 >= after')
-PROCESS_COUNT=$(echo "$PROCESS_FILES" | wc -l)
+PROCESS_COUNT=$(echo "$PROCESS_FILES" | wc -l | tr -d ' ')
 
-echo "Found $ALL_COUNT PDF files."
-echo "Found $PROCESS_COUNT PDF files after $AFTER."
-
-# Log all PDF files
-echo "PDF files to process:"
-echo "$PROCESS_FILES" | while read -r file; do
-    echo "  $file"
-done
-
-CURRENT=0
-# Process each PDF file in descending order
+# Filter to only unprocessed PDFs
+TO_PROCESS=()
+SKIPPED=0
 while IFS= read -r pdf_file; do
-    ((CURRENT++))
     md_file="${pdf_file%.pdf}.md"
     if [[ ! -f "$md_file" ]]; then
-        echo "($CURRENT/$PROCESS_COUNT) Processing: $pdf_file"
-        pdf_dir=$(dirname "$pdf_file")
-        npx opendataloader-pdf -f markdown -o "$pdf_dir" --quiet "$pdf_file"
+        TO_PROCESS+=("$pdf_file")
     else
-        echo "($CURRENT/$PROCESS_COUNT) Skipping existing file: $md_file"
+        ((SKIPPED++))
     fi
 done < <(echo "$PROCESS_FILES")
+
+ORG=$(basename "$DIR")
+echo "[$ORG] $ALL_COUNT total, $PROCESS_COUNT after $AFTER, $SKIPPED done, ${#TO_PROCESS[@]} to process"
+
+if [[ ${#TO_PROCESS[@]} -eq 0 ]]; then
+    exit 0
+fi
+
+# Batch all PDFs in a single JVM call, suppress Java warnings
+START=$(python3 -c 'import time; print(time.time())')
+npx opendataloader-pdf -f markdown --quiet "${TO_PROCESS[@]}" 2>/dev/null
+END=$(python3 -c 'import time; print(time.time())')
+ELAPSED=$(python3 -c "print(f'{$END - $START:.1f}')")
+
+echo "[$ORG] Done: ${#TO_PROCESS[@]} files in ${ELAPSED}s"
 
 # In case you mess up and need to delete them.
 # find "$DIR" -type f -name "*.md" -delete
@@ -55,4 +59,3 @@ done < <(echo "$PROCESS_FILES")
 # In there are empty once.
 # find "$DIR" -type f -name "*.md" -exec sh -c 'if [ ! -s "$1" ] || [ "$(tr -d "[:space:]" < "$1")" = "" ]; then echo "$1"; fi' sh {} \;
 # find "$DIR" -type f -name "*.md" -exec sh -c 'if [ ! -s "$1" ] || [ "$(tr -d "[:space:]" < "$1")" = "" ]; then echo "$1"; fi' sh {} \; | xargs rm -f
-

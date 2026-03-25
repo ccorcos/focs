@@ -7,6 +7,20 @@
 ---
 
 
+I'd like to
+
+
+
+use `pdftotext -layout` with sqlite for keyword search: https://claude.ai/chat/f32de814-3a73-4951-96c2-2d3152d7de7d
+
+just ask claude code to summarize each of the pdfs directly. it seems to have done a good job.
+
+Then ask it to generate news...
+
+https://github.com/datalab-to/marker
+https://github.com/docling-project/docling?tab=readme-ov-file
+
+
 document where things are in Cloudflare
 Create an r2 upload manifest with links to the files.
 
