@@ -9,6 +9,9 @@ Requires Node.js 22+ and `pdftotext` (via poppler).
 ```sh
 npm install
 brew install poppler
+npm install -g @tobilu/qmd     # Document search (used by Claude Code)
+qmd collection add docs docs/  # Index extracted markdown
+qmd embed                      # Vector embeddings (optional, improves search)
 ```
 
 For uploading PDFs to R2, create a `.env` with `R2_ACCESS_KEY_ID` and `R2_SECRET_ACCESS_KEY`. R2 credentials are not needed for downloading (public bucket).
@@ -45,14 +48,25 @@ src/r2-download FORPD    # Download PDFs for a specific org
 
 After running `src/all-download`, use `src/r2-upload` to sync new PDFs to R2. To set up a fresh clone, run `src/r2-download` to fetch all PDFs.
 
-### Keyword Search
+### Searching Documents
+
+Use [qmd](https://github.com/tobi/qmd) to search extracted meeting documents:
 
 ```sh
-# List which files contain the keyword
-find docs/FOWD -type f -name "*.md" | sort | xargs grep -Ril "corporate yard"
-
-# List the files along with context where the keyword appears
-find docs/FOWD -type f -name "*.md" | sort | xargs grep -Rin --color=always -C 3 "corporate yard"
+qmd query "budget approval FORPD"     # Hybrid search (recommended)
+qmd search "corporate yard"            # BM25 keyword search
 ```
 
 Or [search directly on Github](https://github.com/search?q=repo%3Accorcos%2Ffocs+path%3A%2F%5Edocs%5C%2FFOWD%5C%2F%2F+corporate+yard).
+
+### Claude Code
+
+This repo includes a `/research` command for Claude Code that uses qmd to answer questions about meeting content:
+
+```
+/research summarize what happened at metro fire in the past 12 months
+/research summarize the latest parks budget
+/research give me a breakdown of the water district maintenance yard issue
+```
+
+It searches the extracted markdown, reads relevant documents, and verifies figures against source PDFs when accuracy matters.

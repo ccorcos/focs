@@ -44,9 +44,44 @@ src/r2-download FORPD   # Download PDFs for a specific org
 - `src/utils/manifest.ts` — parses `focs.md` manifest, maps R2 keys to local paths and URLs
 - `src/utils/normalizeFilename.ts` — filename normalization for downloads
 
+## Answering Questions About Meetings
+
+Use `qmd` to search the extracted markdown in `docs/` and answer questions about any of the 8 organizations. Use qmd proactively whenever the user asks about meeting content, budgets, votes, or organization activities.
+
+**`/research <question>`** — Claude Code command (`.claude/commands/research.md`) that automates the full research workflow with org name mapping and PDF verification. Examples:
+- `/research summarize what happened at metro fire in the past 12 months`
+- `/research summarize the latest parks budget`
+- `/research give me a breakdown of the water district maintenance yard issue`
+
+**Workflow**: Search with qmd → Read extracted markdown → Verify against source PDFs when needed
+
+```sh
+qmd query "budget approval FORPD"     # Hybrid search (recommended)
+qmd search "maintenance yard"          # BM25 keyword search
+qmd query --json "fire district"       # See paths and scores
+```
+
+The extracted markdown files (`docs/{ORG}/{YYYY-MM-DD}/*.md`) are pdftotext output — they work well for text but are unreliable for tables, budgets, and multi-column layouts. When accuracy matters (financial figures, vote counts, tables), read the source PDF:
+
+- Local path: `focs/{ORG}/{YYYY-MM-DD}/{filename}.pdf`
+- R2 URL: `https://docs.fairoakscivic.org/docs/{ORG}/{YYYY-MM-DD}/{filename}.pdf`
+- Download missing PDFs: `src/r2-download {ORG}`
+- Full file list: `focs.md` manifest
+
 ## Environment
 
-Requires `.env` with R2 credentials (`R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`) for uploading. R2 endpoint and bucket name are hardcoded in `src/utils/r2.ts`. R2 credentials are not needed for downloading (public bucket). Node.js 22+, pdftotext (poppler).
+Requires `.env` with R2 credentials (`R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`) for uploading. R2 endpoint and bucket name are hardcoded in `src/utils/r2.ts`. R2 credentials are not needed for downloading (public bucket). Node.js 22+, pdftotext (poppler), qmd (`npm install -g @tobilu/qmd`).
+
+## Setup
+
+```sh
+npm install                    # Install dependencies
+npm install -g @tobilu/qmd     # Install qmd for document search
+brew install poppler           # Install pdftotext
+qmd collection add docs docs/  # Index extracted markdown
+qmd embed                      # Generate vector embeddings (optional, improves search)
+src/r2-download                # Download PDFs from R2 (for verifying extractions)
+```
 
 ## Known Issues
 
