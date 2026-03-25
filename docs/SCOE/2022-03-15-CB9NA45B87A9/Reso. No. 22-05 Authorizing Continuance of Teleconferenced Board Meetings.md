@@ -1,0 +1,68 @@
+SACRAMENTO COUNTY BOARD OF EDUCATION
+Resolution Authorizing Continuance of Teleconferenced Board Meetings
+Pursuant to Government Code Section 54953
+Resolution No. 22-05
+
+WHEREAS, all meetings of the Sacramento County Board of Education, on its own and
+in its capacity as the Sacramento County Committee on School District Organization
+(collectively, Board), are open and public, as required by the Ralph M. Brown Act (Cal.
+Gov. Code, §§ 54950-54963), so that any member of the public may attend, participate,
+and watch the Board conduct its business;
+
+WHEREAS, the Brown Act, Government Code section 54953(e)(1), permits the Board
+to continue holding meetings under simplified teleconference procedures in any of the
+following three circumstances:
+
+    1. When the meeting is held during a proclaimed state of emergency, and state or
+       local officials have imposed or recommended measures to promote social
+       distancing;
+    2. When the meeting is held during a proclaimed state of emergency and the
+       meeting is held for the purpose of determining, by majority vote, whether as a
+       result of the emergency, meeting in person would present imminent risks to the
+       health or safety of attendees; OR
+    3. When the meeting is held during a proclaimed state of emergency and the Board
+       has determined, by majority vote, that, as a result of the emergency, meeting in
+       person would present imminent risks to the health or safety of attendees.
+
+WHEREAS, under Government Code section 54953(e)(3), the Board may continue
+holding Board meetings under the simplified teleconference procedures set forth in
+Government Code section 54953(e)(2) if it adopts the following findings by majority vote
+of the Board and readopts findings every month thereafter:
+    1. The Board has reconsidered the circumstances of the state of emergency, AND
+    2. The state of emergency continues to directly impact the ability of members to
+       meet safely in person, OR state or local officials continue to impose or
+       recommend measures to promote social distancing.
+
+NOW, THEREFORE, BE IT RESOLVED, the Board adopts the following findings:
+    •    The Board has reconsidered the state of emergency proclaimed by the Governor
+         of California in response to the COVID-19 pandemic.
+    •    State and local public health officials continue to recommend measures to
+         promote social distancing.
+
+
+
+
+Resolution Authorizing Continuance of Teleconferenced Board Meetings                    1
+PASSED AND ADOPTED by the Sacramento County Board of Education at its regular
+Board meeting on the 15th day of March 2022 by the following vote:
+
+
+            AYES                ______              __________________________________
+
+            NOES                ______              ___________________________________
+
+            ABSENT              ______              ___________________________________
+
+            ABSTAIN             ______              ___________________________________
+
+
+
+
+ ________________________________                                  _____________________________
+   Karina Talamantes, Board President                                  David W. Gordon, Board Secretary
+
+
+
+
+Resolution Authorizing Continuance of Teleconferenced Board Meetings                                      2
+
