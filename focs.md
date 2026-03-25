@@ -1274,6 +1274,14 @@
 - [20250212-lrcft-report.pdf](https://docs.fairoakscivic.org/docs/LRCCD/2025-02-12/20250212-lrcft-report.pdf)
 - [20250212-pres-5a-undocuscholars.pdf](https://docs.fairoakscivic.org/docs/LRCCD/2025-02-12/20250212-pres-5a-undocuscholars.pdf)
 
+**2025-02-28**
+- [20250228-bot-agenda.pdf](https://docs.fairoakscivic.org/docs/LRCCD/2025-02-28/20250228-bot-agenda.pdf)
+- [20250228-bot-minutes.pdf](https://docs.fairoakscivic.org/docs/LRCCD/2025-02-28/20250228-bot-minutes.pdf)
+- [20250228-flc-space-utilization-report.pdf](https://docs.fairoakscivic.org/docs/LRCCD/2025-02-28/20250228-flc-space-utilization-report.pdf)
+- [20250228-pres-5a-space-utilization.pdf](https://docs.fairoakscivic.org/docs/LRCCD/2025-02-28/20250228-pres-5a-space-utilization.pdf)
+- [20250228-pres-5b-facilities-master-planning.pdf](https://docs.fairoakscivic.org/docs/LRCCD/2025-02-28/20250228-pres-5b-facilities-master-planning.pdf)
+- [20250228-pres-5c-capital-financing.pdf](https://docs.fairoakscivic.org/docs/LRCCD/2025-02-28/20250228-pres-5c-capital-financing.pdf)
+
 **2025-03-01**
 - [20250228-arc-space-utilization-report.pdf](https://docs.fairoakscivic.org/docs/LRCCD/2025-03-01/20250228-arc-space-utilization-report.pdf)
 - [20250228-bot-agenda.pdf](https://docs.fairoakscivic.org/docs/LRCCD/2025-03-01/20250228-bot-agenda.pdf)
@@ -1448,18 +1456,24 @@
 **2021-09-28-C5MNGP5FE685**
 - [09.28.21 Board Meeting Minutes UNAPPROVED.pdf](https://docs.fairoakscivic.org/docs/SCOE/2021-09-28-C5MNGP5FE685/09.28.21%20Board%20Meeting%20Minutes%20UNAPPROVED.pdf)
 - [09.28.21 Personnel Transactions.pdf](https://docs.fairoakscivic.org/docs/SCOE/2021-09-28-C5MNGP5FE685/09.28.21%20Personnel%20Transactions.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2021-09-28-C5MNGP5FE685/agenda.html)
 - [CCCA Charter Petition.pdf](https://docs.fairoakscivic.org/docs/SCOE/2021-09-28-C5MNGP5FE685/CCCA%20Charter%20Petition.pdf)
 - [Petition Appendices.pdf](https://docs.fairoakscivic.org/docs/SCOE/2021-09-28-C5MNGP5FE685/Petition%20Appendices.pdf)
 - [Petition Supplemental Materials.pdf](https://docs.fairoakscivic.org/docs/SCOE/2021-09-28-C5MNGP5FE685/Petition%20Supplemental%20Materials.pdf)
 - [SCOE Recommended Findings Re CCCA Charter Petition.pdf](https://docs.fairoakscivic.org/docs/SCOE/2021-09-28-C5MNGP5FE685/SCOE%20Recommended%20Findings%20Re%20CCCA%20Charter%20Petition.pdf)
 
+**2021-09-29-C6WT8J75E019**
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2021-09-29-C6WT8J75E019/agenda.html)
+
 **2021-10-05-C6PULR7B537C**
 - [10.05.21 Board Study Session Minutes UNAPPROVED.pdf](https://docs.fairoakscivic.org/docs/SCOE/2021-10-05-C6PULR7B537C/10.05.21%20Board%20Study%20Session%20Minutes%20UNAPPROVED.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2021-10-05-C6PULR7B537C/agenda.html)
 
 **2021-10-19-C6QM2E57FC22**
 - [10.19.21 Board Meeting Minutes - unapproved.pdf](https://docs.fairoakscivic.org/docs/SCOE/2021-10-19-C6QM2E57FC22/10.19.21%20Board%20Meeting%20Minutes%20-%20unapproved.pdf)
 - [10.19.21 County Committee Meeting Minutes Unapproved.pdf](https://docs.fairoakscivic.org/docs/SCOE/2021-10-19-C6QM2E57FC22/10.19.21%20County%20Committee%20Meeting%20Minutes%20Unapproved.pdf)
 - [10.19.21 Personnel Transactions.pdf](https://docs.fairoakscivic.org/docs/SCOE/2021-10-19-C6QM2E57FC22/10.19.21%20Personnel%20Transactions.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2021-10-19-C6QM2E57FC22/agenda.html)
 - [American Rescue Plan Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2021-10-19-C6QM2E57FC22/American%20Rescue%20Plan%20Budget%20Pages.pdf)
 - [Appropriations Limit.pdf](https://docs.fairoakscivic.org/docs/SCOE/2021-10-19-C6QM2E57FC22/Appropriations%20Limit.pdf)
 - [Board Packet Actuals Report 2020-2021.pdf](https://docs.fairoakscivic.org/docs/SCOE/2021-10-19-C6QM2E57FC22/Board%20Packet%20Actuals%20Report%202020-2021.pdf)
@@ -1470,12 +1484,14 @@
 
 **2021-10-19-C7GU4T7A45EA**
 - [08.05.21 County Committee Minutes - Unapproved.pdf](https://docs.fairoakscivic.org/docs/SCOE/2021-10-19-C7GU4T7A45EA/08.05.21%20County%20Committee%20Minutes%20-%20Unapproved.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2021-10-19-C7GU4T7A45EA/agenda.html)
 - [Public Hearing Notice _Oct 19 Trustee Areas_.pdf](https://docs.fairoakscivic.org/docs/SCOE/2021-10-19-C7GU4T7A45EA/Public%20Hearing%20Notice%20_Oct%2019%20Trustee%20Areas_.pdf)
 
 **2021-11-16-C7BU3S7A2281**
 - [11.16.21 Board Meeting Minutes UNAPPROVED.pdf](https://docs.fairoakscivic.org/docs/SCOE/2021-11-16-C7BU3S7A2281/11.16.21%20Board%20Meeting%20Minutes%20UNAPPROVED.pdf)
 - [11.16.21 County Committee Minutes UNAPPROVED.pdf](https://docs.fairoakscivic.org/docs/SCOE/2021-11-16-C7BU3S7A2281/11.16.21%20County%20Committee%20Minutes%20UNAPPROVED.pdf)
 - [11.16.21 Personnel Transactions.pdf](https://docs.fairoakscivic.org/docs/SCOE/2021-11-16-C7BU3S7A2281/11.16.21%20Personnel%20Transactions.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2021-11-16-C7BU3S7A2281/agenda.html)
 - [Annual Williams Report_11.16.21 Board Item_Final 10.27.21.pdf](https://docs.fairoakscivic.org/docs/SCOE/2021-11-16-C7BU3S7A2281/Annual%20Williams%20Report_11.16.21%20Board%20Item_Final%2010.27.21.pdf)
 - [Reso. No. 21-15 Teleconferenced Board Meetings.pdf](https://docs.fairoakscivic.org/docs/SCOE/2021-11-16-C7BU3S7A2281/Reso.%20No.%2021-15%20Teleconferenced%20Board%20Meetings.pdf)
 - [Resolution No. 21-14 - Adoption of Resolution in Support of Kindergarten-Community Colleges Public Education Facilities Bond Act of 2022 _AB75_.pdf](https://docs.fairoakscivic.org/docs/SCOE/2021-11-16-C7BU3S7A2281/Resolution%20No.%2021-14%20-%20Adoption%20of%20Resolution%20in%20Support%20of%20Kindergarten-Community%20Colleges%20Public%20Education%20Facilities%20Bond%20Act%20of%202022%20_AB75_.pdf)
@@ -1483,9 +1499,14 @@
 
 **2021-11-16-C7YSBP7123BA**
 - [09.09.21 County Committee Minutes UNAPPROVED.pdf](https://docs.fairoakscivic.org/docs/SCOE/2021-11-16-C7YSBP7123BA/09.09.21%20County%20Committee%20Minutes%20UNAPPROVED.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2021-11-16-C7YSBP7123BA/agenda.html)
 - [Public Hearing Notice _Nov. 2021 Trustee Areas_.pdf](https://docs.fairoakscivic.org/docs/SCOE/2021-11-16-C7YSBP7123BA/Public%20Hearing%20Notice%20_Nov.%202021%20Trustee%20Areas_.pdf)
 
+**2021-11-18-C8FRSN6F6C0B**
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2021-11-18-C8FRSN6F6C0B/agenda.html)
+
 **2021-12-07-C7WPK864110D**
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2021-12-07-C7WPK864110D/agenda.html)
 - [Budget Revision No1.pdf](https://docs.fairoakscivic.org/docs/SCOE/2021-12-07-C7WPK864110D/Budget%20Revision%20No1.pdf)
 - [First Interim Report.pdf](https://docs.fairoakscivic.org/docs/SCOE/2021-12-07-C7WPK864110D/First%20Interim%20Report.pdf)
 
@@ -1493,6 +1514,7 @@
 - [12.14.21 Board Meeting Minutes UNAPPROVED.pdf](https://docs.fairoakscivic.org/docs/SCOE/2021-12-14-C7WMH85B4A1B/12.14.21%20Board%20Meeting%20Minutes%20UNAPPROVED.pdf)
 - [12.14.21 County Committee Minutes UNAPPROVED.pdf](https://docs.fairoakscivic.org/docs/SCOE/2021-12-14-C7WMH85B4A1B/12.14.21%20County%20Committee%20Minutes%20UNAPPROVED.pdf)
 - [12.14.21 Personnel Transactions.pdf](https://docs.fairoakscivic.org/docs/SCOE/2021-12-14-C7WMH85B4A1B/12.14.21%20Personnel%20Transactions.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2021-12-14-C7WMH85B4A1B/agenda.html)
 - [Board Public Hearing Notice Appointee to Personnel Commission.pdf](https://docs.fairoakscivic.org/docs/SCOE/2021-12-14-C7WMH85B4A1B/Board%20Public%20Hearing%20Notice%20Appointee%20to%20Personnel%20Commission.pdf)
 - [Budget Revision No 1.pdf](https://docs.fairoakscivic.org/docs/SCOE/2021-12-14-C7WMH85B4A1B/Budget%20Revision%20No%201.pdf)
 - [EDUCATOR EFFECTIVENESS BLOCK GRANT 2021.pdf](https://docs.fairoakscivic.org/docs/SCOE/2021-12-14-C7WMH85B4A1B/EDUCATOR%20EFFECTIVENESS%20BLOCK%20GRANT%202021.pdf)
@@ -1506,14 +1528,19 @@
 - [Sherry Hansen Resume.pdf](https://docs.fairoakscivic.org/docs/SCOE/2021-12-14-C7WMH85B4A1B/Sherry%20Hansen%20Resume.pdf)
 
 **2021-12-14-C8UVS8821B79**
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2021-12-14-C8UVS8821B79/agenda.html)
 - [Public Hearing Notice _Dec. 2021 Trustee Areas_.pdf](https://docs.fairoakscivic.org/docs/SCOE/2021-12-14-C8UVS8821B79/Public%20Hearing%20Notice%20_Dec.%202021%20Trustee%20Areas_.pdf)
 - [Resolution CC-21-03 Adopting County Board Redistricting Plan _2021_.pdf](https://docs.fairoakscivic.org/docs/SCOE/2021-12-14-C8UVS8821B79/Resolution%20CC-21-03%20Adopting%20County%20Board%20Redistricting%20Plan%20_2021_.pdf)
+
+**2021-12-15-C85NPD60E0B7**
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2021-12-15-C85NPD60E0B7/agenda.html)
 
 **2022-01-11-C8M2RL037403**
 - [01.11.22 Board Meeting Minutes - UNAPPROVED FINAL.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-01-11-C8M2RL037403/01.11.22%20Board%20Meeting%20Minutes%20-%20UNAPPROVED%20FINAL.pdf)
 - [01.11.22 County Committee Meeting Minutes UNAPPROVED FINAL.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-01-11-C8M2RL037403/01.11.22%20County%20Committee%20Meeting%20Minutes%20UNAPPROVED%20FINAL.pdf)
 - [20220111 Board Meeting Transaction Log BOARD.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-01-11-C8M2RL037403/20220111%20Board%20Meeting%20Transaction%20Log%20BOARD.pdf)
 - [AB130 Foster Youth Direct Services Grant Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-01-11-C8M2RL037403/AB130%20Foster%20Youth%20Direct%20Services%20Grant%20Budget%20Pages.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2022-01-11-C8M2RL037403/agenda.html)
 - [ARCA Material Revision and Reso. No. 22-02 _Approving Material Revision to ARCA Charter to Add TK_.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-01-11-C8M2RL037403/ARCA%20Material%20Revision%20and%20Reso.%20No.%2022-02%20_Approving%20Material%20Revision%20to%20ARCA%20Charter%20to%20Add%20TK_.pdf)
 - [Project CalHOPE Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-01-11-C8M2RL037403/Project%20CalHOPE%20Budget%20Pages.pdf)
 - [Reso. No. 22-01 _Authorizing Continuance of Teleconferenced Board Meetings_ Final.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-01-11-C8M2RL037403/Reso.%20No.%2022-01%20_Authorizing%20Continuance%20of%20Teleconferenced%20Board%20Meetings_%20Final.pdf)
@@ -1523,9 +1550,11 @@
 - [2 PowerPoint Presentation to NUSD Board _11-08-2021.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-01-11-C9A2N302EF8B/2%20PowerPoint%20Presentation%20to%20NUSD%20Board%20_11-08-2021.pdf)
 - [3 NUSD Proposal Supporting Documentation.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-01-11-C9A2N302EF8B/3%20NUSD%20Proposal%20Supporting%20Documentation.pdf)
 - [4 County Committee Resolution.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-01-11-C9A2N302EF8B/4%20County%20Committee%20Resolution.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2022-01-11-C9A2N302EF8B/agenda.html)
 
 **2022-01-13-C8MV8669E079**
 - [A.  BB 8009 _Renumbered 9000_ Purpose and Role of the Board-Revised 01.13.22.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-01-13-C8MV8669E079/A.%20%20BB%208009%20_Renumbered%209000_%20Purpose%20and%20Role%20of%20the%20Board-Revised%2001.13.22.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2022-01-13-C8MV8669E079/agenda.html)
 - [B.  BB 8281 _Renumbered 9281_ Committees 01.13.22.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-01-13-C8MV8669E079/B.%20%20BB%208281%20_Renumbered%209281_%20Committees%2001.13.22.pdf)
 - [C.  BP 1240 Volunteers 01.13.22.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-01-13-C8MV8669E079/C.%20%20BP%201240%20Volunteers%2001.13.22.pdf)
 
@@ -1533,6 +1562,7 @@
 - [02.01.2022 Personnel Transactions Log_Board Report.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-02-01-C9HQX86B525F/02.01.2022%20Personnel%20Transactions%20Log_Board%20Report.pdf)
 - [02.01.22 Minutes UNAPPROVED final.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-02-01-C9HQX86B525F/02.01.22%20Minutes%20UNAPPROVED%20final.pdf)
 - [02.01.22 SPFC Minutes Unapproved.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-02-01-C9HQX86B525F/02.01.22%20SPFC%20Minutes%20Unapproved.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2022-02-01-C9HQX86B525F/agenda.html)
 - [BB 9000 Board Item 02.01.22.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-02-01-C9HQX86B525F/BB%209000%20Board%20Item%2002.01.22.pdf)
 - [BB 9281 BoardDocs_ Plus 02.01.22..pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-02-01-C9HQX86B525F/BB%209281%20BoardDocs_%20Plus%2002.01.22..pdf)
 - [BB-9261.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-02-01-C9HQX86B525F/BB-9261.pdf)
@@ -1542,8 +1572,10 @@
 
 **2022-02-01-CALP5Y630275**
 - [01.14.20 SPFC Minutes UNAPPROVED.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-02-01-CALP5Y630275/01.14.20%20SPFC%20Minutes%20UNAPPROVED.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2022-02-01-CALP5Y630275/agenda.html)
 
 **2022-02-09-CATPVP6024D0**
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2022-02-09-CATPVP6024D0/agenda.html)
 - [SCOE Audit Report Ended June 30_ 2021.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-02-09-CATPVP6024D0/SCOE%20Audit%20Report%20Ended%20June%2030_%202021.pdf)
 
 **2022-02-15-CAFVGA80263A**
@@ -1558,6 +1590,7 @@
 - [2021_SARC_ModSevere_Special_Education_20220131.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-02-15-CAFVGA80263A/2021_SARC_ModSevere_Special_Education_20220131.pdf)
 - [2021_SARC_North_Area_Community_School_20220131.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-02-15-CAFVGA80263A/2021_SARC_North_Area_Community_School_20220131.pdf)
 - [2021_SARC_Palmiter_Special_Education_20220131.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-02-15-CAFVGA80263A/2021_SARC_Palmiter_Special_Education_20220131.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2022-02-15-CAFVGA80263A/agenda.html)
 - [BB 8009 Renumbered 9000 Board Item 02.15.22.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-02-15-CAFVGA80263A/BB%208009%20Renumbered%209000%20Board%20Item%2002.15.22.pdf)
 - [BB 8281 Renumbered 9281 BoardDocs_ Plus 02.15.22.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-02-15-CAFVGA80263A/BB%208281%20Renumbered%209281%20BoardDocs_%20Plus%2002.15.22.pdf)
 - [BP 1240 BoardDocs_ Plus 02.15.22.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-02-15-CAFVGA80263A/BP%201240%20BoardDocs_%20Plus%2002.15.22.pdf)
@@ -1568,11 +1601,13 @@
 
 **2022-03-01-CB2UWZ7E1EBF**
 - [03.01.22 Study Session  Minutes UNAPPROVED final.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-03-01-CB2UWZ7E1EBF/03.01.22%20Study%20Session%20%20Minutes%20UNAPPROVED%20final.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2022-03-01-CB2UWZ7E1EBF/agenda.html)
 
 **2022-03-15-CB9NA45B87A9**
 - [03.15.2022 Personnel Transaction Log Final.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-03-15-CB9NA45B87A9/03.15.2022%20Personnel%20Transaction%20Log%20Final.pdf)
 - [2021-2022 Budget Revision No. 2.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-03-15-CB9NA45B87A9/2021-2022%20Budget%20Revision%20No.%202.pdf)
 - [A-G Improvement Grant Funding - Sacramento County Office of Education cm mjn 3.1.22 v3162.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-03-15-CB9NA45B87A9/A-G%20Improvement%20Grant%20Funding%20-%20Sacramento%20County%20Office%20of%20Education%20cm%20mjn%203.1.22%20v3162.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2022-03-15-CB9NA45B87A9/agenda.html)
 - [Reso. No. 22-05 Authorizing Continuance of Teleconferenced Board Meetings.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-03-15-CB9NA45B87A9/Reso.%20No.%2022-05%20Authorizing%20Continuance%20of%20Teleconferenced%20Board%20Meetings.pdf)
 - [Second Interim Financial Report for the 2021-2022 Fiscal Year.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-03-15-CB9NA45B87A9/Second%20Interim%20Financial%20Report%20for%20the%202021-2022%20Fiscal%20Year.pdf)
 
@@ -1580,6 +1615,7 @@
 - [04.12.2022 Personnel Transaction Log_Board Report.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-04-12-CBYP4W62AE8B/04.12.2022%20Personnel%20Transaction%20Log_Board%20Report.pdf)
 - [04.12.22 Board Minutes - UNAPPROVED.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-04-12-CBYP4W62AE8B/04.12.22%20Board%20Minutes%20-%20UNAPPROVED.pdf)
 - [12.A. Reso. No. 22-06 Authorizing Continuance of Teleconferenced Board Mtgs.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-04-12-CBYP4W62AE8B/12.A.%20Reso.%20No.%2022-06%20Authorizing%20Continuance%20of%20Teleconferenced%20Board%20Mtgs.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2022-04-12-CBYP4W62AE8B/agenda.html)
 - [American Rescue Plan-Homeless Children and Youth II Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-04-12-CBYP4W62AE8B/American%20Rescue%20Plan-Homeless%20Children%20and%20Youth%20II%20Budget%20Pages.pdf)
 - [CCCA Charter Petition.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-04-12-CBYP4W62AE8B/CCCA%20Charter%20Petition.pdf)
 - [CCCA Petition Appendices.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-04-12-CBYP4W62AE8B/CCCA%20Petition%20Appendices.pdf)
@@ -1597,6 +1633,7 @@
 - [04.19.22 Board Minutes - UNAPPROVED.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-04-19-CC7NQP60D92E/04.19.22%20Board%20Minutes%20-%20UNAPPROVED.pdf)
 - [04.19.22 Personnel Transactions.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-04-19-CC7NQP60D92E/04.19.22%20Personnel%20Transactions.pdf)
 - [11.B. Res No 22-09 Authorizing Continuance of Teleconferenced Board Mtgs.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-04-19-CC7NQP60D92E/11.B.%20Res%20No%2022-09%20Authorizing%20Continuance%20of%20Teleconferenced%20Board%20Mtgs.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2022-04-19-CC7NQP60D92E/agenda.html)
 - [CA Assessment System Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-04-19-CC7NQP60D92E/CA%20Assessment%20System%20Budget%20Pages.pdf)
 - [Resolution Authorization for Temporary Interfund Transfer of Funds.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-04-19-CC7NQP60D92E/Resolution%20Authorization%20for%20Temporary%20Interfund%20Transfer%20of%20Funds.pdf)
 
@@ -1607,6 +1644,7 @@
 - [2021_School_Plan_for_Student_Achievement_Elinor_Lincoln_Hickey_Jr._Sr._High_School_20220421.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-05-03-CC7NSX611C44/2021_School_Plan_for_Student_Achievement_Elinor_Lincoln_Hickey_Jr._Sr._High_School_20220421.pdf)
 - [2021_School_Plan_for_Student_Achievement_Nathaniel_S._Colley_Sr._High_School_20220421.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-05-03-CC7NSX611C44/2021_School_Plan_for_Student_Achievement_Nathaniel_S._Colley_Sr._High_School_20220421.pdf)
 - [2021_School_Plan_for_Student_Achievement_North_Area_Community_School_20220421.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-05-03-CC7NSX611C44/2021_School_Plan_for_Student_Achievement_North_Area_Community_School_20220421.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2022-05-03-CC7NSX611C44/agenda.html)
 - [BB 9150 Board Item 04.12.22.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-05-03-CC7NSX611C44/BB%209150%20Board%20Item%2004.12.22.pdf)
 - [BB 9400 Board Item 04.12.22.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-05-03-CC7NSX611C44/BB%209400%20Board%20Item%2004.12.22.pdf)
 - [BP 3311.1 Board Item 05.03.22.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-05-03-CC7NSX611C44/BP%203311.1%20Board%20Item%2005.03.22.pdf)
@@ -1616,6 +1654,7 @@
 - [05.17.22 Minutes UNAPPROVED for agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-05-17-CC7NVF61638F/05.17.22%20Minutes%20UNAPPROVED%20for%20agenda.pdf)
 - [AB 2617 _Dual Enrollment_.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-05-17-CC7NVF61638F/AB%202617%20_Dual%20Enrollment_.pdf)
 - [AB 2774 _Unduplicated Pupils LCFF_.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-05-17-CC7NVF61638F/AB%202774%20_Unduplicated%20Pupils%20LCFF_.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2022-05-17-CC7NVF61638F/agenda.html)
 - [BB 9150 Board Item 05.17.22.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-05-17-CC7NVF61638F/BB%209150%20Board%20Item%2005.17.22.pdf)
 - [BB 9400 Board Item 05.17.22.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-05-17-CC7NVF61638F/BB%209400%20Board%20Item%2005.17.22.pdf)
 - [BP 3311.1 Board Item 05.17.22.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-05-17-CC7NVF61638F/BP%203311.1%20Board%20Item%2005.17.22.pdf)
@@ -1629,11 +1668,13 @@
 - [2 County Committee Resolution No. CC-22-03.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-06-11-CESPF7644E99/2%20County%20Committee%20Resolution%20No.%20CC-22-03.pdf)
 - [2 Trustee Areas Scenarios Presentation.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-06-11-CESPF7644E99/2%20Trustee%20Areas%20Scenarios%20Presentation.pdf)
 - [3 County Committee Resolution No. CC-22-02.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-06-11-CESPF7644E99/3%20County%20Committee%20Resolution%20No.%20CC-22-02.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2022-06-11-CESPF7644E99/agenda.html)
 
 **2022-06-14-CE3UAJ7B1F31**
 - [06.14.22 Minutes UNAPPROVED for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-06-14-CE3UAJ7B1F31/06.14.22%20Minutes%20UNAPPROVED%20for%20Agenda.pdf)
 - [2022-23 State Financial Report.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-06-14-CE3UAJ7B1F31/2022-23%20State%20Financial%20Report.pdf)
 - [7.B. Personnel Transaction Log_PC Report.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-06-14-CE3UAJ7B1F31/7.B.%20Personnel%20Transaction%20Log_PC%20Report.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2022-06-14-CE3UAJ7B1F31/agenda.html)
 - [CAEP TAP Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-06-14-CE3UAJ7B1F31/CAEP%20TAP%20Budget%20Pages.pdf)
 - [Community Based Coalition Program CDCR Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-06-14-CE3UAJ7B1F31/Community%20Based%20Coalition%20Program%20CDCR%20Budget%20Pages.pdf)
 - [Early Head Start Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-06-14-CE3UAJ7B1F31/Early%20Head%20Start%20Budget%20Pages.pdf)
@@ -1651,6 +1692,7 @@
 - [06.28.22 Minutes UNAPPROVED for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-06-28-CE3VVX82A73D/06.28.22%20Minutes%20UNAPPROVED%20for%20Agenda.pdf)
 - [2022 Annual Report Summary of Support.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-06-28-CE3VVX82A73D/2022%20Annual%20Report%20Summary%20of%20Support.pdf)
 - [2022_LCAP_Local_Performance_Indicator_Self-Reflection.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-06-28-CE3VVX82A73D/2022_LCAP_Local_Performance_Indicator_Self-Reflection.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2022-06-28-CE3VVX82A73D/agenda.html)
 - [American Rescue Plan Act Friday Night Live Grant Budget Page.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-06-28-CE3VVX82A73D/American%20Rescue%20Plan%20Act%20Friday%20Night%20Live%20Grant%20Budget%20Page.pdf)
 - [Budget Rev 3 Report 2021-2022.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-06-28-CE3VVX82A73D/Budget%20Rev%203%20Report%202021-2022.pdf)
 - [Cal SOAP Grant Budget Page.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-06-28-CE3VVX82A73D/Cal%20SOAP%20Grant%20Budget%20Page.pdf)
@@ -1680,6 +1722,7 @@
 **2022-07-12-CETRU76F4C59**
 - [07.12.2022 Personnel Transaction Log_Board Report.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-07-12-CETRU76F4C59/07.12.2022%20Personnel%20Transaction%20Log_Board%20Report.pdf)
 - [07.12.22 Minutes UNAPPROVED for agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-07-12-CETRU76F4C59/07.12.22%20Minutes%20UNAPPROVED%20for%20agenda.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2022-07-12-CETRU76F4C59/agenda.html)
 - [Early Head Start Resolution_07.12.22 _1_.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-07-12-CETRU76F4C59/Early%20Head%20Start%20Resolution_07.12.22%20_1_.pdf)
 - [Placer County Grant Budget Page.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-07-12-CETRU76F4C59/Placer%20County%20Grant%20Budget%20Page.pdf)
 - [Placer Nevada County Grant Budget Page.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-07-12-CETRU76F4C59/Placer%20Nevada%20County%20Grant%20Budget%20Page.pdf)
@@ -1688,6 +1731,7 @@
 **2022-08-09-CFCRMQ68B9E3**
 - [08.09.2022 Personnel Transaction Log_Board Report.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-08-09-CFCRMQ68B9E3/08.09.2022%20Personnel%20Transaction%20Log_Board%20Report.pdf)
 - [08.09.22 Board Minutes UNAPPROVED for agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-08-09-CFCRMQ68B9E3/08.09.22%20Board%20Minutes%20UNAPPROVED%20for%20agenda.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2022-08-09-CFCRMQ68B9E3/agenda.html)
 - [ATTACHMENT 1 _ARCA Annual Oversight Report by NB_.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-08-09-CFCRMQ68B9E3/ATTACHMENT%201%20_ARCA%20Annual%20Oversight%20Report%20by%20NB_.pdf)
 - [ATTACHMENT 1 _ARCA Material Revision Enrollment_.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-08-09-CFCRMQ68B9E3/ATTACHMENT%201%20_ARCA%20Material%20Revision%20Enrollment_.pdf)
 - [ATTACHMENT 1 _CCCA MOU 2023-2028_.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-08-09-CFCRMQ68B9E3/ATTACHMENT%201%20_CCCA%20MOU%202023-2028_.pdf)
@@ -1700,9 +1744,13 @@
 - [Resolution for Textbook Sufficiency - El Centro.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-08-09-CFCRMQ68B9E3/Resolution%20for%20Textbook%20Sufficiency%20-%20El%20Centro.pdf)
 - [SEEDS of Partnership Budget Page.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-08-09-CFCRMQ68B9E3/SEEDS%20of%20Partnership%20Budget%20Page.pdf)
 
+**2022-09-01-CHDN2U5DDDE6**
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2022-09-01-CHDN2U5DDDE6/agenda.html)
+
 **2022-09-06-CG5TRQ789F42**
 - [09.06.22 Board Minutes UNAPPROVED for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-09-06-CG5TRQ789F42/09.06.22%20Board%20Minutes%20UNAPPROVED%20for%20Agenda.pdf)
 - [09.06.22 Personnel Transaction Log _Board Report.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-09-06-CG5TRQ789F42/09.06.22%20Personnel%20Transaction%20Log%20_Board%20Report.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2022-09-06-CG5TRQ789F42/agenda.html)
 - [ARPA ASAP 3.0 Budget Page.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-09-06-CG5TRQ789F42/ARPA%20ASAP%203.0%20Budget%20Page.pdf)
 - [COVID 19 Public Health Workforce Development Grant Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-09-06-CG5TRQ789F42/COVID%2019%20Public%20Health%20Workforce%20Development%20Grant%20Budget%20Pages.pdf)
 - [CRRSAA Grant Budget Page.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-09-06-CG5TRQ789F42/CRRSAA%20Grant%20Budget%20Page.pdf)
@@ -1712,10 +1760,12 @@
 
 **2022-09-13-CJ3R4S639E3A**
 - [09.13.22 Special Meeting Minutes UNAPPROVED for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-09-13-CJ3R4S639E3A/09.13.22%20Special%20Meeting%20Minutes%20UNAPPROVED%20for%20Agenda.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2022-09-13-CJ3R4S639E3A/agenda.html)
 
 **2022-09-20-CGWP8Z636CB8**
 - [09.20.22 Board Meeting Minutes UNAPPROVED for agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-09-20-CGWP8Z636CB8/09.20.22%20Board%20Meeting%20Minutes%20UNAPPROVED%20for%20agenda.pdf)
 - [09.20.22 Personnel Transactions.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-09-20-CGWP8Z636CB8/09.20.22%20Personnel%20Transactions.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2022-09-20-CGWP8Z636CB8/agenda.html)
 - [California Statewide Physical Fitness Test Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-09-20-CGWP8Z636CB8/California%20Statewide%20Physical%20Fitness%20Test%20Budget%20Pages.pdf)
 - [Innovations in Citizenship Education Grant Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-09-20-CGWP8Z636CB8/Innovations%20in%20Citizenship%20Education%20Grant%20Budget%20Pages.pdf)
 - [Project Cal Hope 3.0 Grant Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-09-20-CGWP8Z636CB8/Project%20Cal%20Hope%203.0%20Grant%20Budget%20Pages.pdf)
@@ -1725,15 +1775,21 @@
 - [10.11.22 Personnel Transaction Log.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-10-11-CHCP6F6312EC/10.11.22%20Personnel%20Transaction%20Log.pdf)
 - [2021-2022 Budget Revision No.4 Report.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-10-11-CHCP6F6312EC/2021-2022%20Budget%20Revision%20No.4%20Report.pdf)
 - [2021-2022 Unaudited Actuals Financial Report.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-10-11-CHCP6F6312EC/2021-2022%20Unaudited%20Actuals%20Financial%20Report.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2022-10-11-CHCP6F6312EC/agenda.html)
 - [Resolution and Report for the 2022-2023 Appropriations Limit.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-10-11-CHCP6F6312EC/Resolution%20and%20Report%20for%20the%202022-2023%20Appropriations%20Limit.pdf)
 
 **2022-10-25-CHCPAS63B194**
 - [10.25.22 Personnel Transactions.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-10-25-CHCPAS63B194/10.25.22%20Personnel%20Transactions.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2022-10-25-CHCPAS63B194/agenda.html)
 - [CA Community Schools Partnership Program Regional Technical Assistance Center Contract Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-10-25-CHCPAS63B194/CA%20Community%20Schools%20Partnership%20Program%20Regional%20Technical%20Assistance%20Center%20Contract%20Budget%20Pages.pdf)
+
+**2022-11-02-CKDQNN6A16D8**
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2022-11-02-CKDQNN6A16D8/agenda.html)
 
 **2022-11-15-CJ7QTK6ADE7B**
 - [11.15.2022 Personnel Transactions.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-11-15-CJ7QTK6ADE7B/11.15.2022%20Personnel%20Transactions.pdf)
 - [11.15.22 Board Minutes UNAPPROVED for agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-11-15-CJ7QTK6ADE7B/11.15.22%20Board%20Minutes%20UNAPPROVED%20for%20agenda.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2022-11-15-CJ7QTK6ADE7B/agenda.html)
 - [Annual Williams Report_11.15.22 Board Item_Final 10.24.22.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-11-15-CJ7QTK6ADE7B/Annual%20Williams%20Report_11.15.22%20Board%20Item_Final%2010.24.22.pdf)
 - [ARR 1312.3 Informational Item 11.15.22.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-11-15-CJ7QTK6ADE7B/ARR%201312.3%20Informational%20Item%2011.15.22.pdf)
 - [ARR-1312.3 _Attachment 1_ ACCESS_Distribution 02.12.21.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-11-15-CJ7QTK6ADE7B/ARR-1312.3%20_Attachment%201_%20ACCESS_Distribution%2002.12.21.pdf)
@@ -1748,6 +1804,7 @@
 - [12.13.22 Personnel Transactions.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-12-13-CJPMWQ5CD75A/12.13.22%20Personnel%20Transactions.pdf)
 - [2022_School_Plan_for_Student_Achievement_Foundations_Academy_20221129.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-12-13-CJPMWQ5CD75A/2022_School_Plan_for_Student_Achievement_Foundations_Academy_20221129.pdf)
 - [2022-2023 Budget Revision No.1.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-12-13-CJPMWQ5CD75A/2022-2023%20Budget%20Revision%20No.1.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2022-12-13-CJPMWQ5CD75A/agenda.html)
 - [BP 5142 Board Item 12.13.22.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-12-13-CJPMWQ5CD75A/BP%205142%20Board%20Item%2012.13.22.pdf)
 - [BP 6146.1 Board Item 12.13.22.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-12-13-CJPMWQ5CD75A/BP%206146.1%20Board%20Item%2012.13.22.pdf)
 - [BP 6158 Board Item 12.13.22.pdf](https://docs.fairoakscivic.org/docs/SCOE/2022-12-13-CJPMWQ5CD75A/BP%206158%20Board%20Item%2012.13.22.pdf)
@@ -1765,16 +1822,22 @@
 - [01.17.23 Personnel Transactions.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-01-17-CKJNRE612D50/01.17.23%20Personnel%20Transactions.pdf)
 - [1-17-23 Surplus.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-01-17-CKJNRE612D50/1-17-23%20Surplus.pdf)
 - [2023-2024 Proposed Board Meeting Dates DRAFT for agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-01-17-CKJNRE612D50/2023-2024%20Proposed%20Board%20Meeting%20Dates%20DRAFT%20for%20agenda.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2023-01-17-CKJNRE612D50/agenda.html)
 - [BP 5142 Board Item 01.17.23.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-01-17-CKJNRE612D50/BP%205142%20Board%20Item%2001.17.23.pdf)
 - [BP 6146.1 Board Item 01.17.23.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-01-17-CKJNRE612D50/BP%206146.1%20Board%20Item%2001.17.23.pdf)
 - [BP 6158 Board Item 01.17.23.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-01-17-CKJNRE612D50/BP%206158%20Board%20Item%2001.17.23.pdf)
 - [BP 6173 Board Item 01.17.23.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-01-17-CKJNRE612D50/BP%206173%20Board%20Item%2001.17.23.pdf)
 - [Sacramento COE 2021-22 Audit Report.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-01-17-CKJNRE612D50/Sacramento%20COE%202021-22%20Audit%20Report.pdf)
 
+**2023-01-18-CMBPMM647C58**
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2023-01-18-CMBPMM647C58/agenda.html)
+
 **2023-01-21-CMBRQ76B1121**
 - [01.21.23 Board Retreat Minutes UNAPPROVED for agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-01-21-CMBRQ76B1121/01.21.23%20Board%20Retreat%20Minutes%20UNAPPROVED%20for%20agenda.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2023-01-21-CMBRQ76B1121/agenda.html)
 
 **2023-02-07-CKJNWK61EE7D**
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2023-02-07-CKJNWK61EE7D/agenda.html)
 - [ARR 6158 Independent Study 02.07.23.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-02-07-CKJNWK61EE7D/ARR%206158%20Independent%20Study%2002.07.23.pdf)
 - [ARR 6173 Homeless Education 02.07.23.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-02-07-CKJNWK61EE7D/ARR%206173%20Homeless%20Education%2002.07.23.pdf)
 - [BB-9261.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-02-07-CKJNWK61EE7D/BB-9261.pdf)
@@ -1790,11 +1853,13 @@
 - [2021_2022 Leo A. Palmiter SARC.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-02-21-CKJNYL622DB5/2021_2022%20Leo%20A.%20Palmiter%20SARC.pdf)
 - [2021_2022 Nathaniel S. Colley SARC.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-02-21-CKJNYL622DB5/2021_2022%20Nathaniel%20S.%20Colley%20SARC.pdf)
 - [2021_2022 North Area SARC.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-02-21-CKJNYL622DB5/2021_2022%20North%20Area%20SARC.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2023-02-21-CKJNYL622DB5/agenda.html)
 - [Fortune Annual Report _2021-22_ REVISED.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-02-21-CKJNYL622DB5/Fortune%20Annual%20Report%20_2021-22_%20REVISED.pdf)
 - [Personnel Transactions.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-02-21-CKJNYL622DB5/Personnel%20Transactions.pdf)
 
 **2023-02-25-CNSPF760B189**
 - [02.25.23 County Committee Minutes Unapproved for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-02-25-CNSPF760B189/02.25.23%20County%20Committee%20Minutes%20Unapproved%20for%20Agenda.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2023-02-25-CNSPF760B189/agenda.html)
 - [Description of Petition 1.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-02-25-CNSPF760B189/Description%20of%20Petition%201.pdf)
 - [Description of Petition.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-02-25-CNSPF760B189/Description%20of%20Petition.pdf)
 - [PCOE and SCOE Sufficiency Letters.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-02-25-CNSPF760B189/PCOE%20and%20SCOE%20Sufficiency%20Letters.pdf)
@@ -1802,6 +1867,7 @@
 **2023-03-07-CMAPFQ6411C8**
 - [03.07.23 Board Meeting Minutes Unapproved for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-03-07-CMAPFQ6411C8/03.07.23%20Board%20Meeting%20Minutes%20Unapproved%20for%20Agenda.pdf)
 - [3.7.2023 Personnel Transactions Log - Board mtg.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-03-07-CMAPFQ6411C8/3.7.2023%20Personnel%20Transactions%20Log%20-%20Board%20mtg.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2023-03-07-CMAPFQ6411C8/agenda.html)
 - [Res No 23-01 JCCS Support.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-03-07-CMAPFQ6411C8/Res%20No%2023-01%20JCCS%20Support.pdf)
 
 **2023-03-21-CMAPJF6454DC**
@@ -1809,11 +1875,13 @@
 - [03.21.23 Board Minutes Unapproved for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-03-21-CMAPJF6454DC/03.21.23%20Board%20Minutes%20Unapproved%20for%20Agenda.pdf)
 - [2022_2023 Budget Revision No.2.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-03-21-CMAPJF6454DC/2022_2023%20Budget%20Revision%20No.2.pdf)
 - [3.21.23 Personnel Transactions Log - Board Meeting.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-03-21-CMAPJF6454DC/3.21.23%20Personnel%20Transactions%20Log%20-%20Board%20Meeting.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2023-03-21-CMAPJF6454DC/agenda.html)
 - [Second Interim Financial Report for the 2022-2023 Fiscal Year.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-03-21-CMAPJF6454DC/Second%20Interim%20Financial%20Report%20for%20the%202022-2023%20Fiscal%20Year.pdf)
 
 **2023-04-07-CNVV5F7F0F22**
 - [04.07.23 Board Meeting Minutes UNAPPROVED for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-04-07-CNVV5F7F0F22/04.07.23%20Board%20Meeting%20Minutes%20UNAPPROVED%20for%20Agenda.pdf)
 - [21st Century California School Leadership Academy Budget Page.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-04-07-CNVV5F7F0F22/21st%20Century%20California%20School%20Leadership%20Academy%20Budget%20Page.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2023-04-07-CNVV5F7F0F22/agenda.html)
 - [ESSA Comprehensive Support and Improvement Plan Budget Page.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-04-07-CNVV5F7F0F22/ESSA%20Comprehensive%20Support%20and%20Improvement%20Plan%20Budget%20Page.pdf)
 - [ESSA Comprehensive Support and Improvement Plan Development Budget Page.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-04-07-CNVV5F7F0F22/ESSA%20Comprehensive%20Support%20and%20Improvement%20Plan%20Development%20Budget%20Page.pdf)
 - [Expanded Learning Opportunities Program Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-04-07-CNVV5F7F0F22/Expanded%20Learning%20Opportunities%20Program%20Budget%20Pages.pdf)
@@ -1825,12 +1893,14 @@
 **2023-04-18-CNVV767F252C**
 - [04.18.23 Board Minutes UNAPPROVED for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-04-18-CNVV767F252C/04.18.23%20Board%20Minutes%20UNAPPROVED%20for%20Agenda.pdf)
 - [4.18.23 Personnel Transactions Log.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-04-18-CNVV767F252C/4.18.23%20Personnel%20Transactions%20Log.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2023-04-18-CNVV767F252C/agenda.html)
 - [Res No 23-04 Pay Absent Board Member.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-04-18-CNVV767F252C/Res%20No%2023-04%20Pay%20Absent%20Board%20Member.pdf)
 - [RES. No. 23-03 United Way Campaign.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-04-18-CNVV767F252C/RES.%20No.%2023-03%20United%20Way%20Campaign.pdf)
 
 **2023-05-02-CP9PDC63D948**
 - [05.02.23 Board Minutes UNAPPROVED for agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-05-02-CP9PDC63D948/05.02.23%20Board%20Minutes%20UNAPPROVED%20for%20agenda.pdf)
 - [5.2.23 Personnel Transactions Log - Board Meeting.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-05-02-CP9PDC63D948/5.2.23%20Personnel%20Transactions%20Log%20-%20Board%20Meeting.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2023-05-02-CP9PDC63D948/agenda.html)
 - [Classified School Employee Week 2023 Res.No. 23-06.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-05-02-CP9PDC63D948/Classified%20School%20Employee%20Week%202023%20Res.No.%2023-06.pdf)
 - [College and Career Pathways Grant Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-05-02-CP9PDC63D948/College%20and%20Career%20Pathways%20Grant%20Budget%20Pages.pdf)
 - [Day of the Teacher May 10_ 2023 Res.No. 23-05.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-05-02-CP9PDC63D948/Day%20of%20the%20Teacher%20May%2010_%202023%20Res.No.%2023-05.pdf)
@@ -1839,6 +1909,7 @@
 
 **2023-05-16-CP9PQV65C93B**
 - [05.16.23 Board Minutes UNAPPROVED for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-05-16-CP9PQV65C93B/05.16.23%20Board%20Minutes%20UNAPPROVED%20for%20Agenda.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2023-05-16-CP9PQV65C93B/agenda.html)
 - [Attachment 1 - Board Resolution 22-07 Conditionally Approving CCCA.PDF](https://docs.fairoakscivic.org/docs/SCOE/2023-05-16-CP9PQV65C93B/Attachment%201%20-%20Board%20Resolution%2022-07%20Conditionally%20Approving%20CCCA.PDF)
 - [Attachment 2 - CCCA Pre-Opening Status Report.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-05-16-CP9PQV65C93B/Attachment%202%20-%20CCCA%20Pre-Opening%20Status%20Report.pdf)
 - [Attachment 3 - SCOE Financial Analysis.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-05-16-CP9PQV65C93B/Attachment%203%20-%20SCOE%20Financial%20Analysis.pdf)
@@ -1846,11 +1917,15 @@
 - [Superintendents Report on Personnel Transactions 5.16.23.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-05-16-CP9PQV65C93B/Superintendents%20Report%20on%20Personnel%20Transactions%205.16.23.pdf)
 - [Universal PreK Mixed Delivery Planning Grant Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-05-16-CP9PQV65C93B/Universal%20PreK%20Mixed%20Delivery%20Planning%20Grant%20Budget%20Pages.pdf)
 
+**2023-05-30-CRVV867F765A**
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2023-05-30-CRVV867F765A/agenda.html)
+
 **2023-06-13-CQUTLE77E1A9**
 - [06.13.23 Board Minutes Unapproved for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-06-13-CQUTLE77E1A9/06.13.23%20Board%20Minutes%20Unapproved%20for%20Agenda.pdf)
 - [10.A. BB 9100.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-06-13-CQUTLE77E1A9/10.A.%20BB%209100.pdf)
 - [10.D.2. BP _ ARR 5145.3.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-06-13-CQUTLE77E1A9/10.D.2.%20BP%20_%20ARR%205145.3.pdf)
 - [2023-2024 State Financial Report.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-06-13-CQUTLE77E1A9/2023-2024%20State%20Financial%20Report.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2023-06-13-CQUTLE77E1A9/agenda.html)
 - [CA Student Aid Commission Capital Area Cash for College_ Regional Coordinating Organization Budget Page.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-06-13-CQUTLE77E1A9/CA%20Student%20Aid%20Commission%20Capital%20Area%20Cash%20for%20College_%20Regional%20Coordinating%20Organization%20Budget%20Page.pdf)
 - [California Student Opportunity and Access Program Grant Budget Page.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-06-13-CQUTLE77E1A9/California%20Student%20Opportunity%20and%20Access%20Program%20Grant%20Budget%20Page.pdf)
 - [Personnel Transactions Log - 6.13.23 Board Meeting.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-06-13-CQUTLE77E1A9/Personnel%20Transactions%20Log%20-%206.13.23%20Board%20Meeting.pdf)
@@ -1866,6 +1941,7 @@
 - [06.27.23 Board Minutes Unapproved for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-06-27-CQUTUY7922F1/06.27.23%20Board%20Minutes%20Unapproved%20for%20Agenda.pdf)
 - [2023 Local Indicators Report.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-06-27-CQUTUY7922F1/2023%20Local%20Indicators%20Report.pdf)
 - [2023-24 SCOE Local Control and Accountability Plan _LCAP__Final.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-06-27-CQUTUY7922F1/2023-24%20SCOE%20Local%20Control%20and%20Accountability%20Plan%20_LCAP__Final.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2023-06-27-CQUTUY7922F1/agenda.html)
 - [County Technical Assistance Grant Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-06-27-CQUTUY7922F1/County%20Technical%20Assistance%20Grant%20Budget%20Pages.pdf)
 - [Disclosure of Salary Increase in accordance with Education Code 1302 _a_.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-06-27-CQUTUY7922F1/Disclosure%20of%20Salary%20Increase%20in%20accordance%20with%20Education%20Code%201302%20_a_.pdf)
 - [Early Head Start Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-06-27-CQUTUY7922F1/Early%20Head%20Start%20Budget%20Pages.pdf)
@@ -1886,6 +1962,7 @@
 
 **2023-07-11-CSCR5S6C0151**
 - [07.11.23 Board Minutes Unapproved for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-07-11-CSCR5S6C0151/07.11.23%20Board%20Minutes%20Unapproved%20for%20Agenda.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2023-07-11-CSCR5S6C0151/agenda.html)
 - [California Preschool Instructional Network - Region 3 Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-07-11-CSCR5S6C0151/California%20Preschool%20Instructional%20Network%20-%20Region%203%20Budget%20Pages.pdf)
 - [California Preschool Instructional Network Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-07-11-CSCR5S6C0151/California%20Preschool%20Instructional%20Network%20Budget%20Pages.pdf)
 - [Improve and Maximize Programs so All Children Can Thrive _Impact_ Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-07-11-CSCR5S6C0151/Improve%20and%20Maximize%20Programs%20so%20All%20Children%20Can%20Thrive%20_Impact_%20Budget%20Pages.pdf)
@@ -1899,6 +1976,7 @@
 - [08.15.23 County Committee Minutes UNAPPROVED for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-08-15-CSUPXN66C45D/08.15.23%20County%20Committee%20Minutes%20UNAPPROVED%20for%20Agenda.pdf)
 - [21st Century Community Learning Center TA SOS for Expanded Learning Grant Year 15 Budget Page.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-08-15-CSUPXN66C45D/21st%20Century%20Community%20Learning%20Center%20TA%20SOS%20for%20Expanded%20Learning%20Grant%20Year%2015%20Budget%20Page.pdf)
 - [After School Education and Safety Program TA SOS  for Expanded Learning Grant Year 13 Budget Page.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-08-15-CSUPXN66C45D/After%20School%20Education%20and%20Safety%20Program%20TA%20SOS%20%20for%20Expanded%20Learning%20Grant%20Year%2013%20Budget%20Page.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2023-08-15-CSUPXN66C45D/agenda.html)
 - [California State Preschool Program Quality Rating _ Improvement System _CSPP_ Grant Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-08-15-CSUPXN66C45D/California%20State%20Preschool%20Program%20Quality%20Rating%20_%20Improvement%20System%20_CSPP_%20Grant%20Budget%20Pages.pdf)
 - [K12 Pathway Coordinator Year 4 Far North Regional Consortium Budget Page.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-08-15-CSUPXN66C45D/K12%20Pathway%20Coordinator%20Year%204%20Far%20North%20Regional%20Consortium%20Budget%20Page.pdf)
 - [K12 Pathway Coordinator Year 5 Far North Regional Consortium Budget Page.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-08-15-CSUPXN66C45D/K12%20Pathway%20Coordinator%20Year%205%20Far%20North%20Regional%20Consortium%20Budget%20Page.pdf)
@@ -1911,18 +1989,24 @@
 **2023-08-15-CTMVRE7F4EB3**
 - [03-27-23 CJUSD Resolution in Opposition.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-08-15-CTMVRE7F4EB3/03-27-23%20CJUSD%20Resolution%20in%20Opposition.pdf)
 - [03-27-23 Letter to Sacramento Committee from Center JUSD re Aspire Solaire Territory Transfer Petition.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-08-15-CTMVRE7F4EB3/03-27-23%20Letter%20to%20Sacramento%20Committee%20from%20Center%20JUSD%20re%20Aspire%20Solaire%20Territory%20Transfer%20Petition.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2023-08-15-CTMVRE7F4EB3/agenda.html)
 - [Description of Petition.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-08-15-CTMVRE7F4EB3/Description%20of%20Petition.pdf)
 
 **2023-09-05-CTMNUD6032AB**
 - [09.05.23 Board Minutes UNAPPROVED for agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-09-05-CTMNUD6032AB/09.05.23%20Board%20Minutes%20UNAPPROVED%20for%20agenda.pdf)
 - [21st Century CA School Leadership Academy Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-09-05-CTMNUD6032AB/21st%20Century%20CA%20School%20Leadership%20Academy%20Budget%20Pages.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2023-09-05-CTMNUD6032AB/agenda.html)
 - [English Language Learner Healthcare Pathways Grant Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-09-05-CTMNUD6032AB/English%20Language%20Learner%20Healthcare%20Pathways%20Grant%20Budget%20Pages.pdf)
 - [Pedestrian and Bicycle Safety Program Grant Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-09-05-CTMNUD6032AB/Pedestrian%20and%20Bicycle%20Safety%20Program%20Grant%20Budget%20Pages.pdf)
 - [Resolution for Textbook Sufficiency - Community and Special Education Schools.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-09-05-CTMNUD6032AB/Resolution%20for%20Textbook%20Sufficiency%20-%20Community%20and%20Special%20Education%20Schools.pdf)
 - [Superintendents Report Personnel Transactions Log - 9.5.23.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-09-05-CTMNUD6032AB/Superintendents%20Report%20Personnel%20Transactions%20Log%20-%209.5.23.pdf)
 
+**2023-09-13-CUQV7X7F6DA4**
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2023-09-13-CUQV7X7F6DA4/agenda.html)
+
 **2023-09-19-CTMNXW60C459**
 - [09.19.23 Board Meeting Minutes UNAPPROVED for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-09-19-CTMNXW60C459/09.19.23%20Board%20Meeting%20Minutes%20UNAPPROVED%20for%20Agenda.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2023-09-19-CTMNXW60C459/agenda.html)
 - [ARCA Material Revision Sept 19_2023.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-09-19-CTMNXW60C459/ARCA%20Material%20Revision%20Sept%2019_2023.pdf)
 - [Attachment 1.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-09-19-CTMNXW60C459/Attachment%201.pdf)
 - [Attachment 2.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-09-19-CTMNXW60C459/Attachment%202.pdf)
@@ -1933,11 +2017,16 @@
 
 **2023-10-03-CV5M54580ED2**
 - [10.03.23 Board Minutes UNAPPROVED for agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-10-03-CV5M54580ED2/10.03.23%20Board%20Minutes%20UNAPPROVED%20for%20agenda.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2023-10-03-CV5M54580ED2/agenda.html)
 - [Superintendents Report on Personnel Transactions.10.3.23.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-10-03-CV5M54580ED2/Superintendents%20Report%20on%20Personnel%20Transactions.10.3.23.pdf)
+
+**2023-10-14-CV9QQ96A4112**
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2023-10-14-CV9QQ96A4112/agenda.html)
 
 **2023-10-17-CV5M72581E29**
 - [10.17.23 Board Minutes UNAPPROVED for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-10-17-CV5M72581E29/10.17.23%20Board%20Minutes%20UNAPPROVED%20for%20Agenda.pdf)
 - [22-23 Budget Rev No 4.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-10-17-CV5M72581E29/22-23%20Budget%20Rev%20No%204.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2023-10-17-CV5M72581E29/agenda.html)
 - [Financial Statements 22-23 Actuals.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-10-17-CV5M72581E29/Financial%20Statements%2022-23%20Actuals.pdf)
 - [Res No 23-14 and Report for the 2023-2024 Appropriations Limit.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-10-17-CV5M72581E29/Res%20No%2023-14%20and%20Report%20for%20the%202023-2024%20Appropriations%20Limit.pdf)
 - [Superintendents Report on Personnel Transactions 10.17.23.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-10-17-CV5M72581E29/Superintendents%20Report%20on%20Personnel%20Transactions%2010.17.23.pdf)
@@ -1945,12 +2034,14 @@
 **2023-11-14-CVUM895925D9**
 - [11.14.23 Board Minutes UNAPPROVED for agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-11-14-CVUM895925D9/11.14.23%20Board%20Minutes%20UNAPPROVED%20for%20agenda.pdf)
 - [11.14.23 County Committee Minutes Unapproved for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-11-14-CVUM895925D9/11.14.23%20County%20Committee%20Minutes%20Unapproved%20for%20Agenda.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2023-11-14-CVUM895925D9/agenda.html)
 - [Annual Williams Report_11.14.23 Board Item_Final 10.26.23.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-11-14-CVUM895925D9/Annual%20Williams%20Report_11.14.23%20Board%20Item_Final%2010.26.23.pdf)
 - [Expanded Learning Opportunities Program Technical Assistance Grant Budget Page.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-11-14-CVUM895925D9/Expanded%20Learning%20Opportunities%20Program%20Technical%20Assistance%20Grant%20Budget%20Page.pdf)
 - [Superintendents Report on Personnel Transactions - 11.14.23.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-11-14-CVUM895925D9/Superintendents%20Report%20on%20Personnel%20Transactions%20-%2011.14.23.pdf)
 - [Surplus Equipment 11.14.23.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-11-14-CVUM895925D9/Surplus%20Equipment%2011.14.23.pdf)
 
 **2023-11-14-CWFMJC5AFD23**
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2023-11-14-CWFMJC5AFD23/agenda.html)
 - [Attachment 1 _Petition for Transfer of Territory From Center to Roseville Districts_.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-11-14-CWFMJC5AFD23/Attachment%201%20_Petition%20for%20Transfer%20of%20Territory%20From%20Center%20to%20Roseville%20Districts_.pdf)
 - [Attachment 2 - CJUSD Resolution Opposing Territory Transfer.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-11-14-CWFMJC5AFD23/Attachment%202%20-%20CJUSD%20Resolution%20Opposing%20Territory%20Transfer.pdf)
 - [Attachment 3 - GFSJPA Report on Statutory Criteria for Proposed Transfer of Territory.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-11-14-CWFMJC5AFD23/Attachment%203%20-%20GFSJPA%20Report%20on%20Statutory%20Criteria%20for%20Proposed%20Transfer%20of%20Territory.pdf)
@@ -1959,16 +2050,21 @@
 - [Attachment 6 Aspire Solaire Transfer Analysis Summary CJUSD.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-11-14-CWFMJC5AFD23/Attachment%206%20Aspire%20Solaire%20Transfer%20Analysis%20Summary%20CJUSD.pdf)
 - [Description of Petition.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-11-14-CWFMJC5AFD23/Description%20of%20Petition.pdf)
 
+**2023-11-15-CXBN9A5ED029**
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2023-11-15-CXBN9A5ED029/agenda.html)
+
 **2023-12-12-CWBUL77C8929**
 - [12.12.23 Board Minutes DRAFT for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-12-12-CWBUL77C8929/12.12.23%20Board%20Minutes%20DRAFT%20for%20Agenda.pdf)
 - [2023-2024 Budget Revision No.1 Report.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-12-12-CWBUL77C8929/2023-2024%20Budget%20Revision%20No.1%20Report.pdf)
 - [2023-2024 First Interim Report Revised.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-12-12-CWBUL77C8929/2023-2024%20First%20Interim%20Report%20Revised.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2023-12-12-CWBUL77C8929/agenda.html)
 - [Resolution No. 23-15.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-12-12-CWBUL77C8929/Resolution%20No.%2023-15.pdf)
 - [Statewide Residency Technical Assistance Center Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-12-12-CWBUL77C8929/Statewide%20Residency%20Technical%20Assistance%20Center%20Budget%20Pages.pdf)
 - [Superintendents Report on Personnel Transactions Log - 12.12.23.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-12-12-CWBUL77C8929/Superintendents%20Report%20on%20Personnel%20Transactions%20Log%20-%2012.12.23.pdf)
 
 **2023-12-12-CWGUY27E34D2**
 - [12.12.23 Board Minutes DRAFT for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-12-12-CWGUY27E34D2/12.12.23%20Board%20Minutes%20DRAFT%20for%20Agenda.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2023-12-12-CWGUY27E34D2/agenda.html)
 - [Attachment 1 _Petition for Transfer of Territory From Center to Roseville Districts_ .pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-12-12-CWGUY27E34D2/Attachment%201%20_Petition%20for%20Transfer%20of%20Territory%20From%20Center%20to%20Roseville%20Districts_%20.pdf)
 - [Attachment 2 _CJUSD Resolution Opposing Territory Transfer_.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-12-12-CWGUY27E34D2/Attachment%202%20_CJUSD%20Resolution%20Opposing%20Territory%20Transfer_.pdf)
 - [Attachment 3 - RJUHSD  Res. No. 2322 Territory Transfer Petition Opposition 11-09-23.pdf](https://docs.fairoakscivic.org/docs/SCOE/2023-12-12-CWGUY27E34D2/Attachment%203%20-%20RJUHSD%20%20Res.%20No.%202322%20Territory%20Transfer%20Petition%20Opposition%2011-09-23.pdf)
@@ -1983,14 +2079,19 @@
 **2024-01-16-CWNLDQ55C307**
 - [01.16.24 Board Minutes Draft UNAPPROVED for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-01-16-CWNLDQ55C307/01.16.24%20Board%20Minutes%20Draft%20UNAPPROVED%20for%20Agenda.pdf)
 - [2024-2025 Proposed Board Meeting Dates DRAFT.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-01-16-CWNLDQ55C307/2024-2025%20Proposed%20Board%20Meeting%20Dates%20DRAFT.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2024-01-16-CWNLDQ55C307/agenda.html)
 - [ARCA Facility Update to SCOE January 2024.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-01-16-CWNLDQ55C307/ARCA%20Facility%20Update%20to%20SCOE%20January%202024.pdf)
 - [California Digital Learning Integration and Standards Guidance Updates Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-01-16-CWNLDQ55C307/California%20Digital%20Learning%20Integration%20and%20Standards%20Guidance%20Updates%20Budget%20Pages.pdf)
 - [Res No 24-01 _ BB9260.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-01-16-CWNLDQ55C307/Res%20No%2024-01%20_%20BB9260.pdf)
 - [School-Linked Partnerships and Capacity Grant Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-01-16-CWNLDQ55C307/School-Linked%20Partnerships%20and%20Capacity%20Grant%20Budget%20Pages.pdf)
 - [Superintendents Report on Personnel Transactions-1.16.24.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-01-16-CWNLDQ55C307/Superintendents%20Report%20on%20Personnel%20Transactions-1.16.24.pdf)
 
+**2024-01-31-CYHUKX72348F**
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2024-01-31-CYHUKX72348F/agenda.html)
+
 **2024-02-06-CXZTYY79B945**
 - [02.06.24 Board Minutes UNAPPROVED for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-02-06-CXZTYY79B945/02.06.24%20Board%20Minutes%20UNAPPROVED%20for%20Agenda.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2024-02-06-CXZTYY79B945/agenda.html)
 - [Attachment 1.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-02-06-CXZTYY79B945/Attachment%201.pdf)
 - [Attachment 2.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-02-06-CXZTYY79B945/Attachment%202.pdf)
 - [BB-9261.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-02-06-CXZTYY79B945/BB-9261.pdf)
@@ -2005,8 +2106,12 @@
 - [North Area Community School SARC 22.23.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-02-06-CXZTYY79B945/North%20Area%20Community%20School%20SARC%2022.23.pdf)
 - [Superintendents Report on Personnel Transactions-2.6.24.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-02-06-CXZTYY79B945/Superintendents%20Report%20on%20Personnel%20Transactions-2.6.24.pdf)
 
+**2024-02-06-CZ6VEQ7CC89D**
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2024-02-06-CZ6VEQ7CC89D/agenda.html)
+
 **2024-02-20-CXZU6A7A7F98**
 - [02.20.24 Board Meeting Minutes Unapproved for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-02-20-CXZU6A7A7F98/02.20.24%20Board%20Meeting%20Minutes%20Unapproved%20for%20Agenda.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2024-02-20-CXZU6A7A7F98/agenda.html)
 - [LCAP 2023-24 Midyear Expenditure and Implementation Data Final.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-02-20-CXZU6A7A7F98/LCAP%202023-24%20Midyear%20Expenditure%20and%20Implementation%20Data%20Final.pdf)
 - [Million Girls Moonshot_California Innovator STEAM Hub Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-02-20-CXZU6A7A7F98/Million%20Girls%20Moonshot_California%20Innovator%20STEAM%20Hub%20Budget%20Pages.pdf)
 - [Res No 24-02 _ BB 9260.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-02-20-CXZU6A7A7F98/Res%20No%2024-02%20_%20BB%209260.pdf)
@@ -2016,12 +2121,14 @@
 **2024-03-05-CZCMFB5B0283**
 - [03.05.24 Board Meeting Minutes UNAPPROVED for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-03-05-CZCMFB5B0283/03.05.24%20Board%20Meeting%20Minutes%20UNAPPROVED%20for%20Agenda.pdf)
 - [10A CSBA Delegate Assembly Election Ballot.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-03-05-CZCMFB5B0283/10A%20CSBA%20Delegate%20Assembly%20Election%20Ballot.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2024-03-05-CZCMFB5B0283/agenda.html)
 - [Superintendents Report on Personnel Transactions 3.05.24.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-03-05-CZCMFB5B0283/Superintendents%20Report%20on%20Personnel%20Transactions%203.05.24.pdf)
 
 **2024-03-19-CZCMKS5B7532**
 - [03.19.24 Board Minutes UNAPPROVED for agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-03-19-CZCMKS5B7532/03.19.24%20Board%20Minutes%20UNAPPROVED%20for%20agenda.pdf)
 - [2023-2024 Budget Revision No. 2 Report.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-03-19-CZCMKS5B7532/2023-2024%20Budget%20Revision%20No.%202%20Report.pdf)
 - [2023-2024 Second Interim Financial Report.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-03-19-CZCMKS5B7532/2023-2024%20Second%20Interim%20Financial%20Report.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2024-03-19-CZCMKS5B7532/agenda.html)
 - [Attachment 1.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-03-19-CZCMKS5B7532/Attachment%201.pdf)
 - [California-2023-SB1094-Introduced.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-03-19-CZCMKS5B7532/California-2023-SB1094-Introduced.pdf)
 - [Superintendents Report on Personnel Transactions 3.19.24.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-03-19-CZCMKS5B7532/Superintendents%20Report%20on%20Personnel%20Transactions%203.19.24.pdf)
@@ -2029,11 +2136,13 @@
 
 **2024-04-05-D2PQ5T6549B5**
 - [04.05.24 Board Minutes Unapproved for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-04-05-D2PQ5T6549B5/04.05.24%20Board%20Minutes%20Unapproved%20for%20Agenda.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2024-04-05-D2PQ5T6549B5/agenda.html)
 - [Superintendents Report on Personnel Transactions - 4.05.24.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-04-05-D2PQ5T6549B5/Superintendents%20Report%20on%20Personnel%20Transactions%20-%204.05.24.pdf)
 
 **2024-04-16-D2PQP8671990**
 - [04.16.24 Board Minutes Unapproved for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-04-16-D2PQP8671990/04.16.24%20Board%20Minutes%20Unapproved%20for%20Agenda.pdf)
 - [10.B.2. 24-04 Board Resolution.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-04-16-D2PQP8671990/10.B.2.%2024-04%20Board%20Resolution.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2024-04-16-D2PQP8671990/agenda.html)
 - [Certified Wellness Coach Employer Support Grant Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-04-16-D2PQP8671990/Certified%20Wellness%20Coach%20Employer%20Support%20Grant%20Budget%20Pages.pdf)
 - [Joyful LIteracy and Creative Expression with Youth Children Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-04-16-D2PQP8671990/Joyful%20LIteracy%20and%20Creative%20Expression%20with%20Youth%20Children%20Budget%20Pages.pdf)
 - [Outreach and Technical Assistance Network _OTAN_ Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-04-16-D2PQP8671990/Outreach%20and%20Technical%20Assistance%20Network%20_OTAN_%20Budget%20Pages.pdf)
@@ -2045,6 +2154,7 @@
 
 **2024-05-07-D3LSMJ735C69**
 - [05.07.24 Board Meeting Minutes DRAFT for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-05-07-D3LSMJ735C69/05.07.24%20Board%20Meeting%20Minutes%20DRAFT%20for%20Agenda.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2024-05-07-D3LSMJ735C69/agenda.html)
 - [California Community Schools Partnership Program Implementation Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-05-07-D3LSMJ735C69/California%20Community%20Schools%20Partnership%20Program%20Implementation%20Budget%20Pages.pdf)
 - [California Literacy Roadmap Contract Monitor Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-05-07-D3LSMJ735C69/California%20Literacy%20Roadmap%20Contract%20Monitor%20Budget%20Pages.pdf)
 - [Classified School Employee Week 2024 Res.No. 24-06.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-05-07-D3LSMJ735C69/Classified%20School%20Employee%20Week%202024%20Res.No.%2024-06.pdf)
@@ -2061,6 +2171,7 @@
 **2024-05-21-D3LTH87769FF**
 - [05.21.24 Board Minutes Unapproved for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-05-21-D3LTH87769FF/05.21.24%20Board%20Minutes%20Unapproved%20for%20Agenda.pdf)
 - [7.G.H.  05.21.24 Curriculum Committee Meeting Minutes.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-05-21-D3LTH87769FF/7.G.H.%20%2005.21.24%20Curriculum%20Committee%20Meeting%20Minutes.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2024-05-21-D3LTH87769FF/agenda.html)
 - [Board Resolution 24-14 Accepting Real Property at 10520 Armstrong Ave.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-05-21-D3LTH87769FF/Board%20Resolution%2024-14%20Accepting%20Real%20Property%20at%2010520%20Armstrong%20Ave.pdf)
 - [BP _ ARR 5145.3.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-05-21-D3LTH87769FF/BP%20_%20ARR%205145.3.pdf)
 - [California Assessment of Student Performance and Progress Support System _CAASPP_ Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-05-21-D3LTH87769FF/California%20Assessment%20of%20Student%20Performance%20and%20Progress%20Support%20System%20_CAASPP_%20Budget%20Pages.pdf)
@@ -2074,6 +2185,7 @@
 **2024-06-11-D4CN4M5CC798**
 - [06.11.24 Board Minutes Unapproved for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-06-11-D4CN4M5CC798/06.11.24%20Board%20Minutes%20Unapproved%20for%20Agenda.pdf)
 - [2024-2025 State Financial Report.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-06-11-D4CN4M5CC798/2024-2025%20State%20Financial%20Report.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2024-06-11-D4CN4M5CC798/agenda.html)
 - [BB 9100.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-06-11-D4CN4M5CC798/BB%209100.pdf)
 - [California Serves Grant Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-06-11-D4CN4M5CC798/California%20Serves%20Grant%20Budget%20Pages.pdf)
 - [Inclusive Early Education Expansion Program Statewide Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-06-11-D4CN4M5CC798/Inclusive%20Early%20Education%20Expansion%20Program%20Statewide%20Budget%20Pages.pdf)
@@ -2097,6 +2209,7 @@
 - [7.D. 06.25.24 24-25 COE Summary.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-06-25-D4CP4L5FEEF8/7.D.%2006.25.24%2024-25%20COE%20Summary.pdf)
 - [7.G.H.  05.21.24 Curriculum Committee Meeting Minutes.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-06-25-D4CP4L5FEEF8/7.G.H.%20%2005.21.24%20Curriculum%20Committee%20Meeting%20Minutes.pdf)
 - [7.I. WEE Plan CDE Final 2024.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-06-25-D4CP4L5FEEF8/7.I.%20WEE%20Plan%20CDE%20Final%202024.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2024-06-25-D4CP4L5FEEF8/agenda.html)
 - [Bilingual Teacher Professional Development Program Grant Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-06-25-D4CP4L5FEEF8/Bilingual%20Teacher%20Professional%20Development%20Program%20Grant%20Budget%20Pages.pdf)
 - [Cal-SOAP Grant Budget Page.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-06-25-D4CP4L5FEEF8/Cal-SOAP%20Grant%20Budget%20Page.pdf)
 - [California Community Schools Partnership Program _CCSPP_ Coordination Grant Budget Page.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-06-25-D4CP4L5FEEF8/California%20Community%20Schools%20Partnership%20Program%20_CCSPP_%20Coordination%20Grant%20Budget%20Page.pdf)
@@ -2112,6 +2225,7 @@
 **2024-07-16-D5KTSJ78C73B**
 - [07.16.24 Board Meeting Minutes DRAFT for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-07-16-D5KTSJ78C73B/07.16.24%20Board%20Meeting%20Minutes%20DRAFT%20for%20Agenda.pdf)
 - [21st Century California School Leadership Academy Budget Page.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-07-16-D5KTSJ78C73B/21st%20Century%20California%20School%20Leadership%20Academy%20Budget%20Page.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2024-07-16-D5KTSJ78C73B/agenda.html)
 - [American Rescue Plan Act _ARPA_ Friday Night Live Grant Budget Page.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-07-16-D5KTSJ78C73B/American%20Rescue%20Plan%20Act%20_ARPA_%20Friday%20Night%20Live%20Grant%20Budget%20Page.pdf)
 - [County Technical Assistance Grant Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-07-16-D5KTSJ78C73B/County%20Technical%20Assistance%20Grant%20Budget%20Pages.pdf)
 - [Early Learning Partnerships Building Mindful Early Care and Education Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-07-16-D5KTSJ78C73B/Early%20Learning%20Partnerships%20Building%20Mindful%20Early%20Care%20and%20Education%20Budget%20Pages.pdf)
@@ -2131,6 +2245,7 @@
 - [08.13.24 Board Meeting Minutes UNAPPROVED for agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-08-13-D6CRKW6E2F1F/08.13.24%20Board%20Meeting%20Minutes%20UNAPPROVED%20for%20agenda.pdf)
 - [21st Century Community Learning Center - Technical Assistance System of Support for Expanded Learning Grant_ Year 16 Budget Page.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-08-13-D6CRKW6E2F1F/21st%20Century%20Community%20Learning%20Center%20-%20Technical%20Assistance%20System%20of%20Support%20for%20Expanded%20Learning%20Grant_%20Year%2016%20Budget%20Page.pdf)
 - [After School Education and Safety Program - Tehnical Assistance System of Support for Expanded Learning Grant Year 14 Budget Page.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-08-13-D6CRKW6E2F1F/After%20School%20Education%20and%20Safety%20Program%20-%20Tehnical%20Assistance%20System%20of%20Support%20for%20Expanded%20Learning%20Grant%20Year%2014%20Budget%20Page.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2024-08-13-D6CRKW6E2F1F/agenda.html)
 - [Board Resolution 24-17 Material Revision CCCA International Students.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-08-13-D6CRKW6E2F1F/Board%20Resolution%2024-17%20Material%20Revision%20CCCA%20International%20Students.pdf)
 - [CA School Dashboard 2024 Priority 1 Local Indicator.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-08-13-D6CRKW6E2F1F/CA%20School%20Dashboard%202024%20Priority%201%20Local%20Indicator.pdf)
 - [CCCA - Request for Material Revision 7.30.24_.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-08-13-D6CRKW6E2F1F/CCCA%20-%20Request%20for%20Material%20Revision%207.30.24_.pdf)
@@ -2144,8 +2259,12 @@
 - [Teacher Residency Capacity Grant - California State University_ Sacramento Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-08-13-D6CRKW6E2F1F/Teacher%20Residency%20Capacity%20Grant%20-%20California%20State%20University_%20Sacramento%20Budget%20Pages.pdf)
 - [Teacher Residency Capacity Grant - Pacific Oaks College Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-08-13-D6CRKW6E2F1F/Teacher%20Residency%20Capacity%20Grant%20-%20Pacific%20Oaks%20College%20Budget%20Pages.pdf)
 
+**2024-08-24-D7GTR47890E9**
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2024-08-24-D7GTR47890E9/agenda.html)
+
 **2024-09-10-D6CRJ46E2AD4**
 - [09.10.24 Board Meeting Minutes Unapproved for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-09-10-D6CRJ46E2AD4/09.10.24%20Board%20Meeting%20Minutes%20Unapproved%20for%20Agenda.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2024-09-10-D6CRJ46E2AD4/agenda.html)
 - [Education for Homeless Children and Youth Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-09-10-D6CRJ46E2AD4/Education%20for%20Homeless%20Children%20and%20Youth%20Budget%20Pages.pdf)
 - [Resolution 24-19 for Textbook Sufficiency - Community and Special Education Schools.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-09-10-D6CRJ46E2AD4/Resolution%2024-19%20for%20Textbook%20Sufficiency%20-%20Community%20and%20Special%20Education%20Schools.pdf)
 - [Sacramento COE CSBA_GAMUT 24-25.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-09-10-D6CRJ46E2AD4/Sacramento%20COE%20CSBA_GAMUT%2024-25.pdf)
@@ -2154,25 +2273,32 @@
 
 **2024-09-24-D78PDL6421CE**
 - [09.24.24 Board Minutes Unapproved for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-09-24-D78PDL6421CE/09.24.24%20Board%20Minutes%20Unapproved%20for%20Agenda.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2024-09-24-D78PDL6421CE/agenda.html)
 - [Classified Employee Credential Grant Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-09-24-D78PDL6421CE/Classified%20Employee%20Credential%20Grant%20Budget%20Pages.pdf)
 - [Prop 28 Arts Funding Budget 2024.SCOE_2_.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-09-24-D78PDL6421CE/Prop%2028%20Arts%20Funding%20Budget%202024.SCOE_2_.pdf)
 - [Superintendents Report on Personnel Transactions 9.24.24.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-09-24-D78PDL6421CE/Superintendents%20Report%20on%20Personnel%20Transactions%209.24.24.pdf)
 
 **2024-10-08-D8HQ4F66775D**
 - [10.08.24 Board Minutes Unapproved for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-10-08-D8HQ4F66775D/10.08.24%20Board%20Minutes%20Unapproved%20for%20Agenda.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2024-10-08-D8HQ4F66775D/agenda.html)
 - [Superintendents Report on Personnel Transactions.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-10-08-D8HQ4F66775D/Superintendents%20Report%20on%20Personnel%20Transactions.pdf)
 
 **2024-10-22-D8ZLJE56C66A**
 - [10.22.24 Board Minutes Unapproved for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-10-22-D8ZLJE56C66A/10.22.24%20Board%20Minutes%20Unapproved%20for%20Agenda.pdf)
 - [2023-2024 Budget Revision No. 4.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-10-22-D8ZLJE56C66A/2023-2024%20Budget%20Revision%20No.%204.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2024-10-22-D8ZLJE56C66A/agenda.html)
 - [Jan Mayer Ashley Resume.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-10-22-D8ZLJE56C66A/Jan%20Mayer%20Ashley%20Resume.pdf)
 - [Resolution No. 24-20 Establishing the 2024-2025 Appropriations Limit and Report.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-10-22-D8ZLJE56C66A/Resolution%20No.%2024-20%20Establishing%20the%202024-2025%20Appropriations%20Limit%20and%20Report.pdf)
 - [Superintendents Report on Personnel Transaction Log 10.22.24.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-10-22-D8ZLJE56C66A/Superintendents%20Report%20on%20Personnel%20Transaction%20Log%2010.22.24.pdf)
 - [Unaudited Actuals Financial Report 2023-2024.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-10-22-D8ZLJE56C66A/Unaudited%20Actuals%20Financial%20Report%202023-2024.pdf)
 
+**2024-10-22-D9FMXR5D6A27**
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2024-10-22-D9FMXR5D6A27/agenda.html)
+
 **2024-11-12-D9XR5H6C4F92**
 - [11.12.24 Board Meeting Minutes Unapproved for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-11-12-D9XR5H6C4F92/11.12.24%20Board%20Meeting%20Minutes%20Unapproved%20for%20Agenda.pdf)
 - [2023-2024 Annual Report of Sacramento County Williams Reviews.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-11-12-D9XR5H6C4F92/2023-2024%20Annual%20Report%20of%20Sacramento%20County%20Williams%20Reviews.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2024-11-12-D9XR5H6C4F92/agenda.html)
 - [K12 Strong Workforce Program Round 7_Reimagining ICT Pathways.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-11-12-D9XR5H6C4F92/K12%20Strong%20Workforce%20Program%20Round%207_Reimagining%20ICT%20Pathways.pdf)
 - [K12 Strong Workforce Program_Career Education _ Exploration Grant Budget Page.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-11-12-D9XR5H6C4F92/K12%20Strong%20Workforce%20Program_Career%20Education%20_%20Exploration%20Grant%20Budget%20Page.pdf)
 - [Superintendents Report on Personnel Transactions 11.12.24.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-11-12-D9XR5H6C4F92/Superintendents%20Report%20on%20Personnel%20Transactions%2011.12.24.pdf)
@@ -2181,6 +2307,7 @@
 - [12.10.24 Board Meeting Minutes Unapproved for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-12-10-D9XR7K6C5F78/12.10.24%20Board%20Meeting%20Minutes%20Unapproved%20for%20Agenda.pdf)
 - [2024-2025 Budget Revision No. 1 Report.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-12-10-D9XR7K6C5F78/2024-2025%20Budget%20Revision%20No.%201%20Report.pdf)
 - [2024-2025 First Interim Report.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-12-10-D9XR7K6C5F78/2024-2025%20First%20Interim%20Report.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2024-12-10-D9XR7K6C5F78/agenda.html)
 - [ARCA MOU with SCOE.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-12-10-D9XR7K6C5F78/ARCA%20MOU%20with%20SCOE.pdf)
 - [ARCA Request for MOU Revisions.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-12-10-D9XR7K6C5F78/ARCA%20Request%20for%20MOU%20Revisions.pdf)
 - [Attachment 1.pdf](https://docs.fairoakscivic.org/docs/SCOE/2024-12-10-D9XR7K6C5F78/Attachment%201.pdf)
@@ -2193,6 +2320,7 @@
 
 **2025-01-14-D9XS8M717839**
 - [01.14.25 Board Meeting Minutes UNAPPROVED for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-01-14-D9XS8M717839/01.14.25%20Board%20Meeting%20Minutes%20UNAPPROVED%20for%20Agenda.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2025-01-14-D9XS8M717839/agenda.html)
 - [Attachment 1 ACCBE Adopted Bylaws.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-01-14-D9XS8M717839/Attachment%201%20ACCBE%20Adopted%20Bylaws.pdf)
 - [Attachment 2 ACCBE FAQ.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-01-14-D9XS8M717839/Attachment%202%20ACCBE%20FAQ.pdf)
 - [Attachment 3 Proposed Resolution No. 25-01 - Membership in ACCBE.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-01-14-D9XS8M717839/Attachment%203%20Proposed%20Resolution%20No.%2025-01%20-%20Membership%20in%20ACCBE.pdf)
@@ -2205,6 +2333,7 @@
 - [02.04.25 Board Minutes Unapproved for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-02-04-DB6USD7D71D4/02.04.25%20Board%20Minutes%20Unapproved%20for%20Agenda.pdf)
 - [2024 State _ Local Cybersecurity Grant Program Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-02-04-DB6USD7D71D4/2024%20State%20_%20Local%20Cybersecurity%20Grant%20Program%20Budget%20Pages.pdf)
 - [2025-2026 Proposed Board Meeting Dates DRAFT.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-02-04-DB6USD7D71D4/2025-2026%20Proposed%20Board%20Meeting%20Dates%20DRAFT.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2025-02-04-DB6USD7D71D4/agenda.html)
 - [Attachment 1 ACCBE Description.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-02-04-DB6USD7D71D4/Attachment%201%20ACCBE%20Description.pdf)
 - [Attachment 2 ACCBE FAQs.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-02-04-DB6USD7D71D4/Attachment%202%20ACCBE%20FAQs.pdf)
 - [Attachment 3 ACCBE Adopted Bylaws.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-02-04-DB6USD7D71D4/Attachment%203%20ACCBE%20Adopted%20Bylaws.pdf)
@@ -2223,6 +2352,7 @@
 
 **2025-02-18-DB6UZN7E825F**
 - [02.18.25 Board Minutes for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-02-18-DB6UZN7E825F/02.18.25%20Board%20Minutes%20for%20Agenda.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2025-02-18-DB6UZN7E825F/agenda.html)
 - [BB-9261.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-02-18-DB6UZN7E825F/BB-9261.pdf)
 - [Health Net CalAIM Grant Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-02-18-DB6UZN7E825F/Health%20Net%20CalAIM%20Grant%20Budget%20Pages.pdf)
 - [Midyear Expenditure and Implementation Data.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-02-18-DB6UZN7E825F/Midyear%20Expenditure%20and%20Implementation%20Data.pdf)
@@ -2236,17 +2366,22 @@
 - [03.04.25 Board Meeting Minutes Unapproved for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-03-04-DD5SPA739D2E/03.04.25%20Board%20Meeting%20Minutes%20Unapproved%20for%20Agenda.pdf)
 - [11A CSBA Delegate Election.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-03-04-DD5SPA739D2E/11A%20CSBA%20Delegate%20Election.pdf)
 - [2023-2024 CCCA Annual Oversight Report.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-03-04-DD5SPA739D2E/2023-2024%20CCCA%20Annual%20Oversight%20Report.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2025-03-04-DD5SPA739D2E/agenda.html)
 - [BB-9261.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-03-04-DD5SPA739D2E/BB-9261.pdf)
 - [Count-Play-Explore Partnership Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-03-04-DD5SPA739D2E/Count-Play-Explore%20Partnership%20Budget%20Pages.pdf)
 - [SLCGP Resolution 25-02.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-03-04-DD5SPA739D2E/SLCGP%20Resolution%2025-02.pdf)
 - [Superintendents Report on Personnel Transactions 2025_03_04.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-03-04-DD5SPA739D2E/Superintendents%20Report%20on%20Personnel%20Transactions%202025_03_04.pdf)
 - [Title III County Office of Education Regional English Learner Specialists Agreement Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-03-04-DD5SPA739D2E/Title%20III%20County%20Office%20of%20Education%20Regional%20English%20Learner%20Specialists%20Agreement%20Budget%20Pages.pdf)
 
+**2025-03-08-DDUTM677FE16**
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2025-03-08-DDUTM677FE16/agenda.html)
+
 **2025-03-18-DD5SRQ73F8E0**
 - [03.18.25 Board Meeting Minutes for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-03-18-DD5SRQ73F8E0/03.18.25%20Board%20Meeting%20Minutes%20for%20Agenda.pdf)
 - [2024 Fortune Annual Oversight Report FINAL.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-03-18-DD5SRQ73F8E0/2024%20Fortune%20Annual%20Oversight%20Report%20FINAL.pdf)
 - [2024-2025 Budget Revision No. 2 Report.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-03-18-DD5SRQ73F8E0/2024-2025%20Budget%20Revision%20No.%202%20Report.pdf)
 - [2024-2025 Second Interim Financial Report.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-03-18-DD5SRQ73F8E0/2024-2025%20Second%20Interim%20Financial%20Report.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2025-03-18-DD5SRQ73F8E0/agenda.html)
 - [Book for Brighter Futures Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-03-18-DD5SRQ73F8E0/Book%20for%20Brighter%20Futures%20Budget%20Pages.pdf)
 - [California Community Schools Partnership Program State Technical Assistance Center Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-03-18-DD5SRQ73F8E0/California%20Community%20Schools%20Partnership%20Program%20State%20Technical%20Assistance%20Center%20Budget%20Pages.pdf)
 - [Superintendents Report on Personnel Transactions 2025_03_18.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-03-18-DD5SRQ73F8E0/Superintendents%20Report%20on%20Personnel%20Transactions%202025_03_18.pdf)
@@ -2255,20 +2390,26 @@
 **2025-04-04-DEBTL877DA43**
 - [03.6.25 _SB 584 Factsheet.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-04-04-DEBTL877DA43/03.6.25%20_SB%20584%20Factsheet.pdf)
 - [04.04.25 Board Meeting Minutes Unapproved for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-04-04-DEBTL877DA43/04.04.25%20Board%20Meeting%20Minutes%20Unapproved%20for%20Agenda.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2025-04-04-DEBTL877DA43/agenda.html)
 - [Letter of Support SB 584.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-04-04-DEBTL877DA43/Letter%20of%20Support%20SB%20584.pdf)
 - [Superintendents Report on Personnel Transactions.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-04-04-DEBTL877DA43/Superintendents%20Report%20on%20Personnel%20Transactions.pdf)
 
 **2025-04-15-DEPQEK68E951**
 - [04.15.25 Board Meeting Minutes Unapproved for agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-04-15-DEPQEK68E951/04.15.25%20Board%20Meeting%20Minutes%20Unapproved%20for%20agenda.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2025-04-15-DEPQEK68E951/agenda.html)
 - [BB-9261.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-04-15-DEPQEK68E951/BB-9261.pdf)
 - [Res No 25-04 Pay Absent Board Member _ BB 9260.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-04-15-DEPQEK68E951/Res%20No%2025-04%20Pay%20Absent%20Board%20Member%20_%20BB%209260.pdf)
 - [Resolution 25-03 Authorizing Temporary Interfund Transfer of Funds.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-04-15-DEPQEK68E951/Resolution%2025-03%20Authorizing%20Temporary%20Interfund%20Transfer%20of%20Funds.pdf)
 - [Superintendents Report on Personnel Transactions 4.15.25.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-04-15-DEPQEK68E951/Superintendents%20Report%20on%20Personnel%20Transactions%204.15.25.pdf)
 - [The State Implementation Partnership Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-04-15-DEPQEK68E951/The%20State%20Implementation%20Partnership%20Budget%20Pages.pdf)
 
+**2025-04-16-DFHPPW65A267**
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2025-04-16-DFHPPW65A267/agenda.html)
+
 **2025-05-06-DF7M4T5934DE**
 - [05.06.25 Board Meeting Minutes Unapproved for agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-05-06-DF7M4T5934DE/05.06.25%20Board%20Meeting%20Minutes%20Unapproved%20for%20agenda.pdf)
 - [05.06.25 Surplus Equipment.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-05-06-DF7M4T5934DE/05.06.25%20Surplus%20Equipment.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2025-05-06-DF7M4T5934DE/agenda.html)
 - [Res No 25-05 - California Day of the Teacher - May 14_ 2025.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-05-06-DF7M4T5934DE/Res%20No%2025-05%20-%20California%20Day%20of%20the%20Teacher%20-%20May%2014_%202025.pdf)
 - [Res No 25-06 - Classified School Employee Week.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-05-06-DF7M4T5934DE/Res%20No%2025-06%20-%20Classified%20School%20Employee%20Week.pdf)
 - [Superintendents Report on Personnel Transactions 5.6.25.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-05-06-DF7M4T5934DE/Superintendents%20Report%20on%20Personnel%20Transactions%205.6.25.pdf)
@@ -2276,6 +2417,7 @@
 **2025-05-20-DF7M2V593089**
 - [05.20.25 Board Meeting  Minutes Unapproved for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-05-20-DF7M2V593089/05.20.25%20Board%20Meeting%20%20Minutes%20Unapproved%20for%20Agenda.pdf)
 - [12A Attachment Board Idea Log Process.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-05-20-DF7M2V593089/12A%20Attachment%20Board%20Idea%20Log%20Process.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2025-05-20-DF7M2V593089/agenda.html)
 - [BB 9150.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-05-20-DF7M2V593089/BB%209150.pdf)
 - [Black Student Landscape Analysis_Final Accessible.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-05-20-DF7M2V593089/Black%20Student%20Landscape%20Analysis_Final%20Accessible.pdf)
 - [Count Play Explore Professional Learning and Coaching Cohort Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-05-20-DF7M2V593089/Count%20Play%20Explore%20Professional%20Learning%20and%20Coaching%20Cohort%20Budget%20Pages.pdf)
@@ -2285,6 +2427,7 @@
 - [06.10.25 Board Meeting Minutes Unapproved for agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-06-10-DFRNUW61B028/06.10.25%20Board%20Meeting%20Minutes%20Unapproved%20for%20agenda.pdf)
 - [2025-2026 State Financial Report.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-06-10-DFRNUW61B028/2025-2026%20State%20Financial%20Report.pdf)
 - [2025-26 SCOE LCAP for Public Hearing.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-06-10-DFRNUW61B028/2025-26%20SCOE%20LCAP%20for%20Public%20Hearing.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2025-06-10-DFRNUW61B028/agenda.html)
 - [ARR 5117 - Attachment _Handbook_.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-06-10-DFRNUW61B028/ARR%205117%20-%20Attachment%20_Handbook_.pdf)
 - [ARR 5117 - Interdistrict Transfer Appeals.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-06-10-DFRNUW61B028/ARR%205117%20-%20Interdistrict%20Transfer%20Appeals.pdf)
 - [BB 9100.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-06-10-DFRNUW61B028/BB%209100.pdf)
@@ -2311,6 +2454,7 @@
 - [2025 SPSA Palmiter.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-06-24-DFRTMD7800CB/2025%20SPSA%20Palmiter.pdf)
 - [2025-26 SCOE LCAP for Board Adoption_FINAL.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-06-24-DFRTMD7800CB/2025-26%20SCOE%20LCAP%20for%20Board%20Adoption_FINAL.pdf)
 - [25-26 COE Summary.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-06-24-DFRTMD7800CB/25-26%20COE%20Summary.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2025-06-24-DFRTMD7800CB/agenda.html)
 - [ARR 6158 - Independent Study.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-06-24-DFRTMD7800CB/ARR%206158%20-%20Independent%20Study.pdf)
 - [BB 9150 - Student County Board Members.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-06-24-DFRTMD7800CB/BB%209150%20-%20Student%20County%20Board%20Members.pdf)
 - [BP 6158 - Independent Study.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-06-24-DFRTMD7800CB/BP%206158%20-%20Independent%20Study.pdf)
@@ -2331,6 +2475,7 @@
 - [2025 Proposed Updated Expulsion Appeal Handbook.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-07-15-DGQU8W7AE221/2025%20Proposed%20Updated%20Expulsion%20Appeal%20Handbook.pdf)
 - [7.15.25_Resolution No. 25-07 Final.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-07-15-DGQU8W7AE221/7.15.25_Resolution%20No.%2025-07%20Final.pdf)
 - [AB 84.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-07-15-DGQU8W7AE221/AB%2084.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2025-07-15-DGQU8W7AE221/agenda.html)
 - [BC No 1543 ATT _1 AB 84 _June 3_ 2025 Assembly Floor Analysis_.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-07-15-DGQU8W7AE221/BC%20No%201543%20ATT%20_1%20AB%2084%20_June%203_%202025%20Assembly%20Floor%20Analysis_.pdf)
 - [BC No 1543 ATT _2 SB 414 _May 25_ 2025 Senate Floor Analysis - Third Reading_.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-07-15-DGQU8W7AE221/BC%20No%201543%20ATT%20_2%20SB%20414%20_May%2025_%202025%20Senate%20Floor%20Analysis%20-%20Third%20Reading_.pdf)
 - [Nevada County Probation_Placer PREP Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-07-15-DGQU8W7AE221/Nevada%20County%20Probation_Placer%20PREP%20Budget%20Pages.pdf)
@@ -2341,6 +2486,7 @@
 
 **2025-08-12-DHJUB27B31B6**
 - [08.12.25 Board Minutes Unapproved for Agenda revised.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-08-12-DHJUB27B31B6/08.12.25%20Board%20Minutes%20Unapproved%20for%20Agenda%20revised.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2025-08-12-DHJUB27B31B6/agenda.html)
 - [California Community Schools Partnership Program Regional Assistance Center Contract Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-08-12-DHJUB27B31B6/California%20Community%20Schools%20Partnership%20Program%20Regional%20Assistance%20Center%20Contract%20Budget%20Pages.pdf)
 - [County Technical Assistance Grant Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-08-12-DHJUB27B31B6/County%20Technical%20Assistance%20Grant%20Budget%20Pages.pdf)
 - [Friday Night Live_Club Live_Friday Night Live Mentoring Programs Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-08-12-DHJUB27B31B6/Friday%20Night%20Live_Club%20Live_Friday%20Night%20Live%20Mentoring%20Programs%20Budget%20Pages.pdf)
@@ -2354,6 +2500,7 @@
 
 **2025-09-02-DK28A774B09C**
 - [09.02.25 Board Minutes Unapproved for agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-09-02-DK28A774B09C/09.02.25%20Board%20Minutes%20Unapproved%20for%20agenda.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2025-09-02-DK28A774B09C/agenda.html)
 - [California Adult Education Program Technical Assistance Project Budget Page.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-09-02-DK28A774B09C/California%20Adult%20Education%20Program%20Technical%20Assistance%20Project%20Budget%20Page.pdf)
 - [California Community Schools Partnership Program Coordination Grant Budget Page.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-09-02-DK28A774B09C/California%20Community%20Schools%20Partnership%20Program%20Coordination%20Grant%20Budget%20Page.pdf)
 - [Office of Youth and Community Restoration Grant Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-09-02-DK28A774B09C/Office%20of%20Youth%20and%20Community%20Restoration%20Grant%20Budget%20Pages.pdf)
@@ -2364,11 +2511,15 @@
 - [09.15.25 DRAFT Revised Resolution _Attachment 3_ for agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-09-16-DK28CP74C9F7/09.15.25%20DRAFT%20Revised%20Resolution%20_Attachment%203_%20for%20agenda.pdf)
 - [2023-26 Proposition 28 AMS_ School Site Expenditure Plan Summary.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-09-16-DK28CP74C9F7/2023-26%20Proposition%2028%20AMS_%20School%20Site%20Expenditure%20Plan%20Summary.pdf)
 - [24-26 AMS Expenditure Plan.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-09-16-DK28CP74C9F7/24-26%20AMS%20Expenditure%20Plan.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2025-09-16-DK28CP74C9F7/agenda.html)
 - [ATTACHMENT 1 _CCCA Material Revision Request_.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-09-16-DK28CP74C9F7/ATTACHMENT%201%20_CCCA%20Material%20Revision%20Request_.pdf)
 - [ATTACHMENT 2 _CCCA Legal Updates to Petition_.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-09-16-DK28CP74C9F7/ATTACHMENT%202%20_CCCA%20Legal%20Updates%20to%20Petition_.pdf)
 - [ATTACHMENT 3 _Proposed Resolution Approving CCCA Material Revision_.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-09-16-DK28CP74C9F7/ATTACHMENT%203%20_Proposed%20Resolution%20Approving%20CCCA%20Material%20Revision_.pdf)
 - [Superintendents Report on Personnel Transactions 9.16.25.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-09-16-DK28CP74C9F7/Superintendents%20Report%20on%20Personnel%20Transactions%209.16.25.pdf)
 - [The State Implementation Partnership Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-09-16-DK28CP74C9F7/The%20State%20Implementation%20Partnership%20Budget%20Pages.pdf)
+
+**2025-09-20-DKXMUV5CFD97**
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2025-09-20-DKXMUV5CFD97/agenda.html)
 
 **2025-10-07-DL8U457A2F94**
 - [10.07.25 Board Meeting Minutes Unapproved for Agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-10-07-DL8U457A2F94/10.07.25%20Board%20Meeting%20Minutes%20Unapproved%20for%20Agenda.pdf)
@@ -2376,6 +2527,7 @@
 - [21st Century California School Leadership Acadeny Budget Page REVISED.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-10-07-DL8U457A2F94/21st%20Century%20California%20School%20Leadership%20Acadeny%20Budget%20Page%20REVISED.pdf)
 - [21st Century Community Learning Center - Technical Assistance System of Support for Expanded Learning Grant Year 17 Budget Page.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-10-07-DL8U457A2F94/21st%20Century%20Community%20Learning%20Center%20-%20Technical%20Assistance%20System%20of%20Support%20for%20Expanded%20Learning%20Grant%20Year%2017%20Budget%20Page.pdf)
 - [After School Education and Safety Program - Technical Assistance System of Support for Expanded Learning Grant Year 15 Budget Page.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-10-07-DL8U457A2F94/After%20School%20Education%20and%20Safety%20Program%20-%20Technical%20Assistance%20System%20of%20Support%20for%20Expanded%20Learning%20Grant%20Year%2015%20Budget%20Page.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2025-10-07-DL8U457A2F94/agenda.html)
 - [College Initiative Budget Page.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-10-07-DL8U457A2F94/College%20Initiative%20Budget%20Page.pdf)
 - [Expanded Learning Opportunities - Program Technical Assistance - System of Support for Expanded Learning Grant_ Year 3 Budget Page.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-10-07-DL8U457A2F94/Expanded%20Learning%20Opportunities%20-%20Program%20Technical%20Assistance%20-%20System%20of%20Support%20for%20Expanded%20Learning%20Grant_%20Year%203%20Budget%20Page.pdf)
 - [Expanding Access to Education for Students Experiencing Homeless Budget Page.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-10-07-DL8U457A2F94/Expanding%20Access%20to%20Education%20for%20Students%20Experiencing%20Homeless%20Budget%20Page.pdf)
@@ -2385,6 +2537,7 @@
 
 **2025-10-21-DLCRGP6DF2C8**
 - [2024-2025 Budget Revision No.4.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-10-21-DLCRGP6DF2C8/2024-2025%20Budget%20Revision%20No.4.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2025-10-21-DLCRGP6DF2C8/agenda.html)
 - [CA Schools Dashboard Priority 1 Local Indicator fall 2025 w school data.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-10-21-DLCRGP6DF2C8/CA%20Schools%20Dashboard%20Priority%201%20Local%20Indicator%20fall%202025%20w%20school%20data.pdf)
 - [Career Technical Education Incentive Grant Budget Page.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-10-21-DLCRGP6DF2C8/Career%20Technical%20Education%20Incentive%20Grant%20Budget%20Page.pdf)
 - [Resolution No. 25-15 Establishing the 2025-2026 Appropriations Limit and Report.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-10-21-DLCRGP6DF2C8/Resolution%20No.%2025-15%20Establishing%20the%202025-2026%20Appropriations%20Limit%20and%20Report.pdf)
@@ -2393,17 +2546,25 @@
 
 **2025-11-18-DLST8Y76342A**
 - [09.16.25 Board Meeting MINUTES unapproved for agenda.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-11-18-DLST8Y76342A/09.16.25%20Board%20Meeting%20MINUTES%20unapproved%20for%20agenda.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2025-11-18-DLST8Y76342A/agenda.html)
 - [Annual Williams Report_11-18-2025 Board Item.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-11-18-DLST8Y76342A/Annual%20Williams%20Report_11-18-2025%20Board%20Item.pdf)
 - [Draft Strategic Priorities 2025 - 26.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-11-18-DLST8Y76342A/Draft%20Strategic%20Priorities%202025%20-%2026.pdf)
 - [Personnel Transaction Log Board Meeting November 18_  2025.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-11-18-DLST8Y76342A/Personnel%20Transaction%20Log%20Board%20Meeting%20November%2018_%20%202025.pdf)
 - [Proposed Resolution No. 25-16 Calling for Election of Trustees.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-11-18-DLST8Y76342A/Proposed%20Resolution%20No.%2025-16%20Calling%20for%20Election%20of%20Trustees.pdf)
 - [Registered Apprenticeship Grant Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-11-18-DLST8Y76342A/Registered%20Apprenticeship%20Grant%20Budget%20Pages.pdf)
 
+**2025-12-15-DMUVBX8003E7**
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2025-12-15-DMUVBX8003E7/agenda.html)
+
 **2025-12-16-DLSTDH76DE63**
 - [2025-2026 Budget Revision No.1 Report.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-12-16-DLSTDH76DE63/2025-2026%20Budget%20Revision%20No.1%20Report.pdf)
 - [2025-2026 First Interim Report.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-12-16-DLSTDH76DE63/2025-2026%20First%20Interim%20Report.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2025-12-16-DLSTDH76DE63/agenda.html)
 - [Dual Enrollment Opportunities College and Career Access Pathways Grant Budget Pages.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-12-16-DLSTDH76DE63/Dual%20Enrollment%20Opportunities%20College%20and%20Career%20Access%20Pathways%20Grant%20Budget%20Pages.pdf)
 - [Superintendents Report on Personnel Transactions December 16_  2025.pdf](https://docs.fairoakscivic.org/docs/SCOE/2025-12-16-DLSTDH76DE63/Superintendents%20Report%20on%20Personnel%20Transactions%20December%2016_%20%202025.pdf)
+
+**2025-12-16-DMUVEE805D1F**
+- [agenda.html](https://docs.fairoakscivic.org/docs/SCOE/2025-12-16-DMUVEE805D1F/agenda.html)
 
 ## SJUSD
 
@@ -2444,6 +2605,7 @@
 
 **2020-04-28**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2020-04-28/agenda-packet.pdf)
+- [agenda.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2020-04-28/agenda.pdf)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2020-04-28/minutes.pdf)
 
 **2020-05-12**
@@ -2528,6 +2690,7 @@
 
 **2021-02-23**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2021-02-23/agenda-packet.pdf)
+- [agenda.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2021-02-23/agenda.pdf)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2021-02-23/minutes.pdf)
 
 **2021-02-26**
@@ -2626,6 +2789,7 @@
 
 **2021-12-14**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2021-12-14/agenda-packet.pdf)
+- [agenda.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2021-12-14/agenda.pdf)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2021-12-14/minutes.pdf)
 
 **2022-01-11**
@@ -2660,6 +2824,7 @@
 
 **2022-04-19**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2022-04-19/agenda-packet.pdf)
+- [agenda.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2022-04-19/agenda.pdf)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2022-04-19/minutes.pdf)
 
 **2022-05-10**
@@ -2693,6 +2858,7 @@
 
 **2022-08-23**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2022-08-23/agenda-packet.pdf)
+- [agenda.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2022-08-23/agenda.pdf)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2022-08-23/minutes.pdf)
 
 **2022-09-13**
@@ -2716,6 +2882,7 @@
 
 **2022-10-25**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2022-10-25/agenda-packet.pdf)
+- [agenda.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2022-10-25/agenda.pdf)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2022-10-25/minutes.pdf)
 
 **2022-11-15**
@@ -2740,6 +2907,7 @@
 
 **2023-02-14**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2023-02-14/agenda-packet.pdf)
+- [agenda.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2023-02-14/agenda.pdf)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2023-02-14/minutes.pdf)
 
 **2023-02-28**
@@ -2789,6 +2957,7 @@
 
 **2023-06-13**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2023-06-13/agenda-packet.pdf)
+- [agenda.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2023-06-13/agenda.pdf)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2023-06-13/minutes.pdf)
 
 **2023-06-27**
@@ -2833,10 +3002,12 @@
 
 **2023-12-12**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2023-12-12/agenda-packet.pdf)
+- [agenda.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2023-12-12/agenda.pdf)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2023-12-12/minutes.pdf)
 
 **2024-01-09**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-01-09/agenda-packet.pdf)
+- [agenda.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-01-09/agenda.pdf)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-01-09/minutes.pdf)
 
 **2024-01-19**
@@ -2848,10 +3019,12 @@
 
 **2024-01-23**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-01-23/agenda-packet.pdf)
+- [agenda.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-01-23/agenda.pdf)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-01-23/minutes.pdf)
 
 **2024-02-13**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-02-13/agenda-packet.pdf)
+- [agenda.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-02-13/agenda.pdf)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-02-13/minutes.pdf)
 
 **2024-02-27**
@@ -2861,172 +3034,222 @@
 
 **2024-03-19**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-03-19/agenda-packet.pdf)
+- [agenda.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-03-19/agenda.pdf)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-03-19/minutes.pdf)
 
 **2024-04-09**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-04-09/agenda-packet.pdf)
+- [agenda.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-04-09/agenda.pdf)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-04-09/minutes.pdf)
 
 **2024-04-23**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-04-23/agenda-packet.pdf)
+- [agenda.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-04-23/agenda.pdf)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-04-23/minutes.pdf)
 
 **2024-05-14**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-05-14/agenda-packet.pdf)
+- [agenda.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-05-14/agenda.pdf)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-05-14/minutes.pdf)
 
 **2024-05-28**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-05-28/agenda-packet.pdf)
+- [agenda.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-05-28/agenda.pdf)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-05-28/minutes.pdf)
 
 **2024-06-11**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-06-11/agenda-packet.pdf)
+- [agenda.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-06-11/agenda.pdf)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-06-11/minutes.pdf)
 
 **2024-06-25**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-06-25/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2024-06-25/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-06-25/minutes.pdf)
 
 **2024-07-30**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-07-30/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2024-07-30/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-07-30/minutes.pdf)
 
 **2024-08-13**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-08-13/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2024-08-13/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-08-13/minutes.pdf)
 
 **2024-08-27**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-08-27/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2024-08-27/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-08-27/minutes.pdf)
 
 **2024-09-10**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-09-10/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2024-09-10/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-09-10/minutes.pdf)
 
 **2024-09-24**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-09-24/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2024-09-24/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-09-24/minutes.pdf)
 
 **2024-10-08**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-10-08/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2024-10-08/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-10-08/minutes.pdf)
 
 **2024-10-22**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-10-22/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2024-10-22/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-10-22/minutes.pdf)
 
 **2024-11-19**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-11-19/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2024-11-19/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-11-19/minutes.pdf)
 
 **2024-12-17**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-12-17/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2024-12-17/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2024-12-17/minutes.pdf)
 
 **2025-01-14**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-01-14/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2025-01-14/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-01-14/minutes.pdf)
 
 **2025-01-28**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-01-28/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2025-01-28/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-01-28/minutes.pdf)
 
 **2025-02-08**
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2025-02-08/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-02-08/minutes.pdf)
 
 **2025-02-11**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-02-11/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2025-02-11/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-02-11/minutes.pdf)
 
 **2025-02-25**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-02-25/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2025-02-25/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-02-25/minutes.pdf)
 
 **2025-03-11**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-03-11/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2025-03-11/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-03-11/minutes.pdf)
 
 **2025-03-25**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-03-25/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2025-03-25/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-03-25/minutes.pdf)
 
 **2025-04-08**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-04-08/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2025-04-08/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-04-08/minutes.pdf)
 
 **2025-04-22**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-04-22/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2025-04-22/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-04-22/minutes.pdf)
 
 **2025-05-13**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-05-13/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2025-05-13/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-05-13/minutes.pdf)
 
 **2025-05-27**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-05-27/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2025-05-27/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-05-27/minutes.pdf)
 
 **2025-06-10**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-06-10/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2025-06-10/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-06-10/minutes.pdf)
 
 **2025-06-24**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-06-24/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2025-06-24/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-06-24/minutes.pdf)
 
 **2025-08-12**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-08-12/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2025-08-12/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-08-12/minutes.pdf)
 
 **2025-08-20**
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2025-08-20/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-08-20/minutes.pdf)
 
 **2025-08-26**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-08-26/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2025-08-26/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-08-26/minutes.pdf)
 
 **2025-09-09**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-09-09/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2025-09-09/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-09-09/minutes.pdf)
 
 **2025-09-23**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-09-23/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2025-09-23/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-09-23/minutes.pdf)
 
 **2025-10-14**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-10-14/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2025-10-14/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-10-14/minutes.pdf)
 
 **2025-10-28**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-10-28/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2025-10-28/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-10-28/minutes.pdf)
 
 **2025-11-18**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-11-18/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2025-11-18/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-11-18/minutes.pdf)
 
 **2025-12-16**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-12-16/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2025-12-16/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2025-12-16/minutes.pdf)
 
 **2026-01-13**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2026-01-13/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2026-01-13/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2026-01-13/minutes.pdf)
 
 **2026-01-27**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2026-01-27/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2026-01-27/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2026-01-27/minutes.pdf)
 
 **2026-02-10**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2026-02-10/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2026-02-10/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2026-02-10/minutes.pdf)
 
 **2026-02-24**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2026-02-24/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2026-02-24/agenda.html)
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2026-02-24/minutes.pdf)
 
 **2026-03-10**
 - [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2026-03-10/agenda-packet.pdf)
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2026-03-10/agenda.html)
+- [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2026-03-10/minutes.pdf)
+
+**2026-03-24**
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2026-03-24/agenda.html)
+
+**2026-03-26**
+- [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2026-03-26/agenda.html)
 
 ## SJWD
 

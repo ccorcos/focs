@@ -1,27 +1,16 @@
 import * as fs from "fs/promises";
 import * as path from "path";
 import pLimit from "p-limit";
+import { readManifestKeys, r2KeyToLocal, r2KeyToUrl, MANIFEST_PATH } from "./utils/manifest";
 
-const R2_PUBLIC_BASE = "https://docs.fairoakscivic.org";
-const MANIFEST_PATH = "focs.md";
 const CONCURRENCY = 50;
-
-// Parse focs.md to get list of R2 keys (docs/ prefix for backward compat)
-async function readManifest(): Promise<string[]> {
-  const content = await fs.readFile(MANIFEST_PATH, "utf-8");
-  const keys: string[] = [];
-  for (const line of content.split("\n")) {
-    const match = line.match(/^\- \[.*?\]\(.*?\/(docs\/.*?)\)$/);
-    if (match) keys.push(decodeURIComponent(match[1]));
-  }
-  return keys;
-}
 
 async function main() {
   const orgFilter = process.argv[2]; // optional, e.g. "FORPD"
 
   console.log(`Reading ${MANIFEST_PATH}...`);
-  let keys = await readManifest();
+  const allKeys = await readManifestKeys();
+  let keys = [...allKeys];
   console.log(`Found ${keys.length} files in manifest`);
 
   if (orgFilter) {
@@ -29,16 +18,13 @@ async function main() {
     console.log(`Filtered to ${keys.length} files for ${orgFilter}`);
   }
 
-  // Map R2 keys (docs/) to local paths (focs/)
-  const keyToLocal = (key: string) => key.replace(/^docs\//, "focs/");
-
   // Check which files need downloading
   const tasks: string[] = [];
   let skipped = 0;
 
   for (const key of keys) {
     try {
-      await fs.stat(keyToLocal(key));
+      await fs.stat(r2KeyToLocal(key));
       skipped++;
     } catch {
       tasks.push(key);
@@ -62,12 +48,12 @@ async function main() {
     tasks.map((key) =>
       limit(async () => {
         try {
-          const url = `${R2_PUBLIC_BASE}/${key}`;
+          const url = r2KeyToUrl(key);
           const res = await fetch(url);
           if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
           const buffer = await res.arrayBuffer();
 
-          const localPath = keyToLocal(key);
+          const localPath = r2KeyToLocal(key);
           await fs.mkdir(path.dirname(localPath), { recursive: true });
           await fs.writeFile(localPath, Buffer.from(buffer));
 

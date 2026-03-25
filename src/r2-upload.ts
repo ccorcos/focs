@@ -3,11 +3,10 @@ import "dotenv/config";
 import * as fs from "fs/promises";
 import pLimit from "p-limit";
 import * as path from "path";
+import { MANIFEST_PATH, buildManifest, localToR2Key, readManifestKeys } from "./utils/manifest";
 import { R2_BUCKET, getR2Client } from "./utils/r2";
 
 const UPLOAD_CONCURRENCY = 200;
-const MANIFEST_PATH = "focs.md";
-const R2_PUBLIC_BASE = "https://docs.fairoakscivic.org";
 
 async function findFiles(dir: string): Promise<string[]> {
   const results: string[] = [];
@@ -28,69 +27,6 @@ function contentType(filePath: string): string {
   if (ext === ".pdf") return "application/pdf";
   if (ext === ".html") return "text/html";
   return "application/octet-stream";
-}
-
-// Parse uploaded.md to get the set of already-uploaded keys
-async function readManifest(): Promise<Set<string>> {
-  const keys = new Set<string>();
-  try {
-    const content = await fs.readFile(MANIFEST_PATH, "utf-8");
-    // Each uploaded file appears as a markdown link: - [filename](url)
-    // The key is encoded in the URL after the base
-    for (const line of content.split("\n")) {
-      const match = line.match(/^\- \[.*?\]\(.*?\/(docs\/.*?)\)$/);
-      if (match) keys.add(decodeURIComponent(match[1]));
-    }
-  } catch {
-    // No manifest yet
-  }
-  return keys;
-}
-
-// Build uploaded.md content from a set of keys
-function buildManifest(keys: Set<string>): string {
-  // Parse keys into { org, date, filename } and group by org then date
-  type Entry = { org: string; date: string; filename: string; key: string };
-  const entries: Entry[] = [];
-
-  for (const key of keys) {
-    // key format: docs/ORG/YYYY-MM-DD/filename
-    const parts = key.split("/");
-    if (parts.length >= 4) {
-      entries.push({
-        org: parts[1],
-        date: parts[2],
-        filename: parts.slice(3).join("/"),
-        key,
-      });
-    }
-  }
-
-  entries.sort((a, b) =>
-    a.org.localeCompare(b.org) || a.date.localeCompare(b.date) || a.filename.localeCompare(b.filename)
-  );
-
-  const lines: string[] = ["# Uploaded Documents", ""];
-
-  let currentOrg = "";
-  let currentDate = "";
-  for (const entry of entries) {
-    if (entry.org !== currentOrg) {
-      if (currentOrg) lines.push(""); // blank line before new org
-      currentOrg = entry.org;
-      currentDate = "";
-      lines.push(`## ${entry.org}`);
-    }
-    if (entry.date !== currentDate) {
-      currentDate = entry.date;
-      lines.push("", `**${entry.date}**`);
-    }
-    const url = `${R2_PUBLIC_BASE}/${encodeURIComponent(entry.key).replace(/%2F/g, "/")}`;
-    lines.push(`- [${entry.filename}](${url})`);
-  }
-
-  lines.push("");
-  return lines.join("\n");
 }
 
 function formatSize(bytes: number) {
@@ -114,7 +50,7 @@ async function main() {
   if (files.length === 0) return;
 
   // Read existing manifest to skip already-uploaded files
-  const alreadyUploaded = await readManifest();
+  const alreadyUploaded = await readManifestKeys();
   console.log(`Manifest has ${alreadyUploaded.size} already-uploaded files`);
 
   // Build task list, skipping already-uploaded
@@ -122,8 +58,7 @@ async function main() {
   const tasks: UploadTask[] = [];
 
   for (const localPath of files) {
-    // R2 keys use docs/ prefix for backward-compatible public URLs
-    const key = localPath.replace(/^focs\//, "docs/");
+    const key = localToR2Key(localPath);
     if (alreadyUploaded.has(key)) continue;
     const stat = await fs.stat(localPath);
     tasks.push({ localPath, key, size: stat.size });
