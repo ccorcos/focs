@@ -6,21 +6,28 @@ import * as path from "path";
 import { R2_BUCKET, getR2Client } from "./utils/r2";
 
 const UPLOAD_CONCURRENCY = 200;
-const MANIFEST_PATH = "upload.md";
+const MANIFEST_PATH = "focs.md";
 const R2_PUBLIC_BASE = "https://docs.fairoakscivic.org";
 
-async function findPdfs(dir: string): Promise<string[]> {
+async function findFiles(dir: string): Promise<string[]> {
   const results: string[] = [];
   const entries = await fs.readdir(dir, { withFileTypes: true });
   for (const entry of entries) {
     const full = path.join(dir, entry.name);
     if (entry.isDirectory()) {
-      results.push(...(await findPdfs(full)));
-    } else if (entry.name.toLowerCase().endsWith(".pdf")) {
+      results.push(...(await findFiles(full)));
+    } else if (!entry.name.startsWith(".")) {
       results.push(full);
     }
   }
   return results.sort();
+}
+
+function contentType(filePath: string): string {
+  const ext = path.extname(filePath).toLowerCase();
+  if (ext === ".pdf") return "application/pdf";
+  if (ext === ".html") return "text/html";
+  return "application/octet-stream";
 }
 
 // Parse uploaded.md to get the set of already-uploaded keys
@@ -47,7 +54,7 @@ function buildManifest(keys: Set<string>): string {
   const entries: Entry[] = [];
 
   for (const key of keys) {
-    // key format: docs/ORG/YYYY-MM-DD/filename.pdf
+    // key format: docs/ORG/YYYY-MM-DD/filename
     const parts = key.split("/");
     if (parts.length >= 4) {
       entries.push({
@@ -95,14 +102,14 @@ function formatSize(bytes: number) {
 async function main() {
   const args = process.argv.slice(2);
   const dryRun = args.includes("--dry-run");
-  const dir = args.find((a) => !a.startsWith("--")) || "docs";
+  const dir = args.find((a) => !a.startsWith("--")) || "focs";
 
   const client = getR2Client();
   const bucket = R2_BUCKET;
 
-  console.log(`Scanning ${dir} for PDFs...`);
-  const files = await findPdfs(dir);
-  console.log(`Found ${files.length} PDFs`);
+  console.log(`Scanning ${dir} for files...`);
+  const files = await findFiles(dir);
+  console.log(`Found ${files.length} files`);
 
   if (files.length === 0) return;
 
@@ -115,9 +122,11 @@ async function main() {
   const tasks: UploadTask[] = [];
 
   for (const localPath of files) {
-    if (alreadyUploaded.has(localPath)) continue;
+    // R2 keys use docs/ prefix for backward-compatible public URLs
+    const key = localPath.replace(/^focs\//, "docs/");
+    if (alreadyUploaded.has(key)) continue;
     const stat = await fs.stat(localPath);
-    tasks.push({ localPath, key: localPath, size: stat.size });
+    tasks.push({ localPath, key, size: stat.size });
   }
 
   console.log(`${tasks.length} files to upload`);
@@ -156,7 +165,7 @@ async function main() {
                 Bucket: bucket,
                 Key: task.key,
                 Body: body,
-                ContentType: "application/pdf",
+                ContentType: contentType(task.localPath),
               })
             );
             completed++;

@@ -37,7 +37,7 @@ Inside `src/process` and `src/summarize-meetings` we filter for 2024 which we'll
 
 ### PDF Storage (Cloudflare R2)
 
-PDFs are stored in [Cloudflare R2](https://dash.cloudflare.com/8f543a54ad9a48c6984d00e7fbf0bc44/r2/default/buckets/focs) (bucket: `focs`, public at `docs.fairoakscivic.org`), not in git. The `upload.md` manifest tracks what's been uploaded.
+PDFs are stored in [Cloudflare R2](https://dash.cloudflare.com/8f543a54ad9a48c6984d00e7fbf0bc44/r2/default/buckets/focs) (bucket: `focs`, public at `docs.fairoakscivic.org`), not in git. The `focs.md` manifest tracks what's been uploaded. The local `focs/` directory mirrors R2 and is gitignored.
 
 
 ```sh

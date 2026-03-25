@@ -3,10 +3,10 @@ import * as path from "path";
 import pLimit from "p-limit";
 
 const R2_PUBLIC_BASE = "https://docs.fairoakscivic.org";
-const MANIFEST_PATH = "upload.md";
+const MANIFEST_PATH = "focs.md";
 const CONCURRENCY = 50;
 
-// Parse upload.md to get list of keys (same format as r2-upload uses)
+// Parse focs.md to get list of R2 keys (docs/ prefix for backward compat)
 async function readManifest(): Promise<string[]> {
   const content = await fs.readFile(MANIFEST_PATH, "utf-8");
   const keys: string[] = [];
@@ -29,13 +29,16 @@ async function main() {
     console.log(`Filtered to ${keys.length} files for ${orgFilter}`);
   }
 
+  // Map R2 keys (docs/) to local paths (focs/)
+  const keyToLocal = (key: string) => key.replace(/^docs\//, "focs/");
+
   // Check which files need downloading
   const tasks: string[] = [];
   let skipped = 0;
 
   for (const key of keys) {
     try {
-      await fs.stat(key);
+      await fs.stat(keyToLocal(key));
       skipped++;
     } catch {
       tasks.push(key);
@@ -64,8 +67,9 @@ async function main() {
           if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
           const buffer = await res.arrayBuffer();
 
-          await fs.mkdir(path.dirname(key), { recursive: true });
-          await fs.writeFile(key, Buffer.from(buffer));
+          const localPath = keyToLocal(key);
+          await fs.mkdir(path.dirname(localPath), { recursive: true });
+          await fs.writeFile(localPath, Buffer.from(buffer));
 
           completed++;
           if (completed % 50 === 0 || completed === tasks.length) {

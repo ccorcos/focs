@@ -7,8 +7,8 @@ set -e
 AFTER="2024-06"
 
 # Find all PDF files and check for corresponding MD files
-find docs -mindepth 3 -maxdepth 3 -type f -name "*.pdf"  | sort -r | while read pdf_file; do
-    # Extract the date part from the path (docs/org/date/file.pdf)
+find focs -mindepth 3 -maxdepth 3 -type f -name "*.pdf"  | sort -r | while read pdf_file; do
+    # Extract the date part from the path (focs/org/date/file.pdf)
     date_part=$(echo "$pdf_file" | cut -d'/' -f3)
 
     # Skip if date is before AFTER
@@ -16,7 +16,9 @@ find docs -mindepth 3 -maxdepth 3 -type f -name "*.pdf"  | sort -r | while read 
         continue
     fi
 
-    md_file="${pdf_file%.pdf}.md"
+    # Check for .md in docs/ (not focs/)
+    md_file="${pdf_file/focs\//docs\/}"
+    md_file="${md_file%.pdf}.md"
     if [ ! -f "$md_file" ]; then
         echo "Missing markdown file for: $pdf_file"
     elif [ ! -s "$md_file" ]; then

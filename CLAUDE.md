@@ -47,11 +47,11 @@ The `src/process` and `src/summarize-meetings` scripts contain date filters (e.g
 
 **Prompts** (`prompts/`): Three-pass summarization — `summarize.md` → `refine.md` → `format.md`.
 
-**PDF storage**: PDFs are stored in Cloudflare R2 (bucket: `focs`, public at `docs.fairoakscivic.org`), not in git. After running `src/all-download`, use `src/r2-upload` to sync new PDFs to R2. To set up a fresh clone, run `src/r2-download` to fetch all PDFs.
+**PDF storage**: PDFs are stored in Cloudflare R2 (bucket: `focs`, public at `docs.fairoakscivic.org`), not in git. After running `src/all-download`, use `src/r2-upload` to sync new PDFs to R2. To set up a fresh clone, run `src/r2-download` to fetch all PDFs. The manifest is `focs.md`.
 
 **File layout**:
-- `docs/{ORG}/{YYYY-MM-DD}/` — downloaded documents + generated `summary.md`
-- PDFs exist locally but are gitignored; markdown, summaries, and HTML are tracked in git
+- `focs/{ORG}/{YYYY-MM-DD}/` — downloaded files: PDFs, HTML (mirrors R2, gitignored)
+- `docs/{ORG}/{YYYY-MM-DD}/` — markdown extractions + generated `summary.md` (tracked in git)
 - `chroma/` — vector DB storage for RAG
 
 ## Environment

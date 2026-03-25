@@ -3,4 +3,4 @@ node_modules/
 work
 .env
 docs2/
-*.pdf
+focs/

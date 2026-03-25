@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# src/process docs/FORPD
+# src/process focs/FORPD
 
 # Handle Ctrl+C gracefully
 trap 'echo -e "\nInterrupted by user. Exiting..."; exit 1' INT
 if [[ $# -lt 1 || $# -gt 2 ]]; then
     echo "Usage: $0 <directory> [after_date]"
-    echo "Example: $0 docs/SJUSD 2024-06"
+    echo "Example: $0 focs/SJUSD 2024-06"
     exit 1
 fi
 
@@ -17,6 +17,9 @@ if [[ ! -d "$DIR" ]]; then
     exit 1
 fi
 
+# Derive the docs output directory (focs/ORG -> docs/ORG)
+DOCS_DIR="${DIR/focs\//docs\/}"
+
 # Set AFTER to second argument if provided, otherwise default to 2024
 AFTER="${2:-2024}"
 
@@ -26,15 +29,17 @@ ALL_COUNT=$(echo "$ALL_FILES" | wc -l | tr -d ' ')
 PROCESS_FILES=$(echo "$ALL_FILES" | awk -v after="$DIR/$AFTER" '$0 >= after')
 PROCESS_COUNT=$(echo "$PROCESS_FILES" | wc -l | tr -d ' ')
 
-# Filter to only unprocessed PDFs
+# Filter to only unprocessed PDFs (check for .md in docs/ dir)
 TO_PROCESS=()
 SKIPPED=0
 while IFS= read -r pdf_file; do
-    md_file="${pdf_file%.pdf}.md"
-    if [[ ! -f "$md_file" ]]; then
-        TO_PROCESS+=("$pdf_file")
-    else
+    # Map focs path to docs path for the .md file
+    md_file="${pdf_file/focs\//docs\/}"
+    md_file="${md_file%.pdf}.md"
+    if [[ -f "$md_file" ]]; then
         ((SKIPPED++))
+    else
+        TO_PROCESS+=("$pdf_file")
     fi
 done < <(echo "$PROCESS_FILES")
 
@@ -53,9 +58,21 @@ ELAPSED=$(python3 -c "print(f'{$END - $START:.1f}')")
 
 echo "[$ORG] Done: ${#TO_PROCESS[@]} files in ${ELAPSED}s"
 
-# In case you mess up and need to delete them.
-# find "$DIR" -type f -name "*.md" -delete
+# Move generated .md files from focs/ to docs/
+for pdf_file in "${TO_PROCESS[@]}"; do
+    md_src="${pdf_file%.pdf}.md"
+    if [[ -f "$md_src" ]]; then
+        md_dest="${md_src/focs\//docs\/}"
+        mkdir -p "$(dirname "$md_dest")"
+        mv "$md_src" "$md_dest"
+    fi
+done
 
-# In there are empty once.
-# find "$DIR" -type f -name "*.md" -exec sh -c 'if [ ! -s "$1" ] || [ "$(tr -d "[:space:]" < "$1")" = "" ]; then echo "$1"; fi' sh {} \;
-# find "$DIR" -type f -name "*.md" -exec sh -c 'if [ ! -s "$1" ] || [ "$(tr -d "[:space:]" < "$1")" = "" ]; then echo "$1"; fi' sh {} \; | xargs rm -f
+# Also copy any HTML files to docs/ for summarization (e.g., SCOE agendas)
+find "$DIR" -type f -name "*.html" | while read -r html_file; do
+    html_dest="${html_file/focs\//docs\/}"
+    if [[ ! -f "$html_dest" ]]; then
+        mkdir -p "$(dirname "$html_dest")"
+        cp "$html_file" "$html_dest"
+    fi
+done

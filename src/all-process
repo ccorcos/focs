@@ -6,7 +6,7 @@ AFTER="2024-06"
 # Convert PDF files to markdown — all orgs in parallel.
 PIDS=()
 for ORG in FORPD SMUD SJUSD SMFD FOWD LRCCD SJWD SCOE; do
-    src/process "docs/$ORG" "$AFTER" &
+    src/process "focs/$ORG" "$AFTER" &
     PIDS+=($!)
 done
 
