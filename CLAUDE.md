@@ -56,6 +56,8 @@ Use `qmd` to search the extracted markdown in `docs/` and answer questions about
 **`/each <command>`** — Runs a slash command once per organization in parallel (8 agents). Example:
 - `/each /research summarize the last 12 months`
 
+**`/substack`** — Upload research articles to Substack as drafts. Verifies auth cookies, presents a numbered list of files in `research/` sorted newest-first, lets you multi-select, then creates a draft for each. Requires `SUBSTACK_SID` and `SUBSTACK_LLI` cookies in `.env`.
+
 **Workflow**: Search with qmd → Read extracted markdown → Verify against source PDFs when needed
 
 ```sh
@@ -73,7 +75,7 @@ The extracted markdown files (`docs/{ORG}/{YYYY-MM-DD}/*.md`) are pdftotext outp
 
 ## Environment
 
-Requires `.env` with R2 credentials (`R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`) for uploading. R2 endpoint and bucket name are hardcoded in `src/utils/r2.ts`. R2 credentials are not needed for downloading (public bucket). Node.js 22+, pdftotext (poppler), pandoc, qmd (`npm install -g @tobilu/qmd`).
+Requires `.env` with R2 credentials (`R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`) for uploading and Substack session cookies (`SUBSTACK_SID`, `SUBSTACK_LLI`) for draft creation. R2 endpoint and bucket name are hardcoded in `src/utils/r2.ts`. R2 credentials are not needed for downloading (public bucket). Node.js 22+, pdftotext (poppler), pandoc, qmd (`npm install -g @tobilu/qmd`).
 
 ## Setup
 

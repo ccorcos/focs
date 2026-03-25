@@ -1,0 +1,14 @@
+#!/bin/bash
+set -e
+
+if [ $# -eq 0 ]; then
+  # Interactive mode: select files, then upload each
+  selected=$(npx tsx src/substack-select.ts) || exit 0
+  echo ""
+  echo "$selected" | while IFS= read -r file; do
+    npx tsx src/substack-upload.ts "research/$file"
+    echo ""
+  done
+else
+  npx tsx src/substack-upload.ts "$@"
+fi
