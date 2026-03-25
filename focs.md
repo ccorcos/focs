@@ -1275,12 +1275,15 @@
 - [20250212-pres-5a-undocuscholars.pdf](https://docs.fairoakscivic.org/docs/LRCCD/2025-02-12/20250212-pres-5a-undocuscholars.pdf)
 
 **2025-02-28**
+- [20250228-arc-space-utilization-report.pdf](https://docs.fairoakscivic.org/docs/LRCCD/2025-02-28/20250228-arc-space-utilization-report.pdf)
 - [20250228-bot-agenda.pdf](https://docs.fairoakscivic.org/docs/LRCCD/2025-02-28/20250228-bot-agenda.pdf)
 - [20250228-bot-minutes.pdf](https://docs.fairoakscivic.org/docs/LRCCD/2025-02-28/20250228-bot-minutes.pdf)
+- [20250228-crc-space-utilization-report.pdf](https://docs.fairoakscivic.org/docs/LRCCD/2025-02-28/20250228-crc-space-utilization-report.pdf)
 - [20250228-flc-space-utilization-report.pdf](https://docs.fairoakscivic.org/docs/LRCCD/2025-02-28/20250228-flc-space-utilization-report.pdf)
 - [20250228-pres-5a-space-utilization.pdf](https://docs.fairoakscivic.org/docs/LRCCD/2025-02-28/20250228-pres-5a-space-utilization.pdf)
 - [20250228-pres-5b-facilities-master-planning.pdf](https://docs.fairoakscivic.org/docs/LRCCD/2025-02-28/20250228-pres-5b-facilities-master-planning.pdf)
 - [20250228-pres-5c-capital-financing.pdf](https://docs.fairoakscivic.org/docs/LRCCD/2025-02-28/20250228-pres-5c-capital-financing.pdf)
+- [20250228-scc-space-utilization-report.pdf](https://docs.fairoakscivic.org/docs/LRCCD/2025-02-28/20250228-scc-space-utilization-report.pdf)
 
 **2025-03-01**
 - [20250228-arc-space-utilization-report.pdf](https://docs.fairoakscivic.org/docs/LRCCD/2025-03-01/20250228-arc-space-utilization-report.pdf)
@@ -3246,6 +3249,7 @@
 - [minutes.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2026-03-10/minutes.pdf)
 
 **2026-03-24**
+- [agenda-packet.pdf](https://docs.fairoakscivic.org/docs/SJUSD/2026-03-24/agenda-packet.pdf)
 - [agenda.html](https://docs.fairoakscivic.org/docs/SJUSD/2026-03-24/agenda.html)
 
 **2026-03-26**
