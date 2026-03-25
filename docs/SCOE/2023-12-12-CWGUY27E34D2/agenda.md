@@ -1,0 +1,1005 @@
+::: {#agenda-numbering style="display: none;"}
+4
+:::
+
+::::::: {#print-top-meeting-info}
+::::: {#print-date-and-name tabindex="0" align="center"}
+::: print-meeting-date
+Tuesday, December 12, 2023
+:::
+
+::: print-meeting-name
+SACRAMENTO COUNTY COMMITTEE on School District Organization - Notice of
+Public Hearing and Agenda - Center Joint Unified School District,
+Roseville City School District, and Roseville Joint Union High School
+District - 5:45 p.m.
+:::
+:::::
+
+::: {.print-meeting-description tabindex="0"}
+10474 Mather Boulevard\
+Mather, California 95655\
+\
+The Mission of the Sacramento County Office of Education (SCOE) is to
+provide leadership, build partnerships, and implement innovative
+programs and policies that ensure opportunity and access to empowering
+educational experiences for each and every learner.
+:::
+:::::::
+
+::: {role="heading" aria-level="1" style="font-weight: bold; font-size: 16px; border-bottom: 2px solid #000;"}
+1\. Procedural
+:::
+
+::::::: {.container .item .agendaorder tabindex="0"}
+::: {style="font-weight: bold; border-bottom: 0px solid #999;"}
+
+Subject
+:   A. Meeting Access
+:::
+
+Meeting
+:   Dec 12, 2023 - SACRAMENTO COUNTY COMMITTEE on School District
+    Organization - Notice of Public Hearing and Agenda - Center Joint
+    Unified School District, Roseville City School District, and
+    Roseville Joint Union High School District - 5:45 p.m.
+
+<!-- -->
+
+Category
+:   1\. Procedural
+
+<!-- -->
+
+Type
+:   Information
+
+\
+
+::: {.itembody tabindex="0"}
+[[The Sacramento County Committee will meet in person at 10474 Mather
+Boulevard, Mather, CA. The meeting may also be observed via Zoom video
+and/or teleconference. 
+]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[ \
+To view the meeting by computer, tablet, or smart phone, go
+to:  [https://scoe.zoom.us/j/98827706588](https://scoe.zoom.us/j/98827706588){style="color:#0563c1; text-decoration:underline"}\
+ \
+To listen by phone: 669-900-6833\
+ \
+Enter the Meeting ID: 988 2770
+6588]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+:::
+
+:::: {.print-files .XXXui-corner-all role="heading" aria-level\"2\"=""}
+::: {}
+File Attachments
+:::
+::::
+:::::::
+
+:::::::: {.container .item .agendaorder tabindex="0"}
+::: {style="font-weight: bold; border-bottom: 0px solid #999;"}
+
+Subject
+:   B. Public Comment Procedures and Accommodating Individuals with
+    Disabilities
+:::
+
+Meeting
+:   Dec 12, 2023 - SACRAMENTO COUNTY COMMITTEE on School District
+    Organization - Notice of Public Hearing and Agenda - Center Joint
+    Unified School District, Roseville City School District, and
+    Roseville Joint Union High School District - 5:45 p.m.
+
+<!-- -->
+
+Category
+:   1\. Procedural
+
+<!-- -->
+
+Type
+:   Information
+
+\
+
+:::: {.itembody tabindex="0"}
+[[[**Public Comment**]{.underline}
+]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[ ]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[Anyone may appear at the County Committee meeting to provide public
+comment regarding any item on the agenda or regarding any matter that is
+within the Committee\'s subject matter jurisdiction. However, the
+Committee may not take action on any item not on the agenda except as
+authorized by Government Code section 54954.2.  If possible, notify the
+Committee Chair in writing prior to the meeting if you wish to
+testify.]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[ ]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[Individuals wishing to speak in person before the Committee are
+requested to complete a public comment form. Speakers will be called in
+the order in which the cards are
+received. ]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[ ]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[[Public comment via Zoom teleconference may be made by using the
+raised hand feature in Zoom during the agenda item to be addressed. The
+speaker will be identified by their Display Name in Zoom when called
+upon to speak. Those joining the meeting via Zoom are requested to
+display their full name so there is no confusion when called upon to
+speak. Public comments will be received until the public comment period
+has elapsed.
+]{style="color:#000000;"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+ 
+
+[[Comments are limited to a maximum of two (2) minutes per speaker per
+agenda item, and individuals are limited to a single comment per agenda
+item.]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[ ]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[Please contact
+[boardcomments@scoe.net](mailto:boardcomments@scoe.net){auth="NotApplicable"
+style="color:blue; text-decoration:underline"} before the meeting if you
+have questions about the public comment
+process. ]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[ ]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[[**Accommodating Individuals with
+Disabilities**]{.underline}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[** **
+]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+::: bothcols
+[[The Sacramento County Office of Education encourages those with
+disabilities to participate fully in the public meeting process. If you
+need a disability-related modification or accommodation, including
+auxiliary aids or services, to participate in the public meeting,
+contact the Superintendent's Office at (916) 228-2410 at least 48 hours
+before the scheduled Committee meeting so that we may make every
+reasonable effort to accommodate you. \[Government Code § 54953.2;
+Americans with Disabilities Act of 1990, § 202 (42 U.S.C. §
+12132).\]]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+:::
+::::
+
+:::: {.print-files .XXXui-corner-all role="heading" aria-level\"2\"=""}
+::: {}
+File Attachments
+:::
+::::
+::::::::
+
+:::::: {.container .item .agendaorder tabindex="0"}
+::: {style="font-weight: bold; border-bottom: 0px solid #999;"}
+
+Subject
+:   C. Call to Order and Roll Call
+:::
+
+Meeting
+:   Dec 12, 2023 - SACRAMENTO COUNTY COMMITTEE on School District
+    Organization - Notice of Public Hearing and Agenda - Center Joint
+    Unified School District, Roseville City School District, and
+    Roseville Joint Union High School District - 5:45 p.m.
+
+<!-- -->
+
+Category
+:   1\. Procedural
+
+<!-- -->
+
+Type
+:   Action, Procedural
+
+:::: {.print-files .XXXui-corner-all role="heading" aria-level\"2\"=""}
+::: {}
+File Attachments
+:::
+::::
+::::::
+
+:::::: {.container .item .agendaorder tabindex="0"}
+::: {style="font-weight: bold; border-bottom: 0px solid #999;"}
+
+Subject
+:   D. Pledge of Allegiance
+:::
+
+Meeting
+:   Dec 12, 2023 - SACRAMENTO COUNTY COMMITTEE on School District
+    Organization - Notice of Public Hearing and Agenda - Center Joint
+    Unified School District, Roseville City School District, and
+    Roseville Joint Union High School District - 5:45 p.m.
+
+<!-- -->
+
+Category
+:   1\. Procedural
+
+<!-- -->
+
+Type
+:   Procedural
+
+:::: {.print-files .XXXui-corner-all role="heading" aria-level\"2\"=""}
+::: {}
+File Attachments
+:::
+::::
+::::::
+
+:::::::: {.container .item .agendaorder tabindex="0"}
+::: {style="font-weight: bold; border-bottom: 0px solid #999;"}
+
+Subject
+:   E. Notice of Public Hearing - County Committee Consideration of the
+    Approval or Disapproval of the Proposed Transfer of Territory from
+    Center Joint Unified School District to Roseville City School
+    District and Roseville Joint Union High School District and Issuance
+    of Final Conclusions
+:::
+
+Meeting
+:   Dec 12, 2023 - SACRAMENTO COUNTY COMMITTEE on School District
+    Organization - Notice of Public Hearing and Agenda - Center Joint
+    Unified School District, Roseville City School District, and
+    Roseville Joint Union High School District - 5:45 p.m.
+
+<!-- -->
+
+Category
+:   1\. Procedural
+
+<!-- -->
+
+Type
+:   Information, Procedural
+
+\
+
+::: {.itembody tabindex="0"}
+[[[**[[SACRAMENTO COUNTY COMMITTEE ON SCHOOL DISTRICT
+ORGANIZATION]{style="color:#333333"}]{style="border: 1pt none windowtext; padding: 0in;"}**]{style="background:white"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+ 
+
+[[[**[[PLEASE
+POST]{style="color:#333333"}]{style="border: 1pt none windowtext; padding: 0in;"}**]{style="background:white"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+ 
+
+[[[**[[NOTICE OF PUBLIC HEARING SCHEDULED FOR TUESDAY, DECEMBER 12, 2023
+AT 5:45
+P.M.]{style="color:#333333"}]{style="border: 1pt none windowtext; padding: 0in;"}**]{style="background:white"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+ 
+
+[[[[[The Sacramento County Committee on School District Organization
+(County Committee) is in the process of evaluating a territory transfer
+petition to transfer certain inhabited territory from the Center Joint
+Unified School District to the Roseville City School District and the
+Roseville Joint Union High School District (Petition). The Petition
+requests transfer of the Aspire Solaire neighborhood located in the
+Westpark area of Roseville, California 95747, bordered by Daylight
+Drive, Solaire Drive, Santucci Boulevard, and Pleasant Grove Boulevard
+in Roseville, California within Placer
+County.]{style="color:#333333"}]{style="border: 1pt none windowtext; padding: 0in;"}]{style="background:white"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+ 
+
+[[[[[The County Committee will conduct a public hearing to obtain public
+response concerning the approval or disapproval of the Petition. At the
+conclusion of the public hearing, the ]{style="color:#333333"}County
+Committee may make a final determination whether to approve or
+disapprove the Petition. 
+]{style="border: 1pt none windowtext; padding: 0in;"}]{style="background:white"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[[[ ]{style="border: 1pt none windowtext; padding: 0in;"}]{style="background:white"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[[[[The public hearing concerning the Petition will be held in person
+at the following
+location:]{style="color:#333333"}]{style="border: 1pt none windowtext; padding: 0in;"}]{style="background:white"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[** **]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[**[[Sacramento County Office of
+Education]{style="color:#333333"}]{style="border: 1pt none windowtext; padding: 0in;"}**]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[**[[David P. Meaney Education
+Center]{style="color:#333333"}]{style="border: 1pt none windowtext; padding: 0in;"}**]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[**[[10474 Mather
+Boulevard]{style="color:#333333"}]{style="border: 1pt none windowtext; padding: 0in;"}**]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[**[[Mather, CA
+95655]{style="color:#333333"}]{style="border: 1pt none windowtext; padding: 0in;"}**]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[[[ ]{style="color:#333333"}]{style="border: 1pt none windowtext; padding: 0in;"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[[[[Members of the public may also access the meeting via Zoom video
+and/or teleconference and provide public comment
+as [follows:]{style="letter-spacing:-.1pt"}]{style="color:#333333"}]{style="border: 1pt none windowtext; padding: 0in;"}]{style="background:white"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+ 
+
+[[To view the meeting by computer, tablet, or smart phone, go
+to:  [https://scoe.zoom.us/j/98827706588](https://scoe.zoom.us/j/98827706588){style="color:#0563c1; text-decoration:underline"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+ 
+
+[[[[[To listen by
+phone: ]{style="color:#333333"}]{style="border: 1pt none windowtext; padding: 0in;"}]{style="background:white"}669-444-9171]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+ 
+
+[[[[[Enter the Meeting ID: 988 2770
+6588]{style="color:#333333"}]{style="border: 1pt none windowtext; padding: 0in;"}]{style="background:white"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+ 
+
+[[[[[Individuals other than the Chief Petitioner and affected school
+districts wishing to address the County Committee in person are
+requested (but not required) to complete a speaker card and submit it to
+the Recording Secretary. Speaker cards will be available in the Board
+Room at the time of the hearing. Speakers will be called in the order in
+which the cards are received and will be limited to a maximum of two
+minutes each to ensure that all who wish to address the County Committee
+on this matter may be heard.
+]{style="color:#333333"}]{style="border: 1pt none windowtext; padding: 0in;"}]{style="background:white"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+ 
+
+[[[[[Public comment via Zoom teleconference may be made by using the
+raised hand feature in Zoom during the agenda item to be addressed. The
+speaker will be identified by their Display Name in Zoom when called
+upon to speak. Those joining the meeting via Zoom are requested to
+display their full name so there is no confusion when called upon to
+speak. Public comments will be received until the public comment period
+has
+elapsed. ]{style="color:black"}]{style="border: 1pt none windowtext; padding: 0in;"} * *]{style="background:white"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+ 
+
+[[[[[Materials subject to the public hearing will be available at the
+public hearing and are posted on the Sacramento County Office of
+Education\'s public website at
+https://www.scoe.net/divisions/board/cocom/. If you would like a
+hard copy of the materials prior to that time, contact the Sacramento
+County Office of Education at 10474 Mather Boulevard, Mather, CA 95655
+or P.O. Box 269003, Sacramento, CA 95826-9003 or call
+916.228.2410.]{style="color:#333333"}]{style="border: 1pt none windowtext; padding: 0in;"}]{style="background:white"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+ 
+
+[[[[[[Distribution via Electronic Mail and U.S. Certified
+Mail]{style="color:#333333"}]{style="background:white"}]{style="border: 1pt none windowtext; padding: 0in;"}]{.underline}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[[[[Melissa Campbell, Chief
+Petitioner]{style="color:#333333"}]{style="background:white"}]{style="border: 1pt none windowtext; padding: 0in;"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[[[[John Becker, Superintendent, Roseville Joint Union High School
+District]{style="color:#333333"}]{style="background:white"}]{style="border: 1pt none windowtext; padding: 0in;"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[[[[Derk Garcia, Superintendent, Roseville City School
+District]{style="color:#333333"}]{style="background:white"}]{style="border: 1pt none windowtext; padding: 0in;"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[[[[Scott Loehr, Superintendent, Center Joint Unified School
+District]{style="color:#333333"}]{style="background:white"}]{style="border: 1pt none windowtext; padding: 0in;"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[[[[Gayle Garbolino-Mojica, Superintendent, Placer County Office of
+Education]{style="color:#333333"}]{style="background:white"}]{style="border: 1pt none windowtext; padding: 0in;"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[[[[José C. Henríquez, Executive Officer, Sacramento Local Agency
+Formation
+Commission]{style="color:black"}]{style="background:white"}]{style="border: 1pt none windowtext; padding: 0in;"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[[[[Michelle McIntyre, Executive Officer, Placer Local Agency Formation
+Commission]{style="color:#333333"}]{style="background:white"}]{style="border: 1pt none windowtext; padding: 0in;"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+:::
+
+::::: {.print-files .XXXui-corner-all role="heading" aria-level\"2\"=""}
+::: {}
+File Attachments
+:::
+
+::: {.public-file .print-file unique="CXRVJS8103D0"}
+[Description of Petition .pdf (36
+KB)](/ca/scoe/Board.nsf/files/CXRVJS8103D0/$file/Description%20of%20Petition%20.pdf){target="_blank"}
+:::
+:::::
+::::::::
+
+::: {role="heading" aria-level="1" style="font-weight: bold; font-size: 16px; border-bottom: 2px solid #000;"}
+2\. Visitor Presentations
+:::
+
+::::::: {.container .item .agendaorder tabindex="0"}
+::: {style="font-weight: bold; border-bottom: 0px solid #999;"}
+
+Subject
+:   A. General Public
+:::
+
+Meeting
+:   Dec 12, 2023 - SACRAMENTO COUNTY COMMITTEE on School District
+    Organization - Notice of Public Hearing and Agenda - Center Joint
+    Unified School District, Roseville City School District, and
+    Roseville Joint Union High School District - 5:45 p.m.
+
+<!-- -->
+
+Category
+:   2\. Visitor Presentations
+
+<!-- -->
+
+Type
+:   Information
+
+\
+
+::: {.itembody tabindex="0"}
+*[[NOTE: Anyone may submit public comments to the County Committee on
+any item that is within the County Committee\'s subject matter
+jurisdiction. However, the County Committee may not take action on any
+item not on this agenda except as authorized by Government Code section
+54954.2. Anyone may also submit public comments to the County Committee
+in support of or in opposition to any item being presented to the County
+Committee for
+consideration.]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}*
+:::
+
+:::: {.print-files .XXXui-corner-all role="heading" aria-level\"2\"=""}
+::: {}
+File Attachments
+:::
+::::
+:::::::
+
+::: {role="heading" aria-level="1" style="font-weight: bold; font-size: 16px; border-bottom: 2px solid #000;"}
+3\. Approval of Minutes
+:::
+
+:::::::::::::::: {.container .item .agendaorder tabindex="0"}
+::: {style="font-weight: bold; border-bottom: 0px solid #999;"}
+
+Subject
+:   A. Approval of the Minutes of the County Committee Meeting of
+    November 14, 2023
+:::
+
+Meeting
+:   Dec 12, 2023 - SACRAMENTO COUNTY COMMITTEE on School District
+    Organization - Notice of Public Hearing and Agenda - Center Joint
+    Unified School District, Roseville City School District, and
+    Roseville Joint Union High School District - 5:45 p.m.
+
+<!-- -->
+
+Category
+:   3\. Approval of Minutes
+
+<!-- -->
+
+Type
+:   Action
+
+<!-- -->
+
+Recommended Action
+:   Motion to Approve
+
+::::: {.print-files .XXXui-corner-all role="heading" aria-level\"2\"=""}
+::: {}
+File Attachments
+:::
+
+::: {.public-file .print-file unique="CY2PC26203AF"}
+[11.14.23 County Committee Minutes Unapproved for Agenda.pdf (178
+KB)](/ca/scoe/Board.nsf/files/CY2PC26203AF/$file/11.14.23%20County%20Committee%20Minutes%20Unapproved%20for%20Agenda.pdf){target="_blank"}
+:::
+:::::
+
+::: {}
+Motion & Voting
+:::
+
+:::::::::: {.row tabindex="0"}
+::::::::: {.col .bothcols .motions}
+:::::::: {.motion .finalresolution}
+::: {}
+Motion to Approve
+:::
+
+\
+
+::: {}
+Motion by Paul Keefer, second by Al Brown.
+:::
+
+::: {}
+Final Resolution: Motion Carried
+:::
+
+::: {}
+Yes: Bina Lefkovitz, Paul Keefer, Al Brown, Joanne Ahola
+:::
+
+::: {}
+Not Present at Vote: Heather Davis
+:::
+::::::::
+:::::::::
+::::::::::
+::::::::::::::::
+
+::: {role="heading" aria-level="1" style="font-weight: bold; font-size: 16px; border-bottom: 2px solid #000;"}
+4\. Adoption of Agenda
+:::
+
+::::::::::::::: {.container .item .agendaorder tabindex="0"}
+::: {style="font-weight: bold; border-bottom: 0px solid #999;"}
+
+Subject
+:   A. Adoption of Agenda
+:::
+
+Meeting
+:   Dec 12, 2023 - SACRAMENTO COUNTY COMMITTEE on School District
+    Organization - Notice of Public Hearing and Agenda - Center Joint
+    Unified School District, Roseville City School District, and
+    Roseville Joint Union High School District - 5:45 p.m.
+
+<!-- -->
+
+Category
+:   4\. Adoption of Agenda
+
+<!-- -->
+
+Type
+:   Action
+
+:::: {.print-files .XXXui-corner-all role="heading" aria-level\"2\"=""}
+::: {}
+File Attachments
+:::
+::::
+
+::: {}
+Motion & Voting
+:::
+
+:::::::::: {.row tabindex="0"}
+::::::::: {.col .bothcols .motions}
+:::::::: {.motion .finalresolution}
+::: {}
+(not specified)
+:::
+
+\
+
+::: {}
+Motion by Al Brown, second by Paul Keefer.
+:::
+
+::: {}
+Final Resolution: Motion Carried
+:::
+
+::: {}
+Yes: Bina Lefkovitz, Paul Keefer, Al Brown, Joanne Ahola
+:::
+
+::: {}
+Not Present at Vote: Heather Davis
+:::
+::::::::
+:::::::::
+::::::::::
+:::::::::::::::
+
+::: {role="heading" aria-level="1" style="font-weight: bold; font-size: 16px; border-bottom: 2px solid #000;"}
+5\. NEW BUSINESS
+:::
+
+:::::::::::::::: {.container .item .agendaorder tabindex="0"}
+::: {style="font-weight: bold; border-bottom: 0px solid #999;"}
+
+Subject
+:   A. Public Hearing and Action Regarding Petition to Transfer
+    Territory From Center Joint Unified School District to the Roseville
+    City and Roseville Joint Union High School Districts - Barbara
+    Liebert
+:::
+
+Meeting
+:   Dec 12, 2023 - SACRAMENTO COUNTY COMMITTEE on School District
+    Organization - Notice of Public Hearing and Agenda - Center Joint
+    Unified School District, Roseville City School District, and
+    Roseville Joint Union High School District - 5:45 p.m.
+
+<!-- -->
+
+Category
+:   5\. NEW BUSINESS
+
+<!-- -->
+
+Type
+:   Action
+
+\
+
+::: {.itembody tabindex="0"}
+[[**BACKGROUND ON THE TERRITORY TRANSFER
+PETITION:**]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[** **]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[A[ territory transfer petition (Petition) was filed with the
+Sacramento and Placer County Offices of Education in December of 2022
+]{style="background-color:#ffffff;"}[[(Attachment
+1)]{style="background-color:#ffffff;"}]{style="background:yellow"}[
+seeking to transfer the \"Aspire Solaire\" neighborhood located in the
+City of Roseville, County of Placer, from the jurisdiction of Center
+Joint Unified School District (CJUSD) to the jurisdictions of the
+Roseville City School District (RCSD) and the Roseville Joint Union High
+School District (RJUHSD). CJUSD passed a resolution opposing the
+proposed transfer March 15, 2023
+]{style="background-color:#ffffff;"}[[(Attachment
+2]{style="background-color:#ffffff;"}]{style="background:yellow"}[).
+RJUHSD passed a similar resolution opposing the proposed transfer
+November 9, 2023 (]{style="background-color:#ffffff;"}[[Attachment
+3]{style="background-color:#ffffff;"}]{style="background:yellow"}[).
+RCSD considered a similar resolution opposing the proposed transfer at a
+Special Meeting on November 27, 2023 and passed a resolution
+(]{style="background-color:#ffffff;"}[Attachment
+9).]{style="background-color:#ffffff;"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[[ 
+]{style="background-color:#ffffff;"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[[Because the petition involves school districts within the
+jurisdictions of the Sacramento County Committee on School District
+Organization (Sacramento County Committee) and the Placer County
+Committee on School District Organization (Placer County Committee),
+both County Committees must consider the Petition, comply with the
+California Environmental Quality Act (CEQA), and adhere to the
+requirements to approve or disapprove the
+petition.]{style="background-color:#ffffff;"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[[ ]{style="background-color:#ffffff;"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[[The County Committees previously each held three public hearings in
+their respective districts regarding this Petition, including initial
+public informational hearings in February 2023, CEQA hearings in August
+2023, and hearings to tentatively approve or disapprove the petition on
+October 30, 2023 (Placer County Committee) and November 14, 2023
+(Sacramento County Committee).
+]{style="background-color:#ffffff;"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[[ ]{style="background-color:#ffffff;"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[[Prior to making a final decision, each County Committee must transmit
+findings and tentative conclusions recommending approval or disapproval
+of the petition to the other County Committee. Both County Committees
+complied with this requirement by transmitting to the other committee
+their respective resolutions documenting their findings and tentative
+conclusions passed by their committee members.
+(]{style="background-color:#ffffff;"}[[Attachment
+4]{style="background-color:#ffffff;"}]{style="background:yellow"}[ --
+Placer County Committee resolution and
+]{style="background-color:#ffffff;"}[[Attachment
+5]{style="background-color:#ffffff;"}]{style="background:yellow"}[ --
+Sacramento County Committee
+resolution).]{style="background-color:#ffffff;"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+\
+[[**REQUIRED CONDITIONS FOR
+REORGANIZATION:**]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[** **]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[Before an approval for a territory transfer may occur, the Sacramento
+County Committee must first determine if the proposal substanti[ally
+meets each of the conditions in Education Code section 35753. If the
+Sacramento County Committee finds that the conditions are substantially
+met, it may approve the Petition, but it has discretion to still
+disapprove the Petition. (Ed. Code, §
+35710(a).)]{style="background-color:#ffffff;"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[[ ]{style="background-color:#ffffff;"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[[Consultants retained by both County Committees, Government Financial
+Services Joint Powers Authority concluded in their written report
+(]{style="background-color:#ffffff;"}[[Attachment
+6]{style="background-color:#ffffff;"}]{style="background:yellow"}[) that
+all of the conditions are substantially met. Consultants retained by
+CJUSD concluded in their written report that conditions 2, 3, 6 and 9 of
+the below listed conditions contained in Education Code section 35753
+are not substantially met
+(]{style="background-color:#ffffff;"}[[Attachment
+7]{style="background-color:#ffffff;"}]{style="background:yellow"}[).]{style="background-color:#ffffff;"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[[ ]{style="background-color:#ffffff;"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[[At its November 14, 2023 meeting, the Sacramento County Committee
+found that condition numbers 2, 4, 6, 8, and 9 are not substantially
+met. In contrast, Placer County Committee found at its October 30, 2023
+hearing that all conditions are substantially met.
+]{style="background-color:#ffffff;"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[[ ]{style="background-color:#ffffff;"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[[Education Code section 35753
+conditions:]{style="background-color:#ffffff;"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+1.  [[The reorganized districts will be adequate in terms of the number
+    of pupils
+    enrolled.]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+2.  [[The school districts are each organized on the basis of a
+    substantial community
+    identity.]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+3.  [[The proposal will result in an equitable division of property and
+    facilities of the original district or
+    districts.]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+4.  [[The reorganization of the school districts will preserve each
+    affected district's ability to educate pupils in an integrated
+    environment and will not promote racial or ethnic discrimination or
+    segregation.]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+5.  [[Any increase in costs to the state as a result of the proposed
+    reorganization will be insignificant and otherwise incidental to the
+    reorganization.]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+6.  [[The proposed reorganization will continue to promote sound
+    education performance and will not significantly disrupt the
+    educational programs in the affected
+    districts.]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+7.  [[Any increase in school facilities costs as a result of the
+    proposed reorganization will be insignificant and otherwise
+    incidental to the
+    reorganization.]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+8.  [[The proposed reorganization is primarily designed for purposes
+    other than to significantly increase property
+    values.]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+9.  [[The proposed reorganization will continue to promote sound fiscal
+    management and not cause a substantial negative effect on the fiscal
+    status of the affected
+    district.]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+ 
+
+[[After the Sacramento County Committee determined at its November 14,
+2023 meeting that five of the nine statutory conditions are not
+substantially met, the County Committee tentatively disapproved the
+Petition. The Sacramento County Committee will issue its final decision
+after its public hearing on this item
+tonight.]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[ ]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[At its October 30, 2023 meeting, the Placer County Committee was
+unable to form a tentative conclusion by majority vote to either approve
+or disapprove the Petition, but it will issue its final decision after a
+public hearing set for December 4, 2023. Failure to affirmatively
+approve will constitute a disapproval.
+]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[ ]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[Guidance issued by the California Department of Education (CDE)
+advises a County Committee to disapprove a petition unless there is a
+compelling reason to approve, such as a local educational need or
+concern that the reorganization addresses. CDE also recommends that
+County Committees consider the educational needs and concerns of all
+students in the territory over
+which[ it ]{style="background-color:#ffffff;"}presides, not just the
+students in the area proposed for
+reorganization.]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[ ]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[The following parties will be afforded an opportunity to speak before
+the Sacramento County Committee for a maximum of 5 minutes
+each:]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+ 
+
+- [[Roseville Joint Unified High School
+  District]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+- [[Roseville City School
+  District]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+- [[Center Joint Unified School
+  District]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+- [[Chief
+  Petitioner]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[ ]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[Attachment 1 -- Petition for Transfer of Territory from Center Joint
+Unified School District to Roseville City School District and Roseville
+Joint Union High School District\
+Attachment 2 -- Center Joint Unified School District Resolution dated
+March 15,
+2023]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[Attachment 3 -- Roseville Joint Union High School District Resolution
+dated November 9,
+2023]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[Attachment 4 -- Placer County Committee Resolution No.
+2023-01]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[Attachment 5 -- Sacramento County Committee Resolution No. CC-23-01\
+Attachment 6 -- Government Financial Services Joint Powers Authority
+Report on Statutory Criteria for Proposed Transfer of Territory dated
+October 16,
+2023]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[Attachment 7 -- Aspire Solaire Transfer Analysis Summary (CJUSD)\
+[[Attachment
+8]{style="background-color:#ffffff;"}]{style="background:yellow"}[
+]{style="background-color:#ffffff;"}-- Sacramento County Committee
+Resolution Template of Final Determination Pending Committee
+Action]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[Attachment 9 -- Roseville City School District Resolution No.
+2023-2024.12]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+ 
+
+[[**[[SUPERINTENDENT\'S
+RECOMMENDATION:]{style="color:#333333"}]{style="border: 1pt windowtext; padding: 0in;"}**]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+ 
+
+[[[[The Superintendent recommends that the Sacramento County Committee
+on School District Organization approve or disapprove the Petition.
+]{style="color:#333333"}]{style="background:white"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[[[ ]{style="color:#333333"}]{style="background:white"}]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+
+[[Upon making final determination, the County Committee should direct
+staff to forward its final determination to the Placer County Committee
+on School District Organization and the State Board of
+Education.]{style="font-family:Arial,Helvetica,sans-serif;"}]{style="font-size:14px;"}
+:::
+
+::::::::::::: {.print-files .XXXui-corner-all role="heading" aria-level\"2\"=""}
+::: {}
+File Attachments
+:::
+
+::: {.public-file .print-file unique="CXDRRL6C9672"}
+[Attachment 1 (Petition for Transfer of Territory From Center to
+Roseville Districts) .pdf (5,779
+KB)](/ca/scoe/Board.nsf/files/CXDRRL6C9672/$file/Attachment%201%20(Petition%20for%20Transfer%20of%20Territory%20From%20Center%20to%20Roseville%20Districts)%20.pdf){target="_blank"}
+:::
+
+::: {.public-file .print-file unique="CXDRRW6C9C52"}
+[Attachment 2 (CJUSD Resolution Opposing Territory Transfer).pdf (1,485
+KB)](/ca/scoe/Board.nsf/files/CXDRRW6C9C52/$file/Attachment%202%20(CJUSD%20Resolution%20Opposing%20Territory%20Transfer).pdf){target="_blank"}
+:::
+
+::: {.public-file .print-file unique="CXZPZE668B7C"}
+[Attachment 3 - RJUHSD Res. No. 2322 Territory Transfer Petition
+Opposition 11-09-23.pdf (1,284
+KB)](/ca/scoe/Board.nsf/files/CXZPZE668B7C/$file/Attachment%203%20-%20RJUHSD%20%20Res.%20No.%202322%20Territory%20Transfer%20Petition%20Opposition%2011-09-23.pdf){target="_blank"}
+:::
+
+::: {.public-file .print-file unique="CXZPZP66956F"}
+[Attachment 4 (Placer CC Reso. 2023-01 Proposed Transfer of Territory -
+Aspire-Solaire).pdf (1,099
+KB)](/ca/scoe/Board.nsf/files/CXZPZP66956F/$file/Attachment%204%20(Placer%20CC%20Reso.%202023-01%20Proposed%20Transfer%20of%20Territory%20-%20Aspire-Solaire).pdf){target="_blank"}
+:::
+
+::: {.public-file .print-file unique="CXZPZT669EC0"}
+[Attachment 5 (Sac Co Reso. No. 23-01 Petition to Transfer Territory
+From Center JUSD \[DISAPPROVED\]).pdf (731
+KB)](/ca/scoe/Board.nsf/files/CXZPZT669EC0/$file/Attachment%205%20(Sac%20Co%20Reso.%20No.%2023-01%20Petition%20to%20Transfer%20Territory%20From%20Center%20JUSD%20%5BDISAPPROVED%5D).pdf){target="_blank"}
+:::
+
+::: {.public-file .print-file unique="CXZPZZ66A726"}
+[Attachment 6 (GFSJPA Report on Statutory Criteria for Proposed Transfer
+of Territory).pdf (5,539
+KB)](/ca/scoe/Board.nsf/files/CXZPZZ66A726/$file/Attachment%206%20(GFSJPA%20Report%20on%20Statutory%20Criteria%20for%20Proposed%20Transfer%20of%20Territory).pdf){target="_blank"}
+:::
+
+::: {.public-file .print-file unique="CXZQ2A66B020"}
+[Attachment 7 (Aspire Solaire Transfer Analysis Summary - CJUSD).pdf
+(3,076
+KB)](/ca/scoe/Board.nsf/files/CXZQ2A66B020/$file/Attachment%207%20(Aspire%20Solaire%20Transfer%20Analysis%20Summary%20-%20CJUSD).pdf){target="_blank"}
+:::
+
+::: {.public-file .print-file unique="CY3R226A6486"}
+[Attachment 8 (SCC Resolution Template of Final Determination Pending
+Committee Action) FINAL.pdf (702
+KB)](/ca/scoe/Board.nsf/files/CY3R226A6486/$file/Attachment%208%20(SCC%20Resolution%20Template%20of%20Final%20Determination%20Pending%20Committee%20Action)%20FINAL.pdf){target="_blank"}
+:::
+
+::: {.public-file .print-file unique="CY3R266A66D0"}
+[Attachment 9 (RCSD Reso. No. 2023-24.12 Opposing Territory Transfer)
+(2).pdf (1,345
+KB)](/ca/scoe/Board.nsf/files/CY3R266A66D0/$file/Attachment%209%20(RCSD%20Reso.%20No.%202023-24.12%20Opposing%20Territory%20Transfer)%20(2).pdf){target="_blank"}
+:::
+:::::::::::::
+::::::::::::::::
+
+::: {role="heading" aria-level="1" style="font-weight: bold; font-size: 16px; border-bottom: 2px solid #000;"}
+6\. ADJOURNMENT
+:::
+
+:::::::::::::: {.container .item .agendaorder tabindex="0"}
+::: {style="font-weight: bold; border-bottom: 0px solid #999;"}
+
+Subject
+:   A. Adjourn the Meeting
+:::
+
+Meeting
+:   Dec 12, 2023 - SACRAMENTO COUNTY COMMITTEE on School District
+    Organization - Notice of Public Hearing and Agenda - Center Joint
+    Unified School District, Roseville City School District, and
+    Roseville Joint Union High School District - 5:45 p.m.
+
+<!-- -->
+
+Category
+:   6\. ADJOURNMENT
+
+<!-- -->
+
+Type
+:   Action
+
+<!-- -->
+
+Recommended Action
+:   Motion to Adjourn Meeting
+
+:::: {.print-files .XXXui-corner-all role="heading" aria-level\"2\"=""}
+::: {}
+File Attachments
+:::
+::::
+
+::: {}
+Motion & Voting
+:::
+
+::::::::: {.row tabindex="0"}
+:::::::: {.col .bothcols .motions}
+::::::: {.motion .finalresolution}
+::: {}
+Motion to Adjourn Meeting
+:::
+
+\
+
+::: {}
+Motion by Paul Keefer, second by Al Brown.
+:::
+
+::: {}
+Final Resolution: Motion Carried
+:::
+
+::: {}
+Yes: Mariana Corona Sabeniano, Bina Lefkovitz, Paul Keefer, Heather
+Davis, Al Brown, Joanne Ahola
+:::
+:::::::
+::::::::
+:::::::::
+::::::::::::::

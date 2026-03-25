@@ -1,15 +1,2 @@
 #!/bin/bash
-set -e
-
-# Check if there are any missing or empty markdown files after processing.
-
-# Find all PDF files and check for corresponding MD files
-find focs -mindepth 3 -maxdepth 3 -type f -name "*.pdf" | sort -r | while read pdf_file; do
-    md_file="${pdf_file/focs\//docs\/}"
-    md_file="${md_file%.pdf}.md"
-    if [ ! -f "$md_file" ]; then
-        echo "Missing markdown file for: $pdf_file"
-    elif [ ! -s "$md_file" ]; then
-        echo "Empty markdown file for: $pdf_file"
-    fi
-done
+exec npx tsx src/all-check.ts "$@"
