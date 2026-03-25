@@ -18,15 +18,21 @@ async function fileExists(p: string): Promise<boolean> {
   }
 }
 
-// Check pdftotext is available
-async function checkPdftotext(): Promise<void> {
+// Check required external tools are available
+async function checkTools(): Promise<void> {
   try {
     await execFileAsync("pdftotext", ["-v"]);
   } catch (err: any) {
-    // pdftotext -v exits with 0 on some versions and non-zero on others,
-    // but it prints version info to stderr either way
     if (err.code === "ENOENT") {
       console.error("pdftotext not found. Install with: brew install poppler");
+      process.exit(1);
+    }
+  }
+  try {
+    await execFileAsync("pandoc", ["--version"]);
+  } catch (err: any) {
+    if (err.code === "ENOENT") {
+      console.error("pandoc not found. Install with: brew install pandoc");
       process.exit(1);
     }
   }
@@ -35,7 +41,7 @@ async function checkPdftotext(): Promise<void> {
 type Task = {
   r2Key: string;
   localPath: string; // focs/ORG/date/file
-  docsPath: string; // docs/ORG/date/file (for HTML) or docs/ORG/date/file.md (for PDF)
+  docsPath: string; // docs/ORG/date/file.md
   type: "pdf" | "html";
   needsDownload: boolean;
 };
@@ -43,7 +49,7 @@ type Task = {
 async function main() {
   const orgFilter = process.argv[2]; // optional, e.g. "FORPD"
 
-  await checkPdftotext();
+  await checkTools();
 
   console.log(`Reading ${MANIFEST_PATH}...`);
   const allKeys = await readManifestKeys();
@@ -78,8 +84,8 @@ async function main() {
         needsDownload: !(await fileExists(localPath)),
       });
     } else if (ext === ".html") {
-      // docs/ORG/date/file.html → docs/ORG/date/file.html (just copy)
-      const docsPath = key; // key is already docs/ORG/date/file.html
+      // docs/ORG/date/file.html → docs/ORG/date/file.md (convert to markdown)
+      const docsPath = key.replace(/\.html$/i, ".md");
       if (await fileExists(docsPath)) {
         skipped++;
         continue;
@@ -162,8 +168,8 @@ async function main() {
           if (task.type === "pdf") {
             await execFileAsync("pdftotext", ["-layout", task.localPath, task.docsPath]);
           } else {
-            // HTML: just copy
-            await fs.copyFile(task.localPath, task.docsPath);
+            // HTML: convert to markdown via pandoc
+            await execFileAsync("pandoc", ["-f", "html", "-t", "markdown", "-o", task.docsPath, task.localPath]);
           }
 
           completed++;

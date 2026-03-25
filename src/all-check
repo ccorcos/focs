@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-# Check if there are any missing markdowns or summaries.
+# Check if there are any missing or empty markdown files after processing.
 
 # Find all PDF files and check for corresponding MD files
 find focs -mindepth 3 -maxdepth 3 -type f -name "*.pdf" | sort -r | while read pdf_file; do
@@ -11,23 +11,5 @@ find focs -mindepth 3 -maxdepth 3 -type f -name "*.pdf" | sort -r | while read p
         echo "Missing markdown file for: $pdf_file"
     elif [ ! -s "$md_file" ]; then
         echo "Empty markdown file for: $pdf_file"
-    fi
-done
-
-# Check for missing summary.md files in each meeting directory
-find docs -mindepth 2 -maxdepth 3 -type d | sort -r | while read dir; do
-    if [ ! -s "$dir/summary.md" ]; then
-        echo "Empty summary: $dir"
-    fi
-
-    # Check for minutes files
-    if ! ls -1 "$dir" | grep -i "minutes" > /dev/null 2>&1; then
-        if [ -f "$dir/summary.md" ]; then
-            echo "Found summary with no minutes: $dir"
-        fi
-    else
-        if [ ! -f "$dir/summary.md" ]; then
-            echo "Found minutes with no summary: $dir"
-        fi
     fi
 done

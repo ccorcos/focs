@@ -1,24 +1,19 @@
 {
   "name": "focs",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Tools for the Fair Oaks Civic Society — downloads and processes board meeting documents",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Chet Corcos <ccorcos@gmail.com> (http://www.chetcorcos.com/)",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.32.1",
     "@aws-sdk/client-s3": "^3.1016.0",
-"cheerio": "^1.0.0",
+    "cheerio": "^1.0.0",
     "dotenv": "^16.4.5",
-    "markdown-it": "^14.1.0",
     "mime-types": "^2.1.35",
-    "openai": "^4.52.0",
-    "p-limit": "^7.3.0",
-    "tiktoken": "^1.0.17"
+    "p-limit": "^7.3.0"
   },
   "devDependencies": {
     "@types/node": "^22.9.0",
